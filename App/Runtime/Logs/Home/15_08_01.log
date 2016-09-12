@@ -1,0 +1,1331 @@
+[ 2015-08-01T11:25:24+08:00 ] 140.207.54.76 /index.php/home/index/weixin?signature=17c112b3468ace2c5f7a48d9968693e7f42966b5&timestamp=1438399524&nonce=837818851
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T12:50:22+08:00 ] 140.207.54.75 /index.php/home/index/weixin?signature=e4988cdbb13b37692977afb7ae3f3dae8de12b60&timestamp=1438404621&nonce=742672609
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T12:51:28+08:00 ] 140.207.54.75 /index.php/home/index/weixin?signature=24160df44dd4f49532b3b2475ce0ee764d141fa8&timestamp=1438404687&nonce=1592912957
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T12:54:07+08:00 ] 140.207.54.74 /index.php/home/index/weixin?signature=a0eca1ec123bcbe76624c20e26d62cb3900cb5a4&timestamp=1438404846&nonce=434463127
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T12:54:30+08:00 ] 140.207.54.74 /index.php/home/index/weixin?signature=0d5a47b3c0c7fb49ecea117c24dde5b01afc2aee&timestamp=1438404869&nonce=584256485
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-08-01T12:54:56+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=32cf902128e001e4e4f7758c8efe3f801898a00e&timestamp=1438404895&nonce=1365437954
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T12:54:56+08:00 ] 39.77.74.136 /index.php/home/index/baoming
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_activity` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_activity` WHERE `createtime` <= '2015-08-01' AND `endtime` >= '2015-08-01' LIMIT 10   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T12:55:14+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=035048cc35638b200ade2caadd10a4bbeef5f0e1&timestamp=1438404914&nonce=115563831
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T12:55:14+08:00 ] 39.77.74.136 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduCB9RnKtT-Z6cylUhAUVP8o' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_member` SET `headimg`='http://wx.qlogo.cn/mmopen/MqetDIMGBoVDjT3foTjQGUADGialFSammPMXHDInnYrHqnKVib1bKPghiazEsFIQkFezAK90IicMic7v49FkbJD8dDzwWXlVibR3p2/0' WHERE `wxid` = 'oU3aduCB9RnKtT-Z6cylUhAUVP8o' [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduCB9RnKtT-Z6cylUhAUVP8o' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduCB9RnKtT-Z6cylUhAUVP8o' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 44 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-08-01T13:31:51+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=5af39e7f4eb1a12b1485129dd7b3c0519cc86e2e&timestamp=1438407110&nonce=1902758690
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:31:51+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=f7b870d5f85909d6d3766904f061eb77cc74575c&timestamp=1438407111&nonce=1418439990
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:32:36+08:00 ] 140.207.54.75 /index.php/home/index/weixin?signature=a878ac01d3f1a931bafbb01ed9a7613836093cbd&timestamp=1438407156&nonce=385400481
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:32:53+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=adaba411830e991c11a328689444b06135434185&timestamp=1438407173&nonce=1130501762
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:34:13+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=7e9f376f7fc4f3d830ba4a5b87b1eb20d6b74094&timestamp=1438407253&nonce=571545213
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:36:22+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=9ff72ace8c8892b8d309ace1c64d51e24c4edd3a&timestamp=1438407382&nonce=1396299189
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:36:32+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=92f2a5712cb5e65a292206224ab57e5bf79d3f45&timestamp=1438407391&nonce=338995341
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:36:40+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=f9f3606384393541896724546313de06153ed03e&timestamp=1438407400&nonce=565835130
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:36:41+08:00 ] 112.224.65.78 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Undefined index: sex D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined index: headimgurl D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-01T13:36:45+08:00 ] 112.224.65.78 /index.php/home/index/info?code=0117f95a427121e1407136b4f674e50V&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-01T13:37:16+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=0e66ffac390dcfab92fe25da0ceac0a7d7a5894a&timestamp=1438407436&nonce=299105121
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:37:34+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=12381c7c2880bcd31431878ba29fb7dede30d395&timestamp=1438407454&nonce=304252031
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:37:43+08:00 ] 140.207.54.75 /index.php/home/index/weixin?signature=99988b58d497cf3bbb967c9411902f43505ffa96&timestamp=1438407463&nonce=1421921607
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: EventKey D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:38:12+08:00 ] 140.207.54.75 /index.php/home/index/weixin?signature=cf2a36134f3a06b7a99fb4600d65f14f4284d87c&timestamp=1438407491&nonce=2056618851
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: EventKey D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:38:47+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=75264d46179e3ed3a7e85f09f6d3c4a3a8f82ade&timestamp=1438407526&nonce=723756308
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:39:01+08:00 ] 140.207.54.74 /index.php/home/index/weixin?signature=254f072dbe5367109940cc0b39f6c7f9647c3ff8&timestamp=1438407541&nonce=379699881
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:39:57+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=8fe005e22a085b7b35a0a1d21f8b243f3b2d3b95&timestamp=1438407596&nonce=2129041682
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: EventKey D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `name` = '曾圣雅' AND `jhr_tel` = '18561430071' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_member` SET `wxid`='oU3aduK3TQ3BkmaBUoLHGtAp7zbg' WHERE `id` = 28 [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:45:08+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=c2eec80d349d27f4ffdc042b15d477406d1d9476&timestamp=1438407907&nonce=1641030602
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:46:25+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=d8dbf9d772868a203f7d74da5ba3cf39023f5824&timestamp=1438407984&nonce=336800909
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:47:02+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=68e7bea2e0c9e26e1075e1c5bef54a0dd0425ee6&timestamp=1438408022&nonce=1369441287
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:47:07+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=61fedaf5224df312791898523c533f64e1cc25a8&timestamp=1438408027&nonce=1983943930
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:47:25+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=ba0b863fd7020851bdcb7085b85ba475ebcc7da7&timestamp=1438408045&nonce=1349316678
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduK3TQ3BkmaBUoLHGtAp7zbg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_qiandao` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_qiandao` WHERE `uid` = 28 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_qiandao` (`uid`,`num`,`last_time`) VALUES ('28','1','1438358400') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: add_point D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 70 行.
+SQL: UPDATE `tp_member` SET `points`=points+1 WHERE `id` = 28 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_points` [ RunTime:0.0313s ]
+SQL: INSERT INTO `tp_points` (`userid`,`points`,`status`) VALUES ('28','1','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-08-01T13:47:31+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=a8c9c04fa13f88fbf1d44b86d8a1d92c75d8fe51&timestamp=1438408050&nonce=1286452476
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: EventKey D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `name` = '邱悦怡' AND `jhr_tel` = '18653287703' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_member` SET `wxid`='oU3aduO2KkrWvDKQec2S33LEHbtA' WHERE `id` = 16 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:47:56+08:00 ] 140.207.54.74 /index.php/home/index/weixin?signature=8fc43c7357e9a77a70fbfac8ab6b10dd6ac62c3b&timestamp=1438408075&nonce=889037836
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:48:02+08:00 ] 140.207.54.74 /index.php/home/index/weixin?signature=078e853af36ba15af02787d1da0d5f284782e615&timestamp=1438408082&nonce=299194801
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:48:03+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=a6683161ac641669ed8839240adaa2c8246fc31e&timestamp=1438408082&nonce=328188429
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:48:06+08:00 ] 111.17.219.58 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Undefined index: sex D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined index: headimgurl D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-01T13:48:07+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=2b0b55e0b1a8435fa179de79d95ed3856df52760&timestamp=1438408086&nonce=1153093797
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:48:08+08:00 ] 112.224.65.78 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `tp_member` SET `headimg`='http://wx.qlogo.cn/mmopen/CY3xGFwDkIshBwIjqB8VGib3ryickZiafqy34pEFtzPicE6haZfXwQvY9SLAelLVwibhwAEIF213hiaIibyXD33o0ibhxRRPIke1asUW/0' WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:48:08+08:00 ] 111.17.219.58 /index.php/home/index/info?code=0416f22b1ad5eb700369338c151aa6bE&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduK3TQ3BkmaBUoLHGtAp7zbg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_member` SET `headimg`='http://wx.qlogo.cn/mmopen/Q3auHgzwzM74Q3asCx2nF8N6SjorAeJx38YMFbwdNuJUo6S2OfeKKqwdqpbjZyaZ6j2WAtic9FnRmLPJrnq6CAoiaUzcWoUoGjkiajHgqf4xq0/0' WHERE `wxid` = 'oU3aduK3TQ3BkmaBUoLHGtAp7zbg' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduK3TQ3BkmaBUoLHGtAp7zbg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduK3TQ3BkmaBUoLHGtAp7zbg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 28 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:49:24+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=1adbf98d49981711f3c67f36e8745dcf303b1c13&timestamp=1438408163&nonce=2095647587
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:49:25+08:00 ] 112.224.65.78 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015625s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:49:52+08:00 ] 140.207.54.75 /index.php/home/index/weixin?signature=d3d72527f9d1866be2730f18960bd8775272843a&timestamp=1438408192&nonce=1929797691
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:49:57+08:00 ] 140.207.54.75 /index.php/home/index/weixin?signature=14ae2bfbeb280bb340cc58d5389a1127576508c5&timestamp=1438408197&nonce=817047163
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:50:07+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=7e1d700f4f853a92840d2cfe394d53d4a6fba8b5&timestamp=1438408207&nonce=193528167
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:50:20+08:00 ] 140.207.54.75 /index.php/home/index/weixin?signature=4a37ef5ddcdbbe3cc4e14d681d716bed4b93b188&timestamp=1438408220&nonce=115119504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T13:51:11+08:00 ] 101.226.93.234 /index.php/home/index/weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: signature D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 109 行.
+NOTIC: [8] Undefined index: timestamp D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 110 行.
+NOTIC: [8] Undefined index: nonce D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 111 行.
+
+[ 2015-08-01T13:51:11+08:00 ] 101.226.33.238 /index.php/home/index/weixin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: signature D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 109 行.
+NOTIC: [8] Undefined index: timestamp D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 110 行.
+NOTIC: [8] Undefined index: nonce D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 111 行.
+
+[ 2015-08-01T14:03:26+08:00 ] 140.207.54.78 /index.php/home/index/weixin?signature=17cf22e843d2b019feafbd06d952875f2fbc0be4&timestamp=1438409006&nonce=454106820
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:03:32+08:00 ] 140.207.54.78 /index.php/home/index/weixin?signature=92e106c546cfeab69798ea0f960567df16e693d0&timestamp=1438409012&nonce=985956712
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:04:48+08:00 ] 140.207.54.76 /index.php/home/index/weixin?signature=32dfa789dfa67657baf54f7347f4f0a0ad2d54ff&timestamp=1438409087&nonce=1047822111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:04:55+08:00 ] 112.254.86.127 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Undefined index: sex D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined index: headimgurl D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = '' LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2015-08-01T14:05:05+08:00 ] 101.226.68.217 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Undefined index: sex D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined index: headimgurl D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-01T14:05:08+08:00 ] 112.254.86.127 /index.php/home/index/info?code=0213a9f9814a30eb8219d5d361a6a49C&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduMrVLYmkFvt_o9WwC2EH7Ow' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-01T14:05:38+08:00 ] 140.207.54.78 /index.php/home/index/weixin?signature=ee4431f1e2110b1af5ee4b96c62e65193e208bbf&timestamp=1438409137&nonce=216335817
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:06:02+08:00 ] 140.207.54.77 /index.php/home/index/weixin?signature=d91b5f9cc657ad1e177acac49e4a70e7f3c36368&timestamp=1438409162&nonce=1289206576
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:19:32+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=c6b25252cd13912564766f555f0475106e59968f&timestamp=1438409972&nonce=2050804977
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_qiandao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_qiandao` WHERE `uid` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_qiandao` (`uid`,`num`,`last_time`) VALUES ('16','1','1438358400') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: add_point D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 70 行.
+SQL: UPDATE `tp_member` SET `points`=points+1 WHERE `id` = 16 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_points` [ RunTime:0.0156s ]
+SQL: INSERT INTO `tp_points` (`userid`,`points`,`status`) VALUES ('16','1','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:21:32+08:00 ] 140.207.54.77 /index.php/home/index/weixin?signature=0150a00489efda733743eea29ce45aff427106b3&timestamp=1438410092&nonce=1646839900
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduFLEAvEHn2MwbsvkGOPRrT0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_qiandao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_qiandao` WHERE `uid` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_qiandao` (`uid`,`num`,`last_time`) VALUES ('3','1','1438358400') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: add_point D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 70 行.
+SQL: UPDATE `tp_member` SET `points`=points+1 WHERE `id` = 3 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_points` [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_points` (`userid`,`points`,`status`) VALUES ('3','1','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:29:13+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=9a8d156dcf1a6f387e836db4bb449b2246cf8668&timestamp=1438410553&nonce=1570970596
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:29:16+08:00 ] 112.224.65.78 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_member` SET `headimg`='http://wx.qlogo.cn/mmopen/CY3xGFwDkIshBwIjqB8VGib3ryickZiafqy34pEFtzPicE6haZfXwQvY9SLAelLVwibhwAEIF213hiaIibyXD33o0ibhxRRPIke1asUW/0' WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduO2KkrWvDKQec2S33LEHbtA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:29:39+08:00 ] 140.207.54.74 /index.php/home/index/weixin?signature=111fd3369b611bedad844d00031fa5a9322aba4e&timestamp=1438410579&nonce=202081126
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:30:29+08:00 ] 140.207.54.78 /index.php/home/index/weixin?signature=b9b4c341ceb87a5d4d6aeb9e2cca5d54c6188416&timestamp=1438410629&nonce=1628633599
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:30:30+08:00 ] 124.129.88.147 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Undefined index: sex D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined index: headimgurl D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-01T14:30:31+08:00 ] 124.129.88.147 /index.php/home/index/info?code=001c2a2edcc2429c2fdacc12e778a01V&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduBEoLgvsaHj7drgL9lNJsv4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-01T14:30:41+08:00 ] 140.207.54.78 /index.php/home/index/weixin?signature=be75a378f984c4b58c2c4d01327886e50dcb32ab&timestamp=1438410641&nonce=172939570
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:30:53+08:00 ] 140.207.54.78 /index.php/home/index/weixin?signature=04c73ef94f858efe71d4ee9e83ec52835a2c464d&timestamp=1438410653&nonce=100445413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:31:04+08:00 ] 140.207.54.78 /index.php/home/index/weixin?signature=de9778e8df6ea04d900f17cdc8f05eda2440dcef&timestamp=1438410664&nonce=1761274231
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduBEoLgvsaHj7drgL9lNJsv4' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:48:18+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=252316a95eaab6812673e500c9efb5eca283c6fc&timestamp=1438411698&nonce=1903162949
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:48:20+08:00 ] 112.224.65.78 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:48:22+08:00 ] 140.207.54.74 /index.php/home/index/weixin?signature=6542dc99354c6839ff08e7cb9bd0790a31cfd4eb&timestamp=1438411702&nonce=379466403
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:48:25+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=12e6a625cdac03e2a29d88a1221a8950576d547c&timestamp=1438411705&nonce=1234527120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:58:28+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=b2f455f57a872d19f79dd0183fa62fedb00385a1&timestamp=1438412308&nonce=1861924060
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T14:58:39+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=b2a5a96d49223d548a227bb4ef6f1479715c9013&timestamp=1438412319&nonce=813175517
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T17:15:44+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=9536765e61a0c1e35e04f5250d4f1080363ec581&timestamp=1438420544&nonce=1000871605
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T17:16:04+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=838678792ac550637025b96d05c2f25f8106a008&timestamp=1438420564&nonce=1432625549
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: EventKey D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `name` = '李奇庭' AND `jhr_tel` = '18560606666' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_member` SET `wxid`='oU3aduAIo6IPfKAqmAe6bvBkit38' WHERE `id` = 33 [ RunTime:0.0156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T18:50:08+08:00 ] 140.207.54.77 /index.php/home/index/weixin?signature=f74aa6d45bdb0bca60f0a893648c8d9d3cf2f5da&timestamp=1438426208&nonce=172621128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T18:50:49+08:00 ] 140.207.54.80 /index.php/home/index/weixin?signature=e9a638a77fdfb11c78be5e2813796c7853c891b1&timestamp=1438426249&nonce=784488222
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T18:51:05+08:00 ] 140.207.54.77 /index.php/home/index/weixin?signature=ab8186e040c3dc27157c2d9de2a7d9cd29dcbdc1&timestamp=1438426265&nonce=389148436
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T18:51:06+08:00 ] 39.65.146.234 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduFLEAvEHn2MwbsvkGOPRrT0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_member` SET `headimg`='http://wx.qlogo.cn/mmopen/vwQ5VeFgEunfXDuQolB7P8MZRibxeHgTG7faevCgNg8462pvVN8ZpibvlebUA92iayfczxNsP6nSic6iajibf8wZJd8ZicAibNzWO3Pf/0' WHERE `wxid` = 'oU3aduFLEAvEHn2MwbsvkGOPRrT0' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduFLEAvEHn2MwbsvkGOPRrT0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduFLEAvEHn2MwbsvkGOPRrT0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-08-01T19:29:24+08:00 ] 140.207.54.75 /index.php/home/index/weixin?signature=649d8951d753627fb28b4b946334d228dbe315f3&timestamp=1438428564&nonce=955670611
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T19:29:57+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=0a00da078d9d3522eaa28705598e2a293f0bba5d&timestamp=1438428597&nonce=711599569
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T19:30:50+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=39065157071f46d2c827de0fc20e7f985f918f23&timestamp=1438428650&nonce=873174292
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T19:31:19+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=9ae562e6515725b74fc609a36b266af061ab3bcd&timestamp=1438428679&nonce=151601038
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T19:31:32+08:00 ] 140.207.54.74 /index.php/home/index/weixin?signature=f41912b18cfe505bc7eec49fa491e53a04b522ea&timestamp=1438428692&nonce=1348638569
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduPWwQCvqfn-nK-OMo3UCxLI' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T19:31:49+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=ed2f1c0d1ace7e44c03e067025919a0a7885b24d&timestamp=1438428709&nonce=1680255594
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: EventKey D:\kehu\mem\ThinkPHP\Library\Org\Util\Weixin.class.php 第 29 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `name` = '叶雨阳' AND `jhr_tel` = '13256863283' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_member` SET `wxid`='oU3aduPWwQCvqfn-nK-OMo3UCxLI' WHERE `id` = 12 [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T19:32:06+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=3665d54d7c6334062d3b836e3f57261265ed3eb7&timestamp=1438428726&nonce=2023715812
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduPWwQCvqfn-nK-OMo3UCxLI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_qiandao` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_qiandao` WHERE `uid` = 12 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_qiandao` (`uid`,`num`,`last_time`) VALUES ('12','1','1438358400') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: add_point D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 70 行.
+SQL: UPDATE `tp_member` SET `points`=points+1 WHERE `id` = 12 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_points` [ RunTime:0.0000s ]
+SQL: INSERT INTO `tp_points` (`userid`,`points`,`status`) VALUES ('12','1','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T19:32:28+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=435ff892402df8153b999d427c0bbf760617dc64&timestamp=1438428748&nonce=1538120151
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T19:32:29+08:00 ] 101.226.125.15 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Undefined index: sex D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined index: headimgurl D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-01T19:32:32+08:00 ] 101.226.125.15 /index.php/home/index/info?code=001a7a003f5c32bd903b6761b042e41z&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduPWwQCvqfn-nK-OMo3UCxLI' LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `tp_member` SET `headimg`='http://wx.qlogo.cn/mmopen/vwQ5VeFgEunfXDuQolB7P9sqEEkyqR7yDOnicFia6ZonfT9pClVxVicyTHEfCFKYIpN4HyEXQj8rg9dLALe9hq542ucjnzCQtMw/0' WHERE `wxid` = 'oU3aduPWwQCvqfn-nK-OMo3UCxLI' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduPWwQCvqfn-nK-OMo3UCxLI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduPWwQCvqfn-nK-OMo3UCxLI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T19:33:19+08:00 ] 140.207.54.75 /index.php/home/index/weixin?signature=ba46576fb2c9c7f27154858cad0d5af74e006487&timestamp=1438428798&nonce=450439313
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T19:33:43+08:00 ] 140.207.54.73 /index.php/home/index/weixin?signature=04ea8d0a403260c815f14b4a55dd04ea4264cb53&timestamp=1438428822&nonce=1302160374
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-08-01T21:47:36+08:00 ] 140.207.54.78 /index.php/home/index/weixin?signature=2442b840226354caeec8027e1cad7b31a83e618d&timestamp=1438436856&nonce=1794861724
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduMrVLYmkFvt_o9WwC2EH7Ow' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T21:48:01+08:00 ] 140.207.54.78 /index.php/home/index/weixin?signature=708ba879934792b2e64b8f8df569ca65f5d6cb66&timestamp=1438436880&nonce=15664171
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T21:48:22+08:00 ] 140.207.54.77 /index.php/home/index/weixin?signature=03565fc7292cf8576700b8553358c101635ddb5a&timestamp=1438436901&nonce=2082857144
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T22:07:27+08:00 ] 140.207.54.79 /index.php/home/index/weixin?signature=3019e2c324aab51c03788dad607539df5413766c&timestamp=1438438047&nonce=1906496008
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T22:07:55+08:00 ] 140.207.54.78 /index.php/home/index/weixin?signature=c06e941a9c11af639b7df8a17b41fc514d38d7af&timestamp=1438438075&nonce=1226215266
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-08-01T22:08:04+08:00 ] 140.207.54.80 /index.php/home/index/weixin?signature=463503b8148d5be1617f146c38f338974978f513&timestamp=1438438083&nonce=695323783
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T22:08:07+08:00 ] 42.199.130.45 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduBEoLgvsaHj7drgL9lNJsv4' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-01T22:25:35+08:00 ] 140.207.54.77 /index.php/home/index/weixin?signature=14830a144ad60ec92cd9a82ade3748946f143d91&timestamp=1438439134&nonce=582246576
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T22:25:39+08:00 ] 101.226.125.113 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduFLEAvEHn2MwbsvkGOPRrT0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `tp_member` SET `headimg`='http://wx.qlogo.cn/mmopen/vwQ5VeFgEunfXDuQolB7P8MZRibxeHgTG7faevCgNg8462pvVN8ZpibvlebUA92iayfczxNsP6nSic6iajibf8wZJd8ZicAibNzWO3Pf/0' WHERE `wxid` = 'oU3aduFLEAvEHn2MwbsvkGOPRrT0' [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduFLEAvEHn2MwbsvkGOPRrT0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = 'oU3aduFLEAvEHn2MwbsvkGOPRrT0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T22:26:17+08:00 ] 140.207.54.80 /index.php/home/index/weixin?signature=b56c6f98e286a2c906822b9e416bc4398eee1418&timestamp=1438439177&nonce=2121998468
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T22:26:40+08:00 ] 140.207.54.77 /index.php/home/index/weixin?signature=25d76ccbc2a2096d4b9c2c58db4f2098ce727b6d&timestamp=1438439200&nonce=602986114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T22:28:38+08:00 ] 140.207.54.77 /index.php/home/index/weixin?signature=affc5414ff35488e9abf4e07bacbe4917e9630f6&timestamp=1438439318&nonce=1345911870
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-01T22:39:06+08:00 ] 101.226.66.174 /index.php/home/index/info
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: openid D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 263 行.
+NOTIC: [8] Undefined index: sex D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 117 行.
+NOTIC: [8] Undefined index: headimgurl D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_member` WHERE `wxid` = '' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-01T22:41:46+08:00 ] 140.207.54.77 /index.php/home/index/weixin?signature=e2e4f5ca33baa65d1f735f2e850e39e33b6ccc06&timestamp=1438440106&nonce=1216260999
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: reply D:\kehu\mem\Member\Home\Controller\IndexController.class.php 第 81 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-08-01T22:45:00+08:00 ] 140.207.54.77 /index.php/home/index/weixin?signature=e3ed60465908cff824a0014c3146bca4a457db3a&timestamp=1438440300&nonce=331797373
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+

@@ -1,0 +1,10 @@
+[ 2015-07-15T00:46:11+08:00 ] 140.207.54.74 /wxpay/jqback.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_wxuser_pannant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_wxuser_pannant` WHERE `did` = 4 AND `uid` = 16 LIMIT 1   [ RunTime:0.0000s ]
+

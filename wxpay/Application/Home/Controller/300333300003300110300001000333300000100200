@@ -1,0 +1,231 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class IndexController extends Controller {
+    
+    public function __construct()
+    {
+        parent::__construct();
+        $this->userid = session('userid');
+        $this->userid = 1;
+        if(empty($this->userid)){
+            $wx = $this->auths('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+            //查询用户是否注册过
+            $user = M('Member')->where(array('wxid'=>$wx['openid']))->find();
+            if( empty($user) ){ //用户注册，
+                $data = array('wxid'=>$wx['openid'], 'city'=>$wx['userinfo']['city'], 'province'=>$wx['userinfo']['province'], 'country'=>$wx['userinfo']['country'], 'headimg'=>$wx['userinfo']['headimgurl'], 'wxname'=>$wx['userinfo']['nickname']);
+                $insert = M('Member')->add($data);
+                session('userid', $insert);
+                $this->userid = 1;
+                $this->redirect('index/info');
+            }else if ( empty($user['mobile']) ) {
+                $this->redirect('index/info');
+            }else{
+                session('userid', $user['id']);
+                $this->userid = 1;
+            }
+        }
+    }
+
+    public function index()
+    {
+        //查询服务项目
+        $service_list = M('service')->select();
+        $this->assign('service_list', $service_list);
+        $this->display();
+    }
+
+    public function info()
+    {
+        
+        if(IS_POST){
+            $mobile = isset($_POST['mobile']) ? $_POST['mobile'] : '';
+            if(!preg_match("/^1[34578]\d{9}$/",$mobile)){    
+                exit(json_encode(array('status'=>'n', 'msg'=>'请输入正确的手机号')));
+            }
+            //检测手机号是否注册过
+            if(M('Member')->where(array('mobile'=>$mobile))->find()){
+                exit(json_encode(array('status'=>'n', 'msg'=>'该手机号已经绑定了账号！')));
+            }
+            M('Member')->where(array('id'=>$this->userid))->save(array('mobile'=>$mobile));
+            exit(json_encode(array('status'=>'y', 'msg'=>'绑定成功')));
+        }
+        $this->display();
+    }
+
+    /* 我的汽车列表 */
+    public function mycar()
+    {
+
+        $this->display();
+    }
+
+    /* 新增汽车 */
+    public function addcar()
+    {
+        if(IS_POST){
+            $brand = isset($_POST['brand']) ? $_POST['brand'] : '';
+            $model = isset($_POST['model']) ? $_POST['model'] : '';
+            $number = isset($_POST['number']) ? $_POST['number'] : '';
+            $color = isset($_POST['color']) ? $_POST['color'] : '';
+            if(empty($brand) || empty($model) || empty($number) || empty($color)){
+                exit(json_encode(array('code'=>'1', 'message'=>'参数错误')));
+            }
+            //检测车牌号
+            if(M('member_car')->where(array('number'=>$number))->find()){
+                //exit(json_encode(array('code'=>'1', 'message'=>'车牌已经存在')));
+            }
+            $data = array('number'=>$number, 'brand'=>$brand, 'color'=>$color, 'userid'=>$this->userid, 'model'=>$model);
+            $insert = M('member_car')->add($data);
+            if($insert){
+                $data['id'] = $insert;
+                exit(json_encode(array('code'=>'0', 'message'=>'添加成功', 'data'=>$data)));
+            }else{
+                exit(json_encode(array('code'=>'1', 'message'=>'系统出错')));
+            }
+        }
+        $this->display();
+    }
+
+    /* Ajax加载数据 */
+    public function Ajax()
+    {
+        $return = array('code'=>0, 'message'=>'成功', 'data'=>'');
+        $act = isset($_GET['act']) ? $_GET['act'] : '';
+        if ( $act == 'carList' ) {
+            $return['data'] = M('member_car')->where(array('userid'=>$this->userid))->select();
+        }else if ( $act == 'setSession' ) {
+            $data = $_POST['value'];
+            $_SESSION['data']['carInfo'] = $data['carInfo'];
+        }else if ( $act == 'getSession' ) {
+            $key = $_POST['key'];
+            if($key == 'dataCache'){
+                $data = $_SESSION['data'];
+                //return['data'] = $data;
+            }
+        }else if ( $act == 'defaultCar' ) { //加载默认车辆
+            $data = M('Member_car')->where(array('userid'=>$this->userid))->order('id desc')->find();
+            $return['data'] = $data;
+        }else if ( $act == 'suborder' ) {
+            $lat = isset($_POST['lat']) ? $_POST['lat'] : '';
+            $lng = isset($_POST['lng']) ? $_POST['lng'] : '';
+            $goods = intval($_POST['goods']) ? $_POST['goods'] : '';
+            $carid = intval($_POST['carId']) ? intval($_POST['carId']) : '';
+            $address = isset($_POST['address']) ? $_POST['address'] : '';
+            if(empty($lat) || empty($lng) || empty($goods) || empty($carid)){
+                exit(json_encode(array('status'=>'n', 'msg'=>'参数错误')));
+            }
+            //查询系统每天最大订单
+            $max_order = M('config')->where(array('id'=>1))->find();
+            $str = strtotime(date('Y-m-d'));
+            if($max_order > $_SESSION[$str]){
+                exit(json_encode(array('status'=>'n', 'msg'=>'超出当前最大服务量，请明天再来吧！')));
+            }
+            //生成订单
+            $order_sn = time();
+            $data = array('order_s=neocomplcache#mappings#popup_post()
+                n'=>$order_sn, 'user_id'=>$this->userid, 'good'=>$goods, 'latitude'=>$lat, 'longitude'=>$lng, 'address'=>$address);
+            M('order')->add($data);
+            //查询服务项目
+            $good_data = M('service')->where(array('id'=>$goods))->find();
+            if(empty($good_data)){
+                exit(json_encode(array('status'=>'n', 'msg'=>'参数错误')));
+            }else{
+                $moneys = $good_data['service_price'];
+            }
+            //查询用户信息
+            $user = M('member')->where(array('id'=>$this->userid))->find();
+            if(empty($user)){
+                exit(json_encode(array('status'=>'n', 'msg'=>'参数错误')));
+            }
+            Vendor('WxPayPubHelper.WxPayPubHelper');
+            $jsApi = new \JsApi_pub();
+            $unifiedOrder = new \UnifiedOrder_pub();
+            $price = floatval($moneys) * 100;
+            $unifiedOrder->setParameter("openid",$user['wxid']);
+            $unifiedOrder->setParameter("body",$good_data['service_name'].'服务');
+            $unifiedOrder->setParameter("out_trade_no",$order_sn); 
+            //$unifiedOrder->setParameter("total_fee",$price);
+            $unifiedOrder->setParameter("total_fee",1);
+            //$unifiedOrder->setParameter("notify_url","http://616774.user-website3.com/wxpay/index.php"); 
+            $unifiedOrder->setParameter("notify_url","http://dgg.weixinmingpai.com/wxpay/index.php"); 
+            $unifiedOrder->setParameter("attach","order_sn=".$order_sn."&userid=".$this->userid);
+            $unifiedOrder->setParameter("trade_type","JSAPI");
+            $prepay_id = $unifiedOrder->getPrepayId();
+            $jsApi->setPrepayId($prepay_id);
+            $jsApiParameters = $jsApi->getParameters1();
+            $jsApiParameters['status'] = 'y';
+            exit(json_encode($jsApiParameters));
+        }
+        exit(json_encode($return));
+    }
+
+
+    protected function cookie($var, $value = '', $time = 0, $path = '', $domain = '', $s = false)
+	{
+		error_reporting(E_ALL ^ E_NOTICE);
+		$_COOKIE[$var] = $value;
+		if (is_array($value)) {
+			foreach ($value as $k => $v) {
+				@setcookie($var . '[' . $k . ']', $v, $time, $path, $domain, $s);
+			}
+		} else {
+			@setcookie($var, $value, $time, $path, $domain, $s);
+		}
+	}
+
+    protected function auths($urls)
+	{
+		$openid = '';
+		$access_token = '';
+		$ret = array();
+
+		if($_COOKIE['openid'])
+		{
+			$openid = $_COOKIE['openid'];
+		}else{
+			if(empty($_GET['code'])){
+				$url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxfbd0f9376b82d480&redirect_uri=".urlencode($urls)."&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
+				Header("Location: $url"); 
+			}
+			if(!empty($_GET['code'])){
+				$url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxfbd0f9376b82d480&secret=210a8301db410773f979b0f09ad19033&code=".$_GET['code']."&grant_type=authorization_code";
+				$datas = $this->https_request($url);
+				$result = json_decode($datas,true);
+				$openid = $result['openid'];
+				$this->cookie('openid',$openid,time()+3600*24*365,"/");
+			}
+		}
+		$tokenurl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxfbd0f9376b82d480&secret=210a8301db410773f979b0f09ad19033";
+		$tokresult = $this->https_request($tokenurl);
+		$jsoninfo = json_decode($tokresult, true);
+		$access_token = $jsoninfo["access_token"];
+
+		$url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=".$access_token."&openid=".$openid;
+		$res = $this->https_request($url);
+		$results = json_decode($res,true);
+
+		$ret['openid'] = $openid;
+		$ret['userinfo'] = $results;
+
+		return $ret;
+	}
+
+    protected function https_request($url, $data = null)
+	{
+		$curl = curl_init();
+		curl_setopt($curl, CURLOPT_URL, $url);
+		curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+		curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, FALSE);
+		curl_setopt($curl, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1);
+		if (!empty($data)){
+			curl_setopt($curl, CURLOPT_POST, 1);
+			curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+		}
+		curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+		$output = curl_exec($curl);
+		curl_close($curl);
+		return $output;
+	}
+}
+

@@ -1,0 +1,97 @@
+
+.login{
+	background: none repeat scroll 0% 0% #42417E;
+}
+.ce-contain{
+	width:1440px;
+	height:800px;
+	margin:0 auto;
+	background-image:url(../img/logo.png);
+	background-repeat: no-repeat;
+}
+.ce-contain2{
+	width:1440px;
+	height:800px;
+	margin:0 auto;
+	background-image:url(../img/注册beijing.png);
+	background-repeat: no-repeat;
+	background-position:0px 83px;
+}
+.conter{
+	width:642px;
+	height:800px;
+	margin:0px auto;
+	
+}
+.conter-head{
+	width:400px;
+	height:100px;
+	margin:0 auto;
+	padding-top:157px;
+
+}
+.head-left{
+	float:right;
+	
+}
+.login-one{
+	margin-top:30px;
+	height:auto;
+}
+.login-one table{
+	width:350px;
+	height:170px;
+	font-size:15px;
+	font-weight:bold;
+	margin-left:170px;
+	margin-top:36px;
+}
+.zhuce table{
+	width:350px;
+	height:300px;
+	font-size:15px;
+	font-weight:bold;
+	margin-left:170px;
+	margin-top:36px;
+}
+table tr {
+	color:white;
+}
+table input[type="text"],
+input[type="password"]{
+	width:245px;
+	height:36px;
+	border:1px solid #dddddd;
+	color:#cccccc;
+	margin-left:5px;
+	border-radius: 2px;
+	padding-left:10px;
+}
+.password{
+	height:25px;
+	padding-left:135px;
+	margin-top:26px;
+}
+.password
+.forget{
+	width:400px;
+	height:50px;
+	margin-top:5px;
+	float:right;
+	color:white;
+	font-family:宋体;
+}
+.button{
+	width:200px;
+	height:50px;
+	margin:0 auto;
+}
+.button input[type="button"]{
+	width:200px;
+	height:38px;
+	background-color: #3DB1FA;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	border-radius: 6px;
+}

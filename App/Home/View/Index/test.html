@@ -1,0 +1,18 @@
+<script>
+    WeixinJSBridge.invoke('getBrandWCPayRequest',{
+        "appId":{$jsjsApiParameters.appId},
+    "package":{$jsApiParameters.pakage},
+    "timeStamp":{jsApiParameters.timeStamp},
+    "nonceStr":{$jsApiParameters.nonceStr},
+    "paySign":{$jsApiParameters.paySign},
+    "signType":{$jsApiParameters.signType}
+},function(res){
+
+WeixinJSBridge.log(res.err_msg);
+if(res.err_msg=="get_brand_wcpay_request:ok"){
+alert("成功支付",2000,"__ROOT__/Public/Home/images/icon-1.png");
+}else{
+alert(res.err_msg,50000,"__ROOT__/Public/Home/images/icon-1.png");
+}
+});
+</script>

@@ -1,0 +1,839 @@
+[ 2015-08-02T15:29:32+08:00 ] 183.60.70.30 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015626s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:56:42+08:00 ] 112.254.142.200 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:56:42+08:00 ] 112.254.142.200 /index.php/admin/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:57:29+08:00 ] 112.254.142.200 /index.php/admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\kehu\mem\Member\Admin\Controller\UserController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_user` WHERE `name` = 'admin' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:57:30+08:00 ] 112.254.142.200 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:57:32+08:00 ] 112.254.142.200 /index.php/Admin/Index/Gtt/Public/Admin/js/common/main-min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Gtt
+
+[ 2015-08-02T18:57:33+08:00 ] 112.254.142.200 /index.php/admin/Member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` INNER JOIN tp_member_tree on tp_member_tree.userid = tp_member.id  WHERE tp_member_tree.parentid = 0  [ RunTime:0.0313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:57:36+08:00 ] 112.254.142.200 /index.php/admin/Member/points.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:57:43+08:00 ] 112.254.142.200 /index.php/admin/member/points/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 20,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:57:49+08:00 ] 112.254.142.200 /index.php/admin/member/points/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 40,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-08-02T18:57:54+08:00 ] 112.254.142.200 /index.php/admin/member/points/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:58:03+08:00 ] 112.254.142.200 /index.php/admin/member/points/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 20,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:58:05+08:00 ] 112.254.142.200 /index.php/admin/member/points/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 40,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:58:11+08:00 ] 112.254.142.200 /index.php/admin/member/points/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 20,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T18:58:16+08:00 ] 112.254.142.200 /index.php/admin/member/points/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T19:11:13+08:00 ] 101.226.89.117 /index.php/admin/member/points/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T19:11:13+08:00 ] 101.226.89.117 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T19:11:19+08:00 ] 101.226.66.179 /index.php/admin/member/points/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T19:11:19+08:00 ] 101.226.66.179 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:11:11+08:00 ] 112.254.142.200 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:11:11+08:00 ] 112.254.142.200 /index.php/admin/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-08-02T20:11:22+08:00 ] 112.254.142.200 /index.php/admin/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:11:23+08:00 ] 112.254.142.200 /index.php/admin/user/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:11:31+08:00 ] 112.254.142.200 /index.php/admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: id D:\kehu\mem\Member\Admin\Controller\UserController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_user` WHERE `name` = 'admin' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:11:32+08:00 ] 112.254.142.200 /index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:11:33+08:00 ] 112.254.142.200 /index.php/Admin/Index/Gtt/Public/Admin/js/common/main-min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:Gtt
+
+[ 2015-08-02T20:11:34+08:00 ] 112.254.142.200 /index.php/admin/Member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` INNER JOIN tp_member_tree on tp_member_tree.userid = tp_member.id  WHERE tp_member_tree.parentid = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:11:55+08:00 ] 112.254.142.200 /index.php/admin/Member/points.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015625s ]
+
+[ 2015-08-02T20:12:00+08:00 ] 112.254.142.200 /index.php/admin/member/points/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 20,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:12:03+08:00 ] 112.254.142.200 /index.php/admin/member/points/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 40,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:12:06+08:00 ] 112.254.142.200 /index.php/admin/member/points/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:12:16+08:00 ] 112.254.142.200 /index.php/admin/config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_config` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `tp_config` WHERE ( id = 1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:12:25+08:00 ] 112.254.142.200 /index.php/admin/Member/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_member_tree` [ RunTime:0.0000s ]
+SQL: SELECT tp_member_tree.id,`userid`,`parentid`,`path`,a.name FROM `tp_member_tree` right JOIN tp_member as a on a.id = tp_member_tree.userid   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 46 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 50 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 54 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 58 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 66 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 70 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 74 行.
+NOTIC: [8] Undefined variable: parent D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 89 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 96 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 97 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:12:28+08:00 ] 112.254.142.200 /index.php/admin/Member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `tp_member` INNER JOIN tp_member_tree on tp_member_tree.userid = tp_member.id  WHERE tp_member_tree.parentid = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015625s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:12:29+08:00 ] 112.254.142.200 /index.php/admin/Member/points.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015626s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 165 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: w D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 168 行.
+SQL: SELECT * FROM `tp_member` ORDER BY id desc LIMIT 0,20   [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:12:31+08:00 ] 112.254.142.200 /index.php/admin/Member/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tp_member_tree` [ RunTime:0.0156s ]
+SQL: SELECT tp_member_tree.id,`userid`,`parentid`,`path`,a.name FROM `tp_member_tree` right JOIN tp_member as a on a.id = tp_member_tree.userid   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+NOTIC: [8] Undefined index: son D:\kehu\mem\Member\Admin\Controller\IndexController.class.php 第 327 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 42 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 46 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 50 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 54 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 58 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 62 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 66 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 70 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 74 行.
+NOTIC: [8] Undefined variable: parent D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 89 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 96 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 97 行.
+NOTIC: [8] Undefined variable: data D:\kehu\mem\Member\Runtime\Cache\Admin\a580cb9d736a601fd8986b0ad0add657.php 第 98 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015626s ]
+
+[ 2015-08-02T20:25:48+08:00 ] 112.64.235.253 /index.php/admin/config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-02T20:25:51+08:00 ] 112.64.235.253 /index.php/Admin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,90 @@
+[ 2016-09-11T17:04:20+08:00 ] ::1 /zzyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zzyl.tp_member' doesn't exist
+
+[ 2016-09-11T18:58:40+08:00 ] ::1 /zzyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zzyl.tp_member' doesn't exist
+
+[ 2016-09-11T18:58:49+08:00 ] ::1 /zzyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zzyl.tp_member' doesn't exist
+
+[ 2016-09-11T19:01:23+08:00 ] ::1 /zzyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zzyl.tp_member' doesn't exist
+
+[ 2016-09-11T19:02:50+08:00 ] ::1 /zzyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zzyl.tp_member' doesn't exist
+
+[ 2016-09-11T19:03:18+08:00 ] ::1 /zzyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zzyl.tp_member' doesn't exist
+
+[ 2016-09-11T19:04:00+08:00 ] ::1 /zzyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zzyl.tp_member' doesn't exist
+
+[ 2016-09-11T19:04:19+08:00 ] ::1 /zzyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zzyl.tp_member' doesn't exist
+
+[ 2016-09-11T19:04:44+08:00 ] ::1 /zzyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zzyl.tp_member' doesn't exist
+
+[ 2016-09-11T19:05:43+08:00 ] ::1 /zzyl/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'zzyl.tp_member' doesn't exist
+

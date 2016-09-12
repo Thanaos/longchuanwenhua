@@ -1,0 +1,113 @@
+[ 2015-08-04T13:53:32+08:00 ] 101.226.103.69 /wxpay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015625s ]
+SQL: SHOW COLUMNS FROM `rbm_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_order` WHERE `order_sn` = '1438667602' AND `order_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `rbm_order` SET `status`='2' WHERE `order_sn` = '1438667602' AND `order_id` = 4 [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `rbm_doctor_order` [ RunTime:0.0313s ]
+SQL: INSERT INTO `rbm_doctor_order` (`uid`,`did`,`order_time`) VALUES ('4','4','1438992000') [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `rbm_doctor_ordernum` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_doctor_ordernum` WHERE `did` = 4 AND `date` = 1438992000 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `rbm_doctor_ordernum` (`did`,`date`,`num`) VALUES ('4','1438992000','1') [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `rbm_wxuser` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_wxuser` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `rbm_doctor` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_doctor` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `rbm_member_public` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_member_public` WHERE ( id = 108 ) LIMIT 1   [ RunTime:0.0156s ]
+SQL: UPDATE `rbm_member_public` SET `access_token`='m_OsXuOMfEMVNEENLL3cv5bhJK9uuMbLXu0X77gmL2ga0_azC1Mp_f5VfCG0pbzNhdh9Gw3Tjd0N37kShGHkCdIqiwpOMz7Pf0neqXsahhs',`dateline`='1438667611' WHERE ( id = 108 ) [ RunTime:0.0000s ]
+
+[ 2015-08-04T13:53:45+08:00 ] 101.226.103.69 /wxpay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_order` WHERE `order_sn` = '1438667602' AND `order_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-04T13:54:03+08:00 ] 101.226.103.69 /wxpay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_order` WHERE `order_sn` = '1438667602' AND `order_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-04T13:54:35+08:00 ] 101.226.103.69 /wxpay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_order` WHERE `order_sn` = '1438667602' AND `order_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-04T13:57:38+08:00 ] 101.226.103.69 /wxpay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_order` WHERE `order_sn` = '1438667602' AND `order_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-04T14:27:41+08:00 ] 101.226.103.69 /wxpay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_order` WHERE `order_sn` = '1438667602' AND `order_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-04T14:57:42+08:00 ] 101.226.103.69 /wxpay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_order` WHERE `order_sn` = '1438667602' AND `order_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-04T15:27:45+08:00 ] 101.226.103.69 /wxpay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_order` WHERE `order_sn` = '1438667602' AND `order_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-04T15:57:49+08:00 ] 101.226.103.69 /wxpay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_order` WHERE `order_sn` = '1438667602' AND `order_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-08-04T16:57:50+08:00 ] 101.226.103.69 /wxpay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_order` WHERE `order_sn` = '1438667602' AND `order_id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+

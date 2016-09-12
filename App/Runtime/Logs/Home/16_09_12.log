@@ -1,0 +1,626 @@
+[ 2016-09-12T15:28:40+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)
+
+[ 2016-09-12T15:31:13+08:00 ] 58.211.2.24 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)
+
+[ 2016-09-12T15:31:49+08:00 ] 58.211.2.120 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)
+
+[ 2016-09-12T15:32:30+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001163s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)
+
+[ 2016-09-12T15:32:31+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)
+
+[ 2016-09-12T15:32:32+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)
+
+[ 2016-09-12T15:32:32+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)
+
+[ 2016-09-12T15:32:33+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'127.0.0.1' (using password: YES)
+
+[ 2016-09-12T15:32:43+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: wx D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 30 行.
+NOTIC: [8] Undefined variable: wx D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 30 行.
+NOTIC: [8] Undefined variable: wx D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 30 行.
+NOTIC: [8] Undefined variable: wx D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 30 行.
+SQL: INSERT INTO `tp_member` (`headimg`) VALUES (NULL) [ RunTime:0.0006s ]
+
+[ 2016-09-12T15:32:43+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 35 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:32:44+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 35 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:32:45+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 35 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:32:46+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 35 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:34:08+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:34:09+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:34:19+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:35:51+08:00 ] 58.211.2.30 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:40:19+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+
+[ 2016-09-12T15:40:19+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:47:45+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:47:46+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:49:09+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+
+[ 2016-09-12T15:49:11+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+
+[ 2016-09-12T15:49:45+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+
+[ 2016-09-12T15:49:46+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-09-12T15:49:47+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-09-12T15:49:48+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:49:49+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:49:50+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:49:50+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 37 行.
+NOTIC: [8] Undefined index: step D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\MemberController.class.php 第 11 行.
+ERR: 模板不存在:./App/Home/View/Member/register_step1.html
+
+[ 2016-09-12T15:50:15+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+
+[ 2016-09-12T15:50:17+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-09-12T15:50:43+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-09-12T15:50:55+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+
+[ 2016-09-12T15:50:55+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-09-12T15:52:39+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] Undefined index: openid D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+
+[ 2016-09-12T15:56:39+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8] Undefined index: openid D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+
+[ 2016-09-12T15:57:04+08:00 ] 150.138.150.18 /index.php/Home/Member/register.html?code=031u4Tcl2nXwEJ0QSfel2MWNcl2u4Tc5&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined index: openid D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+
+[ 2016-09-12T16:00:54+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8] Undefined index: openid D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+
+[ 2016-09-12T16:01:05+08:00 ] 150.138.150.18 /?code=001w2uF01wRD1M1Gp3F01DvuF01w2uF2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+
+[ 2016-09-12T16:03:01+08:00 ] 150.138.150.18 /?code=001w2uF01wRD1M1Gp3F01DvuF01w2uF2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+
+[ 2016-09-12T16:03:04+08:00 ] 150.138.150.18 /?code=001w2uF01wRD1M1Gp3F01DvuF01w2uF2&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+
+[ 2016-09-12T16:03:11+08:00 ] 150.138.150.18 /?code=021cLVEK1H7bx907ZkGK10n2FK1cLVEo&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 105 行.
+
+[ 2016-09-12T16:04:32+08:00 ] 150.138.150.18 /?code=041xJOjs0Pu3Sr1P2jms055Rjs0xJOje&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 107 行.
+
+[ 2016-09-12T16:05:02+08:00 ] 150.138.150.18 /?code=041xJOjs0Pu3Sr1P2jms055Rjs0xJOje&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8] Undefined index: openid D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 107 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 107 行.
+
+[ 2016-09-12T16:06:15+08:00 ] 150.138.150.18 /?code=011ymKqw0b1Xsn1tUiuw0uQIqw0ymKqx&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+
+[ 2016-09-12T16:06:27+08:00 ] 150.138.150.18 /?code=011ymKqw0b1Xsn1tUiuw0uQIqw0ymKqx&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+
+[ 2016-09-12T16:06:29+08:00 ] 150.138.150.18 /?code=011ymKqw0b1Xsn1tUiuw0uQIqw0ymKqx&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+
+[ 2016-09-12T16:06:32+08:00 ] 150.138.150.18 /?code=011ymKqw0b1Xsn1tUiuw0uQIqw0ymKqx&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+
+[ 2016-09-12T16:06:35+08:00 ] 150.138.150.18 /?code=011ymKqw0b1Xsn1tUiuw0uQIqw0ymKqx&state=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+
+[ 2016-09-12T16:06:41+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+
+[ 2016-09-12T16:06:44+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+
+[ 2016-09-12T16:06:46+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+
+[ 2016-09-12T16:06:47+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+
+[ 2016-09-12T16:06:48+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 109 行.
+
+[ 2016-09-12T16:10:07+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 95 行.
+
+[ 2016-09-12T16:11:49+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 91 行.
+
+[ 2016-09-12T16:12:49+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 91 行.
+
+[ 2016-09-12T16:12:57+08:00 ] 150.138.150.18 /?code=001UksM829uOTD0cEFO82r4wM82UksME&state=STATE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 91 行.
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 91 行.
+
+[ 2016-09-12T16:17:24+08:00 ] 150.138.150.18 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 91 行.
+

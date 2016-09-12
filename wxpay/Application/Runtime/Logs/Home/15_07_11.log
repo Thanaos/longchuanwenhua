@@ -1,0 +1,20 @@
+[ 2015-07-11T00:07:06+08:00 ] 101.226.103.69 /wxpay/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_order` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_order` WHERE `order_sn` = '1436533355' AND `order_id` = 2 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-07-11T00:08:26+08:00 ] 101.226.103.69 /wxpay/jqback.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `rbm_wxuser_pannant` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `rbm_wxuser_pannant` WHERE `did` = 3 AND `uid` = 2 AND `order_sn` = 1436533440 LIMIT 1   [ RunTime:0.0000s ]
+

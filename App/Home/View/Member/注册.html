@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>注册</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection"content="telephone=no, email=no" />
+    <link rel="stylesheet" href="css/neat.css">
+    <link rel="stylesheet" href="css/common.css" />
+    <script src="js/jquery.min.js"></script>
+    <script>
+    	$(function(){
+
+    		// select
+    		var _select = $('.form-item select'),
+    			_change = $('.form-item input');
+
+    		_select.change(function(){
+    			var _this = $(this),
+    				_cval = _this.prev('input');
+    			if(_cval){
+    				_cval.val(_this.val());
+    			}else{
+    				return false;
+    			}
+    		})
+
+    	})
+    </script>
+</head>
+<body>
+	
+	<!--register begin-->
+	<header class="register-header">
+		性别、生日、身高、学历、婚姻状况注册后将不能修改, 请认真填写。
+	</header>
+	
+	<section class="register-main">
+		
+		<!--form-item-->
+		<div class="register-form-box">
+			<div class="form-item flex">
+				<label for="">昵称</label>
+				<input type="text" class="form-control flex-item" placeholder="昵称" />
+			</div>
+			<div class="form-item flex">
+				<label for="">性别</label>
+				<input type="text" class="form-control flex-item" placeholder="请选择" />
+				<select name="" id="">
+					<option value="男">男</option>
+					<option value="女">女</option>
+				</select>
+			</div>
+			<div class="form-item flex">
+				<label for="">生日</label>
+				<input type="date" class="form-control flex-item" placeholder="请选择" />
+			</div>
+			<div class="form-item flex">
+				<label for="">身高</label>
+				<input type="text" class="form-control flex-item" placeholder="请选择" />
+				<select name="" id="">
+					<option value="171cm">171cm</option>
+					<option value="172cm">172cm</option>
+				</select>
+			</div>
+			<div class="form-item flex">
+				<label for="">学历</label>
+				<input type="text" class="form-control flex-item" placeholder="请选择" />
+				<select name="" id="">
+					<option value="中专">中专</option>
+					<option value="大专">大专</option>
+				</select>
+			</div>
+		</div>
+
+		<div class="register-form-box">
+			<div class="form-item flex">
+				<label for="">婚姻状况</label>
+				<input type="text" class="form-control flex-item" placeholder="请选择" />
+				<select name="" id="">
+					<option value="已婚">已婚</option>
+					<option value="未婚">未婚</option>
+				</select>
+			</div>
+			<div class="form-item flex">
+				<label for="">工作地区</label>
+				<input type="text" class="form-control flex-item" placeholder="请选择" />
+				<select name="" id="">
+					<option value="青岛市">青岛市</option>
+					<option value="济南市">济南市</option>
+				</select>
+			</div>
+			<div class="form-item flex">
+				<label for="">月收入</label>
+				<input type="text" class="form-control flex-item" placeholder="请选择" />
+				<select name="" id="">
+					<option value="3000-5000">3000-5000</option>
+					<option value="5000-10000">5000-10000</option>
+				</select>
+			</div>
+		</div>
+
+	</section>
+		
+		
+	<!--register end-->
+	
+</body>
+</html>
