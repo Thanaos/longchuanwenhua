@@ -2,10 +2,10 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="5fa9c3f9-2526-4355-b2b1-0dc1f5b4fa4d" name="longchuanwenhua" url="http://longchuanwenhua.gotoip4.com">
+      <webServer id="f30a0c27-0961-45a5-b7f0-49312c3bf676" name="longchuanwenhua" url="http://longchuanwenhua.gotoftp4.com">
         <fileTransfer host="longchuanwenhua.gotoftp4.com" port="21" rootFolder="/longchuanwenhua/wwwroot/">
           <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" />
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>
           <option name="port" value="21" />
         </fileTransfer>

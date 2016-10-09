@@ -1,17 +1,17 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
-<head>    <link rel="shortcut icon" href="/zzyl/favicon.ico" type="image/x-icon" /> 
+<head>    <link rel="shortcut icon" href="/longhcuanwenhua/favicon.ico" type="image/x-icon" /> 
     <title></title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/zzyl/Public/Admin/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/zzyl/Public/Admin/css/bootstrap-responsive.css" />
-    <link rel="stylesheet" type="text/css" href="/zzyl/Public/Admin/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="/zzyl/Public/Admin/css/Validform_v5.3.2.css" />
-    <script type="text/javascript" src="/zzyl/Public/Admin/js/jquery-1.7.min.js"></script>
-    <script type="text/javascript" src="/zzyl/Public/Admin/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/zzyl/Public/Admin/js/ckform.js"></script>
-    <script type="text/javascript" src="/zzyl/Public/Admin/js/common.js"></script>
-    <script type="text/javascript" src="/zzyl/Public/Admin/js/jquery.form.js"></script>
+    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/Validform_v5.3.2.css" />
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/common.js"></script>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.form.js"></script>
  
 
     <style type="text/css">
@@ -43,7 +43,7 @@
     </style>
 </head>
 <body>
-    <form action="/zzyl/index.php/admin/flash/save.html" id="registerform">
+    <form action="/longhcuanwenhua/index.php?s=/admin/flash/save.html" id="registerform">
         <input type="hidden" name="id" value="<?php echo ($data["id"]); ?>">
     <table class="table table-bordered table-hover definewidth m10">
         <tr>
@@ -67,7 +67,7 @@
                         <span class="bar" style="width: 100%;"></span><span class="percent">100%</span>
                     </div>
                     <div class="files" <?php if(empty($data)): ?>style="display: none;<?php endif; ?>"><b><?php echo ($data["image"]); ?></b><span class="delimg" rel="<?php echo ($data["image"]); ?>">删除</span></div>
-                    <div id="showimg"><?php if(!empty($data)): ?><img src="/zzyl/<?php echo ($data["image"]); ?>"><?php endif; ?></div>
+                    <div id="showimg"><?php if(!empty($data)): ?><img src="/longhcuanwenhua/<?php echo ($data["image"]); ?>"><?php endif; ?></div>
                 </div>
         </td>
         </tr>
@@ -81,7 +81,7 @@
 </form>
 </body>
 </html>
-<script type="text/javascript" src="/zzyl/Public/Admin/js/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
 <script type="text/javascript">
 $(function () {
 	var bar = $('.bar');
@@ -90,7 +90,7 @@ $(function () {
 	var progress = $(".progress");
 	var files = $(".files");
 	var btn = $(".btn span");
-	$("#fileupload").wrap("<form id='myupload' action='/zzyl/index.php/admin/index/uploadFile.html' method='post' enctype='multipart/form-data'></form>");
+	$("#fileupload").wrap("<form id='myupload' action='/longhcuanwenhua/index.php?s=/admin/index/uploadFile.html' method='post' enctype='multipart/form-data'></form>");
     $("#fileupload").change(function(){
 		$("#myupload").ajaxSubmit({
 			dataType:  'json',
@@ -112,7 +112,7 @@ $(function () {
                     files.find('b').html(data.name+"("+data.size+"k)");
                     files.find('span').attr('rel',data.pic);
                     files.show();
-                    var img = "/zzyl/"+data.pic;
+                    var img = "/longhcuanwenhua/"+data.pic;
                     showimg.html("<img src='"+img+"'>");
                     $("#image").val(data.pic);
                     btn.html("添加附件");
@@ -133,7 +133,7 @@ $(function () {
 	$(".delimg").click(function(){
         var pic = $(this).attr("rel");
         alert(pic);
-		$.post("/zzyl/index.php/admin/index/uploadFile/act/delimg.html",{imagename:pic},function(msg){
+		$.post("/longhcuanwenhua/index.php?s=/admin/index/uploadFile/act/delimg.html",{imagename:pic},function(msg){
 			if(msg==1){
                 alert('删除成功');
 				showimg.empty();
@@ -158,9 +158,9 @@ $(function () {
             if(data.status == 'y'){
                 $.Hidemsg();
                 alert(data.msg);
-                    <?php if(!empty($data)): ?>window.location.href="/zzyl/index.php/admin/flash/list.html";
+                    <?php if(!empty($data)): ?>window.location.href="/longhcuanwenhua/index.php?s=/admin/flash/list.html";
                     <?php else: ?>
-                        window.location.href="/zzyl/index.php/admin/flash/edit/"+data.id+".html";<?php endif; ?>
+                        window.location.href="/longhcuanwenhua/index.php?s=/admin/flash/edit/"+data.id+".html";<?php endif; ?>
             }else{
                 alert(data.msg);
             }

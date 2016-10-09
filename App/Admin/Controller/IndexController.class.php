@@ -2,18 +2,6 @@
 namespace Admin\Controller;
 use Think\Controller;
 class IndexController extends AdminController {
-    public function __construct(){
-        parent::__construct();
-        $this->act = isset($_GET['act']) ? $_GET['act'] : 'list';
-        //检测用户是否登陆
-        $login = session('admin');
-        if(empty($login)){
-            $this->redirect('Admin/User/login');
-        }else{
-            $user = session('admin');
-            $this->assign('admin',$user['name']);
-        }
-    }
 
     public function index(){
         $this->display();
@@ -27,7 +15,7 @@ class IndexController extends AdminController {
             $p = isset($_GET['id']) ? intval($_GET['id']) : 1;
             $max = 20;
             $count = $db->count();
-            $Page = new \Think\Page($coun, $max);
+            $Page = new \Think\Page($count, $max);
             $list = $db->page($p, $max)->select();
             $show['pageCount'] = $Page->totalPages ? $Page->totalPages : 1;//总页数
             $show['current'] = $p;
@@ -62,6 +50,137 @@ class IndexController extends AdminController {
             }else{
                 exit(json_encode(array('status'=>'n', 'msg'=>'操作失败')));
             }
+        }
+        
+    }
+    
+    /* 诊疗项目管理 */
+    public function goods()
+    {
+        $db = M('goods');
+        if( $this->act == 'list' ){
+            $p = isset($_GET['id']) ? intval($_GET['id']) : 1;
+            $max = 20;
+            $count = $db->count();
+            $Page = new \Think\Page($count, $max);
+            $list = $db->page($p, $max)->select();
+            $show['pageCount'] = $Page->totalPages ? $Page->totalPages : 1;//总页数
+            $show['current'] = $p;
+            $this->assign('list', $list);
+            $this->assign('show', $show);
+            $this->display('goods_list');
+            
+            /* 新增操作 */
+        }elseif( $this->act == 'edit' ){
+            $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+            //查询会员名称
+            $package = M('package')->select();
+            $this->assign('package', $package);
+            if($id){
+                $data = $db->where(array('id'=>$id))->find();
+                $this->assign('data', $data);
+            }
+            $this->display('goods_edit');
+        }
+        
+        /*******保存********/
+        else if($this->act == 'save'){
+            $id = empty($_POST['id']) ? 0 : intval($_POST['id']);
+            $good_name = isset($_POST['good_name']) ? $_POST['good_name'] : exit(json_encode(array('status'=>'n', 'msg'=>'项目名称必须填写')));
+            $good_price = isset($_POST['good_price']) ? $_POST['good_price'] : exit(json_encode(array('status'=>'n', 'msg'=>'价格必须填写')));
+            $good_scale1 = isset($_POST['good_scale1']) ? $_POST['good_scale1'] : exit(json_encode(array('status'=>'n', 'msg'=>'补贴比例必须填写')));
+            $good_scale2 = isset($_POST['good_scale2']) ? $_POST['good_scale2'] : exit(json_encode(array('status'=>'n', 'msg'=>'补贴比例必须填写')));
+            $good_scale3 = isset($_POST['good_scale3']) ? $_POST['good_scale3'] : exit(json_encode(array('status'=>'n', 'msg'=>'补贴比例必须填写')));
+            $good_detail = $_POST['content'];
+            $data = array('good_name'=>$good_name, 'good_price'=>$good_price, 'good_scale1'=>$good_scale1, 'good_scale2'=>$good_scale2, 'good_scale3'=>$good_scale3, 'good_detail'=>$good_detail, 'addtime'=>time());
+            if($id){
+                $insert = $db->where(array('id'=>$id))->save($data);
+            }else{
+                $insert = $db->add($data);
+            }
+            if($insert){
+                exit(json_encode(array('status'=>'y', 'msg'=>'操作成功', 'id'=>$insert)));
+            }else{
+                exit(json_encode(array('status'=>'n', 'msg'=>'操作失败')));
+            }
+        }
+        
+    }
+    
+    public function package(){
+        $db = M('package');
+        if( $this->act == 'list' ){
+            $p = isset($_GET['id']) ? intval($_GET['id']) : 1;
+            $max = 20;
+            $count = $db->count();
+            $Page = new \Think\Page($count, $max);
+            $list = $db->page($p, $max)->select();
+            $show['pageCount'] = $Page->totalPages ? $Page->totalPages : 1;//总页数
+            $show['current'] = $p;
+            $this->assign('list', $list);
+            $this->assign('show', $show);
+            $this->display('package_list');
+        
+            /* 新增操作 */
+        }elseif( $this->act == 'edit' ){
+            $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+            if($id){
+                $data = $db->where(array('id'=>$id))->find();
+                $this->assign('data', $data);
+            }
+            $this->display('package_edit');
+        }
+    
+        /*******保存********/
+        else if($this->act == 'save'){
+            $id = empty($_POST['id']) ? 0 : intval($_POST['id']);
+            $package_name = isset($_POST['package_name']) ? $_POST['package_name'] : exit(json_encode(array('status'=>'n', 'msg'=>'种类名称必须填写')));
+            $package_price1 = isset($_POST['package_price1']) ? $_POST['package_price1'] : exit(json_encode(array('status'=>'n', 'msg'=>'价格必须填写')));
+            $package_price2 = isset($_POST['package_price2']) ? $_POST['package_price2'] : exit(json_encode(array('status'=>'n', 'msg'=>'价格必须填写')));
+            $package_price3 = isset($_POST['package_price3']) ? $_POST['package_price3'] : exit(json_encode(array('status'=>'n', 'msg'=>'价格必须填写')));
+            $package_price4 = isset($_POST['package_price4']) ? $_POST['package_price4'] : exit(json_encode(array('status'=>'n', 'msg'=>'价格必须填写')));
+            $package_price5 = isset($_POST['package_price5']) ? $_POST['package_price5'] : exit(json_encode(array('status'=>'n', 'msg'=>'价格必须填写')));
+            $data = array('package_name'=>$package_name, 'package_price1'=>$package_price1, 'package_price2'=>$package_price2, 'package_price3'=>$package_price3, 'package_price4'=>$package_price4, 'package_price5'=>$package_price5, 'addtime'=>time());
+            if($id){
+                $insert = $db->where(array('id'=>$id))->save($data);
+            }else{
+                $insert = $db->add($data);
+            }
+            if($insert){
+                exit(json_encode(array('status'=>'y', 'msg'=>'操作成功', 'id'=>$insert)));
+            }else{
+                exit(json_encode(array('status'=>'n', 'msg'=>'操作失败')));
+            }
+        }
+        //管理项目
+        else if($this->act == 'type'){
+            $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+            if( $id < 0 ){
+                $this->error('参数不正确！');
+            }
+
+            //查询
+            $list = M('package_type')->where(array('package_id'=>$id))->select();
+            $this->assign('list', $list);
+            $this->assign('id', $id);
+    
+            $this->display('package_type_detail');
+        }
+        
+        else if($this->act == 'save_type'){
+            $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+            if( $id < 0 ){
+                $this->error('参数不正确！');
+            }
+            if( IS_POST ){
+                $save_data = array('type_name'=>I('post.type_name', ''), 'type_price'=>I('post.type_price', ''), 'type_scale'=>I('post.type_scale', ''), 'package_id'=>$id);
+                $insert = M('package_type')->add($save_data);
+                if( $insert < 0 )
+                    $this->error('服务器出错！');
+                else
+                    redirect(__APP__.'/admin/package/type/'.$id.'html');
+            }
+            
         }
         
     }
@@ -343,6 +462,7 @@ class IndexController extends AdminController {
                     'name' => $file['name'],
                     'pic'  => $file_root,
                     'size' => $file['size'],
+                    'status' => 'y'
                 );
                 echo json_encode($arr);
             }

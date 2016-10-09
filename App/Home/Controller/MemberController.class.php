@@ -1,52 +1,76 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class MemberController extends BaseController{
-
+class MemberController extends Controller{
+    
+    function __construct(){
+        parent::__construct();
+        $this->auth_userinfo = session('auth_userinfo');
+        if( empty($this->auth_userinfo) ){
+            redirect(U('Index/index'));
+        }else{
+            $this->userinfo = $this->auth_userinfo['userinfo'];
+        }
+        //检查是否注册过
+        $is_register = M('member')->where(array('openid'=>$this->userinfo['openid']))->find();
+        if( $is_register ){
+            redirect(U('Index/index'));
+        }
+        //查询病证
+        $this->assign('sickid',C('SICKID'));
+    }
+    
     /* 会员注册 */
     public function register()
     {
-        $user = $this->userinfo;
-        $this->assign('userinfo', $user);
-        if( $user['step'] == 0 ){   //会员注册流程第一步
-            if( IS_POST ){
-                $nickname = isset($_POST['nickname']) ? $_POST['nickname'] : exit(json_encode(array('status'=>'n', 'msg'=>'昵称不能为空')));
-                $sex = isset($_POST['sex']) ? $_POST['sex'] : exit(json_encode(array('status'=>'n', 'msg'=>'请选择性别')));
-                $date = isset($_POST['date']) ? $_POST['date'] : exit(json_encode(array('status'=>'n', 'msg'=>'请选择生日')));
-                $height = isset($_POST['height']) ? $_POST['height'] : exit(json_encode(array('status'=>'n', 'msg'=>'请选择身高')));
-                $education = isset($_POST['education']) ? $_POST['education'] : exit(json_encode(array('status'=>'n', 'msg'=>'请选择学历')));
-                $marriage = isset($_POST['marriage']) ? $_POST['marriage'] : exit(json_encode(array('status'=>'n', 'msg'=>'请选择婚姻状况')));
-                $income = isset($_POST['income']) ? $_POST['income'] : exit(json_encode(array('status'=>'n', 'msg'=>'请选择月收入')));
-
-                //修改用户详细信息
-                $data = array('birthday'=>$date, 'height'=>$height, 'education'=>$education, 'marriage'=>$marriage, 'income'=>$income, 'user_id'=>$this->userid);
-                $insert = M('userinfo')->add($data);
-                //修改昵称
-                M('member')->where(array('id'=>$this->userid))->save(array('nickname'=>$nickname, 'step'=>1));
-                exit(json_encode(array('status'=>'y', 'msg'=>'操作成功')));
-
-            }
+    
+        //查询flash
+        $flash = M('flash')->select();
+        $this->assign('flash', $flash);
         
-            $this->display('register_step1');
-        }elseif( $user['step'] == 1 ){  //会员注册流程第二步
-            if( IS_POST ){
-                $mobile = isset($_POST['mobile']) ? $_POST['mobile'] : exit(json_encode(array('status'=>'n', 'msg'=>'请输入手机号')));
-                if( !preg_match("/1[3458]{1}\d{9}$/",$mobile) ){
-                    exit(json_encode(array('status'=>'n', 'msg'=>'请输入正确的手机号')));
-                }
-                //检测手机号是否已经注册
-                $mobile_data = M('member')->where(array('mobile'=>$mobile))->find();
-                if( $mobile_date ){
-                    exit(json_encode(array('status'=>'n', 'msg'=>'该手机号已经注册过')));
-                }
-                M('member')->where(array('id'=>$this->userid))->save(array('mobile'=>$mobile, 'step'=>2));
-                exit(json_encode(array('status'=>'y', 'msg'=>'操作成功')));
+        $this->display();
 
-            }
-            $this->display('register_step2');
+    }
+    
+    public function ajax_register(){
+        $name = I('post.name') ? I('post.name') : '';
+        $sex  = I('post.sex') ? I('post.sex') : 0;
+        $age  = I('post.age') ? I('post.age') : 0;
+        $idCard = I('post.idCard') ? I('post.idCard') : '';
+        $birthday = strtotime(I('post.birthday')) > 0 ? strtotime(I('post.birthday')) : 0;
+        $mobile = preg_match("/^1[34578]\d{9}$/", I('post.mobile')) ? I('post.mobile') : '';
+        $bailor = I('post.bailor') ? I('post.bailor') : '';
+        $bailor_mobile = I('post.bailor_mobile') ? I('post.bailor_mobile') : '';
+        
+        $domicile= I('post.d_s').','.I('post.d_c').','.I('post.d_d');
+        $cq_domicile= I('post.c_s').','.I('post.c_c').','.I('post.c_d').','.I('post.address');
+        $diagnose = I('post.diagnose') > 0 ? I('post.diagnose') : 0;
+        
+        $illness_time = I('post.illness_time') ? I('post.illness_time') : 0;
+        $illness_history = I('post.illness_history') ? I('post.illness_history') : '';
+        $gm_history = I('post.gm_history') ? I('post.gm_history') : '';
+        $jz_history = I('post.jz_history') ? I('post.jz_history') : '';
+        $description = I('post.description') ? I('post.description') : '';
+        
+        if( empty($name) || empty($idCard) || empty($mobile) ){
+            $this->error('请填写比填字段！');
+        }
+        
+        //注册用户
+        $data = array('openid'=>$this->userinfo['openid'], 'headimg'=>$this->userinfo['headimgurl'], 'name'=>$name, 'birthday'=>$birthday, 'sex'=>$sex, 'idCard'=>$idCard, 'age'=>$age, 'mobile'=>$mobile, 'bailor'=>$bailor, 'bailor_mobile'=>$bailor_mobile, 'diagnose'=>$diagnose, 'domicile'=>$domicile, 'cq_domicile'=>$cq_domicile, 'illness_history'=>$illness_history, 'illness_time'=>$illness_time, 'gm_history'=>$gm_history, 'jz_history'=>$jz_history, 'description'=>$description);
+        //注册时间
+        $data['createtime'] = time();
+        $insert = M('member')->add($data);
+        if( $insert > 0 ){
+            session('userid', $insert);
+            $this->userid = $insert;
+            $this->assign('url', 'http://'.$_SERVER['HTTP_HOST'].U('Index/index'));
+            $this->assign('message', '恭喜您注册成功！');
+            $this->display('Public:success');
+            
         }else{
-            $this->redirect('Member/index');
-            exit;
+            $this->assign('message', '服务器出错！');
+            $this->display('Public:error');
         }
     }
 

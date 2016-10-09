@@ -1,7 +1,7 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : localhost
+Source Server         : 127.0.0.1
 Source Server Version : 50547
 Source Host           : localhost:3306
 Source Database       : zzyl
@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50547
 File Encoding         : 65001
 
-Date: 2016-09-11 19:37:49
+Date: 2016-09-14 16:50:43
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -26,12 +26,12 @@ CREATE TABLE `tp_flash` (
   `image` varchar(50) DEFAULT NULL,
   `name` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of tp_flash
 -- ----------------------------
-INSERT INTO `tp_flash` VALUES ('4', 'www.baidu.com', '0', '', '123');
+INSERT INTO `tp_flash` VALUES ('5', 'www.baidu.com', '0', 'uploads/2016-09-14/57d90b3047e8d.jpg', 'q1111');
 
 -- ----------------------------
 -- Table structure for tp_member
@@ -44,6 +44,7 @@ CREATE TABLE `tp_member` (
   `headimg` varchar(200) DEFAULT NULL,
   `money` decimal(18,2) DEFAULT '0.00',
   `name` varchar(32) DEFAULT NULL COMMENT '名字',
+  `birthday` int(10) DEFAULT '0',
   `sex` tinyint(1) DEFAULT '0',
   `idCard` char(18) DEFAULT NULL,
   `age` tinyint(1) DEFAULT '0',
@@ -51,18 +52,21 @@ CREATE TABLE `tp_member` (
   `bailor` varchar(32) DEFAULT NULL COMMENT '委托人',
   `bailor_mobile` varchar(11) DEFAULT NULL,
   `domicile` varchar(50) DEFAULT NULL COMMENT '居住地',
-  `diagnose` tinyint(1) DEFAULT NULL COMMENT '临床诊断',
+  `cq_domicile` varchar(200) DEFAULT NULL COMMENT '长期巨住地',
+  `diagnose` varchar(50) DEFAULT NULL COMMENT '临床诊断',
   `illness_time` tinyint(1) DEFAULT '0' COMMENT '患病时间',
   `illness_history` text COMMENT '既往病史',
   `gm_history` text COMMENT '过敏史',
   `jz_history` text COMMENT '家族病史',
   `description` text COMMENT '自我评价',
+  `createtime` int(10) DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of tp_member
 -- ----------------------------
+INSERT INTO `tp_member` VALUES ('1', 'oudL8vswIa3ST5abdKFjXDoYuKhM', '0', 'http://wx.qlogo.cn/mmopen/nGL1ReThHaK024OpbuZwPBpTBWamG0jFgCxzfKd1nSLicEq98fVUG75x5QEgPf55N60ZHzYmpMWxIAdGj6ABe4OBia2MSE3IZH/0', '0.00', 'wenlong', '1328025600', '1', '222222222222222222', '25', '15954861505', '456', '789', '天津市,天津市市辖区,河北区', '河北省,石家庄市,长安区,45678998', '1', '0', '23132', '13521321', '4561234qqqqqq', 'rrrrrrrrrrrr', '1473840165');
 
 -- ----------------------------
 -- Table structure for tp_user
@@ -75,12 +79,13 @@ CREATE TABLE `tp_user` (
   `pwd` varchar(32) NOT NULL,
   `createtime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of tp_user
 -- ----------------------------
-INSERT INTO `tp_user` VALUES ('1', '1', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '2016-09-08 08:49:18');
+INSERT INTO `tp_user` VALUES ('1', '1', 'admin', 'e10adc3949ba59abbe56e057f20f883e', '2016-09-14 16:30:04');
+INSERT INTO `tp_user` VALUES ('2', '2', 'user22', 'e10adc3949ba59abbe56e057f20f883e', '2016-09-13 13:28:34');
 
 -- ----------------------------
 -- Table structure for tp_user_group

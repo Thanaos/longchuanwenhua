@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<!-- <meta name="format-detection" content="telephone=no"/> -->
+	<meta name="format-detection" content="email=no"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+	<link rel="stylesheet" href="__ROOT__/PUblic/Home/css/style.css">
+	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">
+
+</head>
+<body>
+
+<include file="./App/Home/View/Public/foot.html" />
+
+	<section class="page">
+		<include file="./App/Home/View/Public/head.html" />
+		<div class="admin-info clearfix">
+			<div class="photo">
+				<img src="{$user_info.headimg}" alt="">
+				<!-- 
+					如果需要图片上传
+					这个地方就用a触发微信的图片上传接口吧...
+					开个队列在下载到服务器就成..file的兼容太渣
+				 -->
+				<a href="javascript:void(0);"></a>
+			</div>
+			<span>姓名：{$user_info.name}</span>
+			<if condition="$user_info.vip eq 0">
+                <span><a href="{:U('index/getVip')}" style="display: block; color: #ffffff; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; margin: 0 auto; background-color: #31619d; width: 4rem; border-width: 0;">购买会员</a></span>
+			<else />
+				<if condition="$time gt $user_info['vip_time']">
+					<span><a href="{:U('index/getVip')}" style="display: block; color: #ffffff; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; margin: 0 auto; background-color: #31619d; width: 4rem; border-width: 0;">立即续费</a></span>
+				<else />
+					<span>{$package.package_name}：{$user_info.vip_time|date='Y年m月d日',###} 到期</span>
+				</if>
+			</if>
+		</div>
+
+		<div class="admin-box">
+			<div class="admin-title">
+				活动专区
+			</div>
+			<div class="admin-nav">
+				<a href="{:U('index/subsidies')}" class="type-1">
+					补贴申请
+					<small>详细说明</small>
+				</a>
+				<a href="{:U('index/getVIp')}" class="type-2">
+					会员资格
+					<small>会员升级/降级/注销</small>
+				</a>
+			</div>
+		</div>
+
+		<div class="admin-box">
+			<div class="admin-title">
+				功能专区
+			</div>
+			<div class="admin-nav">
+				<a href="" class="type-3">
+					诊疗挂号
+					<small>尚未就诊</small>
+				</a>
+				<a href="" class="type-4">
+					预约专家
+					<small>尚未预约</small>
+				</a>
+				<a href="http://tezunyiliao.bama555.com/detail?id=57c821b04e5de054" class="type-5">
+					会员必读
+					<small>请阅读此信息</small>
+				</a>
+				<a href="{:U('index/goods')}" class="type-6">
+					诊疗套餐
+					<small>套餐购买</small>
+				</a>
+				<a href="http://tezunyiliao.bama555.com/detail?id=57c8227908ba3073" class="type-7">
+					会费价格	
+					<small>费用介绍</small>
+				</a>
+				<a href="http://tezunyiliao.bama555.com/detail?id=57c833a7c2a6a027" class="type-8">
+					补贴标准	
+					<small>补贴介绍</small>
+				</a>
+			</div>
+		</div>
+
+	</section>
+	<script src="__ROOT__/Public/Home/js/jquery.min.js"></script>
+	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			paginationClickable: true
+			// 启用箭头
+			// nextButton: '.swiper-button-next',
+			// prevButton: '.swiper-button-prev'
+		});
+	</script>
+</body>
+</html>

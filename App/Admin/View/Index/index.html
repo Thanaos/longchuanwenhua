@@ -42,19 +42,28 @@
 <script type="text/javascript" src="__ROOT__/Public/Admin/js/config-min.js"></script>
 <script>
     BUI.use('common/main', function (){
-        var config = [{id:'1',homePage : '4',menu:[
+        var config = [{id:'1',homePage : '5',menu:[
+            <if condition="$admin_role eq 'all'">
             {text:'网站管理 ',items:[
-                {id:'4',text:'轮播图',href:'__APP__/admin/index/flash.html'}
+                {id:'4',text:'轮播图',href:'__APP__/admin/index/flash.html'},
+                {id:'8',text:'会员种类',href:'__APP__/admin/package/list.html'},
+                {id:'9',text:'诊疗项目',href:'__APP__/admin/goods/list.html'},
             ]},
+            </if>
+            {text:'会员管理 ',items:[
+                {id:'5',text:'会员列表',href:'__APP__/admin/member/list.html'},
+            <if condition="($admin_role eq 1) or ($admin_role eq 2) or ($admin_role eq 'all')">
+                {id:'7',text:'补贴申请',href:'__APP__/admin/subsidies/list.html'}
+            </if>
+            ]},
+            <if condition="($admin_role eq 2) or ($admin_role eq 'all')">
+            {text:'财务管理 ',items:[
+                {id:'6',text:'收入详情',href:'__APP__/admin/income/list.html'}
+            ]},
+            </if>
             <if condition="$admin_role eq 'all'">
             {text:'权限管理',items:[
                 {id:'2',text:'用户管理',href:'__APP__/admin/power/user.html'}
-            ]},
-            </if>
-            <if condition="($admin_role eq 'all') or (strpos($admin_role, '1'))">
-            {text:'订单管理',items:[
-                {id:'2',text:'未处理订单',href:'__APP__/admin/order/untreated.html'},
-                {id:'2',text:'订单查询',href:'__APP__/admin/order/list.html'}
             ]},
             </if>
 

@@ -1,17 +1,17 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
-    <link rel="shortcut icon" href="/zzyl/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/longhcuanwenhua/favicon.ico" type="image/x-icon"/>
     <title></title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/zzyl/Public/Admin/css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="/zzyl/Public/Admin/css/bootstrap-responsive.css"/>
-    <link rel="stylesheet" type="text/css" href="/zzyl/Public/Admin/css/style.css"/>
-    <script type="text/javascript" src="/zzyl/Public/Admin/js/jquery.js"></script>
-    <script type="text/javascript" src="/zzyl/Public/Admin/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/zzyl/Public/Admin/js/ckform.js"></script>
-    <script type="text/javascript" src="/zzyl/Public/Admin/js/common.js"></script>
-    <script src="/zzyl/Public/Admin/js/jquery.page.js"></script>
+    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/style.css"/>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/common.js"></script>
+    <script src="/longhcuanwenhua/Public/Admin/js/jquery.page.js"></script>
 
 
     <style type="text/css">
@@ -73,7 +73,7 @@
             <td><?php echo ($vo["title"]); ?></td>
             <td style="text-align:center"><?php echo (substr($vo["createtime"],0,10)); ?></td>
             <td style="width:120px;">
-                <a href="/zzyl/index.php/admin/user/edit/<?php echo ($vo["id"]); ?>.html">编辑</a>
+                <a href="/longhcuanwenhua/index.php?s=/admin/user/edit/<?php echo ($vo["id"]); ?>.html">编辑</a>
                 <a href="javascript:;" class="del" name="<?php echo ($vo["id"]); ?>">删除</a>
             </td>
         </tr><?php endforeach; endif; ?>
@@ -86,20 +86,20 @@
         pageCount:<?php echo ($show["pageCount"]); ?>,
         current:<?php echo ($show["current"]); ?>,
         backFn: function ( p ){
-            window.location.href = '/zzyl/index.php/admin/news/<?php echo ($type); ?>/' + p + '.html';
+            window.location.href = '/longhcuanwenhua/index.php?s=/admin/news/<?php echo ($type); ?>/' + p + '.html';
         }
     });
     $(function (){
 
         $('#addnew').click(function (){
-            window.location.href = "/zzyl/index.php/admin/user/edit.html";
+            window.location.href = "/longhcuanwenhua/index.php?s=/admin/user/edit.html";
         });
 
         $('.del').click(function (){
             var r = confirm("确定要删除该数据？");
             var newsId = $(this).attr("name");
             if ( r == true ){
-                $.post("/zzyl/index.php/admin/user/del.html",{id:newsId}, function ( data ){
+                $.post("/longhcuanwenhua/index.php?s=/admin/user/del.html",{id:newsId}, function ( data ){
                     if ( data.status == 'y' ){
                         alert(data.msg);
                         document.location.reload();

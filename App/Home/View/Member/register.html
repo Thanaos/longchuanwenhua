@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>admin - system</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<!-- <meta name="format-detection" content="telephone=no"/> -->
+	<meta name="format-detection" content="email=no"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+	<link rel="stylesheet" href="__ROOT__/Public/Home/css/style.css">
+	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">yy
+</head>
+<body>
+	
+	<header>
+		<h1>申请会员</h1>
+		<a href="" class="glyphicon glyphicon-chevron-left"></a>
+	</header>
+
+	<footer>
+		<menu>
+			<a href="">
+				<span class="glyphicon glyphicon-home"></span>
+				<small>首页</small>
+			</a>
+			<a href="">
+				<span class="glyphicon glyphicon-list"></span>
+				<small>订单详情</small>
+			</a>
+			<a href="">
+				<span class="glyphicon glyphicon-shopping-cart"></span>
+				<small>缴费结算</small>
+			</a>
+			<a href="">
+				<span class="glyphicon glyphicon-user"></span>
+				<small>会员信息</small>
+			</a>
+		</menu>
+	</footer>
+
+	<section class="page">
+
+        <include file="./App/Home/View/Public/head.html" />
+	   <!-- <div class="user-info clearfix">
+	    	<div class="photo">
+	    		<img src="__ROOT__/Public/Home/img/cdl.jpg" alt="">
+	    	</div>
+	    	<div class="detail">
+				<span>账号：530000063851</span>
+				<span><a href="" class="block text-right" style="padding-right: 15px">修改密码</a></span>
+	    	</div>
+	    </div>
+-->
+	    <!-- form start -->
+		<form action="{:U('member/ajax_register')}" method="post" id="register">
+			<fieldset>
+
+				<h3>患者信息</h3>
+
+				<div class="row">
+					<label for="">姓名</label>
+					<div class="form-group">
+						<input type="text" name="name" class="form-control" id="name" placeholder="请输入姓名">
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">性别</label>
+					<div class="form-group">
+						<label for=""><input type="radio" class="radio" name="sex" value="1" checked>男</label>
+						<label for=""><input type="radio" class="radio" name="sex" value="0">女</label>
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">年龄</label>
+					<div class="form-group">
+						<input type="text" name="age" id="age" class="form-control"  placeholder="请输入年龄">
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">身份证号</label>
+					<div class="form-group">
+						<input type="tel" class="form-control" name="idCard" id="idCard" placeholder="请输入身份证号">
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">生日</label>
+					<div class="form-group">
+						<input type="text" class="form-control" id="birthday" name="birthday" placeholder="请输入出生日期">
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">电话</label>
+					<div class="form-group">
+						<input type="tel" class="form-control" name="mobile" id="mobile" placeholder="请输入电话">
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">委托人</label>
+					<div class="form-group">
+						<input type="text" class="form-control" name="bailor" id="bailor" placeholder="请输入委托人姓名">
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">委托人电话</label>
+					<div class="form-group">
+						<input type="tel" class="form-control" name="bailor_mobile" id="bailor_mobile" placeholder="请输入委托人电话">
+					</div>
+				</div>
+
+
+				<br>
+				<h3>居住地</h3>
+                <div id="address1">
+                    <div class="row">
+                        <div class="form-group">
+                            <select name="d_s" data-province="" class="form-control" id=""></select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label for=""></label>
+                        <div class="form-group">
+                            <select name="d_c" data-city="" class="form-control" id=""></select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label for=""></label>
+                        <div class="form-group">
+                            <select name="d_d" data-district="" class="form-control" id=""></select>
+                        </div>
+                    </div>
+                </div>
+
+
+				<br>
+				<h3>住址</h3>
+                <div id="address2">
+                    <div class="row">
+                        <div class="form-group">
+                            <select name="c_s" class="form-control" id=""></select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label for=""></label>
+                        <div class="form-group">
+                            <select name="c_c" class="form-control" id=""></select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label for=""></label>
+                        <div class="form-group">
+                            <select name="c_d" class="form-control" id=""></select>
+                        </div>
+                    </div>
+				</div>
+
+				<div class="row">
+					<label for="">街道</label>
+					<div class="form-group">
+						<input type="text" class="form-control" name="address" placeholder="请输入街道">
+					</div>
+				</div>
+
+				<br>
+				<h3>病史</h3>
+
+                <div class="row">
+                    <label for="">临床诊断</label>
+                    <div class="form-group">
+                        <select name="diagnose" id="" class="form-control">
+                            <option>请选择</option>
+                            <volist name="sickid" id="vo">
+								<option value="{$i}">{$vo}</option>
+							</volist>
+                        </select>
+                    </div>
+                </div>
+				<div class="row">
+					<label for="">患病时间</label>
+					<div class="form-group">
+                        <select name="illness_time" id="" class="form-control">
+                            <option>请选择</option>
+                            <option value="1">1年</option>
+                            <option value="2">2年</option>
+                            <option value="3">3年</option>
+                            <option value="4">4年</option>
+                            <option value="5">5年</option>
+                            <option value="6">5年以上</option>
+                        </select>
+					</div>
+				</div>
+				<div class="row">
+					<label for="">既往病史</label>
+					<div class="form-group">
+						<input type="text" class="form-control" name="illness_history" placeholder="请输入既往病史">
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">过敏史</label>
+					<div class="form-group">
+						<input type="text" class="form-control" name="gm_history" placeholder="请输入过敏史">
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">家族病史</label>
+					<div class="form-group">
+						<input type="text" class="form-control" name="jz_history" placeholder="请输入家族病史">
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">个人简历</label>
+					<div class="form-group">
+						<textarea name="description" placeholder="如：禁止吸烟喝酒"></textarea>
+					</div>
+				</div>
+				<input type="submit" id="submit" value="提交">
+
+			</fieldset>
+		</form>
+	    <!-- form end -->
+
+	</section>
+	
+	<script src="__ROOT__/Public/Home/js/jquery.min.js"></script>
+	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
+    <script src="__ROOT__/Public/Home/js/form.js"></script>
+    <script src="__ROOT__/Public/Home/js/citys/distpicker.data.js"></script>
+    <script src="__ROOT__/Public/Home/js/citys/distpicker.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true
+	        // 启用箭头
+	        // nextButton: '.swiper-button-next',
+	        // prevButton: '.swiper-button-prev'
+	    });
+
+		$(function(){
+            $("#address2 , #address1").distpicker({
+                autoSelect: false,
+                province: "请选择省",
+                city: "请选择市",
+                district: "请选择区"
+            });
+			$('#birthday').focus(function(){
+				$(this).attr('type', 'date');
+                $(this).focus();
+			});
+			$('#birthday').blur(function (){
+				$(this).attr('type', 'text');
+			});
+			// user-tab
+			$('.user-tab menu button').on('touchend',function(){
+				var	self =	$(this),
+					nums =  self.index();
+				
+				self.addClass('active').siblings('button').removeClass('active');
+				$('.user-item ul').eq(nums).show().siblings('ul').hide();
+			})
+
+
+		})
+
+	</script>	
+
+</body>
+</html>

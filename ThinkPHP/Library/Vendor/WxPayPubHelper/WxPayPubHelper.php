@@ -870,7 +870,7 @@ class JsApi_pub extends Common_util_pub
 	{
 		$jsApiObj["appId"] = WxPayConf_pub::APPID;
 		$timeStamp = time();
-	    $jsApiObj["timeStamp"] = "$timeStamp";
+	    $jsApiObj["timeStamp"] = (string)$timeStamp;
 	    $jsApiObj["nonceStr"] = $this->createNoncestr();
 		$jsApiObj["package"] = "prepay_id=$this->prepay_id";
 	    $jsApiObj["signType"] = "MD5";

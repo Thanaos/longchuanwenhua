@@ -10,28 +10,36 @@ class BaseController extends Controller{
         $this->userid = session('userid');
         $this->auth_userinfo = session('auth_userinfo');
         
-        if( empty($this->auth_userinfo) ){
-            $wx = $this->auths('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
-            if( $wx['userinfo']['nickname'] ){
-                session('auth_userinfo', $wx);
-                $this->auth_userinfo = $wx;
+        //获取信息
+        if( empty($this->auth_userinfo) && empty($this->userid) ){
+            do{
+                $wx = $this->auths('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+                if( $wx['userinfo']['nickname'] ){
+                    session('auth_userinfo', $wx);
+                    $this->auth_userinfo = $wx;
+                }
+            }while(empty($this->auth_userinfo));
+
+        }
+        if( empty($this->userid) ){
+            $user_info = M('member')->where(array('openid'=>$this->auth_userinfo['userinfo']['openid']))->find();
+            if( !$user_info ){
+                redirect(U('member/register'));
+                exit;
             }else{
-                exit('请稍后重试！');
+                $this->userid = $user_info['id'];
+                session('userid', $user_info['id']);
             }
         }
-    
-        $user = M('Member')->where(array('wxid'=>$this->auth_userinfo['userinfo']['openid']))->find();
-        if( empty($user) ){
-            //注册页面
-        }else{
-            //首页
+        if( $this->userid > 0 ){
+            $user_info = M('member')->where(array('id'=>$this->userid))->find();
+            $this->user_info = $user_info;
+            $this->assign('user_info', $user_info);
         }
+        //查询flash
+        $flash = M('flash')->select();
+        $this->assign('flash', $flash);
 
-        /* 生成微信分享信息 */
-        $wx_config = M('weixin_config')->where('id = 1')->find();
-        $jssdk = new \Org\Util\Wxsdk($wx_config['appid'], $wx_config['secret']);
-        $signPackage = $jssdk->GetSignPackage();
-        $this->assign('signPackage', $signPackage);
     }
 
 
@@ -53,6 +61,7 @@ class BaseController extends Controller{
     protected function auths($urls)
 	{
 	    $auth_userinfo = session('auth_userinfo');
+        $auth_userinfo = unserialize('a:2:{s:6:"openid";s:28:"oudL8vswIa3ST5abdKFjXDoYuKhM";s:8:"userinfo";a:9:{s:6:"openid";s:28:"oudL8vswIa3ST5abdKFjXDoYuKhM";s:8:"nickname";s:9:"夏文龙";s:3:"sex";i:1;s:8:"language";s:5:"zh_CN";s:4:"city";s:6:"青岛";s:8:"province";s:6:"山东";s:7:"country";s:6:"中国";s:10:"headimgurl";s:126:"http://wx.qlogo.cn/mmopen/nGL1ReThHaK024OpbuZwPBpTBWamG0jFgCxzfKd1nSLicEq98fVUG75x5QEgPf55N60ZHzYmpMWxIAdGj6ABe4OBia2MSE3IZH/0";s:9:"privilege";a:0:{}}}');
 	    if( $auth_userinfo ){
 	        return $auth_userinfo;
         }
