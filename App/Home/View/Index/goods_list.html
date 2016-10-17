@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>特尊医疗</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<!-- <meta name="format-detection" content="telephone=no"/> -->
+	<meta name="format-detection" content="email=no"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+	<link rel="stylesheet" href="__ROOT__/Public/Home/css/style.css">
+	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">
+</head>
+<body>
+	
+	<header>
+		<h1>诊疗套餐</h1>
+		<a href="" class="glyphicon glyphicon-chevron-left"></a>
+	</header>
+
+	<include file="./App/Home/View/Public/foot.html" />
+	<section class="page">
+
+		<include file="./App/Home/View/Public/head.html" />
+
+
+	    <!-- shop-list -->
+	    <div class="shop-list">
+	    	<volist name="goods_list" id="vo">
+	    	<div class="item">
+		    	<a href="{:U('index/goods_detail', array('id'=>$vo['id']))}">
+		    		<div class="name">{$vo.good_name}</div>
+		    		<span class="now-price">价格：￥{$vo.good_price}</span>
+		    	</a>
+	    	</div>
+			</volist>
+	    </div>
+
+
+	</section>
+	
+	<script src="__ROOT__/Public/Home/js/jquery.min.js"></script>
+	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true
+	        // 启用箭头
+	        // nextButton: '.swiper-button-next',
+	        // prevButton: '.swiper-button-prev'
+	    });
+	</script>	
+
+</body>
+</html>

@@ -1,0 +1,144 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="/longhcuanwenhua/favicon.ico" type="image/x-icon"/>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/style.css"/>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/common.js"></script>
+    <script src="/longhcuanwenhua/Public/Admin/js/jquery.page.js"></script>
+    <script src="/longhcuanwenhua/Public/Admin/js/layer/layer.js"></script>
+
+
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+    <style>
+        .tcdPageCode{padding: 15px 20px;text-align: left;color: #ccc;text-align:center;} .tcdPageCode a{display: inline-block;color: #428bca;display: inline-block;height: 25px;	line-height: 25px;	padding: 0 10px;border: 1px solid #ddd;	margin: 0 2px;border-radius: 4px;vertical-align: middle;} .tcdPageCode a:hover{text-decoration: none;border: 1px solid #428bca;} .tcdPageCode span.current{display: inline-block;height: 25px;line-height: 25px;padding: 0 10px;margin: 0 2px;color: #fff;background-color: #428bca;	border: 1px solid #428bca;border-radius: 4px;vertical-align: middle;} .tcdPageCode span.disabled {
+            display: inline-block;
+            height: 25px;
+            line-height: 25px;
+            padding: 0 10px;
+            margin: 0 2px;
+            color: #bfbfbf;
+            background: #f2f2f2;
+            border: 1px solid #bfbfbf;
+            border-radius: 4px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<form class="form-inline definewidth m20" action="<?php echo U('member/list');?>" method="post">
+    姓名：
+    <input type="text" name="name" id="name" class="abc input-default" placeholder="请输入用户姓名" value="<?php echo ($where["name"]); ?>">&nbsp;&nbsp;
+    手机：
+    <input type="text" name="mobile" id="mobile" class="abc input-default" placeholder="请输入手机号" value="<?php echo ($where["mobile"]); ?>">&nbsp;&nbsp;
+    身份证：
+    <input type="text" name="idCard" id="idCard" class="abc input-default" placeholder="请输入身份证号" value="<?php echo ($where["idCard"]); ?>">&nbsp;&nbsp;
+    <button type="submit" class="btn btn-primary">查询</button>
+</form>
+<table class="table table-bordered table-hover definewidth m10">
+    <thead>
+    <?php if(empty($list)): ?><tr>
+            <th style="text-align:center">
+                管理员太懒了！什么都没有留下！
+            </th>
+        </tr>
+        <?php else: ?>
+        <tr>
+            <th>姓名</th>
+            <th>出生日期</th>
+            <th>性别</th>
+            <th>身份证</th>
+            <th>手机</th>
+            <th>居住地</th>
+            <th>诊断</th>
+            <th>诊断医生</th>
+            <th>申请日期</th>
+            <th>操作</th>
+        </tr><?php endif; ?>
+    </thead>
+    <?php if(is_array($list)): foreach($list as $key=>$vo): ?><tr>
+            <td><?php echo ($vo["name"]); ?></td>
+            <td><?php echo ($vo["birthday"]); ?></td>
+            <td><?php if($vo["sex"] == 1): ?>男<?php else: ?>女<?php endif; ?></td>
+            <td><?php echo ($vo["idcard"]); ?></td>
+            <td><?php echo ($vo["mobile"]); ?></td>
+            <td><?php echo ($vo["domicile"]); ?></td>
+            <td><?php echo ($vo["bbzd"]); ?></td>
+            <td><?php echo ($vo["zd_doctor"]); ?></td>
+            <td style="text-align:left"><?php echo (date('Y-m-d H:i:s',$vo["addtime"])); ?></td>
+            <td style="width:120px;">
+                <a href="javascript:;" onclick="get_sub_detail('<?php echo ($vo["name"]); ?>的补贴申请', '<?php echo U("member/subsidies_detail", array("id"=>$vo['sid']));?>')" class="show" >查询详情</a>
+            </td>
+        </tr><?php endforeach; endif; ?>
+</table>
+<div class="tcdPageCode"></div>
+
+</body>
+</html>
+<script>
+
+    function get_sub_detail(title, content){
+        layer.open({
+            type: 2,
+            title: title,
+            shadeClose: true,
+            shade: 0.8,
+            area: ['900px', '90%'],
+            content: content
+        });
+    }
+    $(".tcdPageCode").createPage({
+        pageCount:<?php echo ($show["pageCount"]); ?>,
+        current:<?php echo ($show["current"]); ?>,
+        backFn: function ( p ){
+            window.location.href = '/longhcuanwenhua/index.php?s=/admin/news/<?php echo ($type); ?>/' + p + '.html';
+        }
+    });
+    $(function (){
+
+        $('#addnew').click(function (){
+            window.location.href = "/longhcuanwenhua/index.php?s=/admin/user/edit.html";
+        });
+
+        $('.del').click(function (){
+            var r = confirm("确定要删除该数据？");
+            var newsId = $(this).attr("name");
+            if ( r == true ){
+                $.post("/longhcuanwenhua/index.php?s=/admin/user/del.html",{id:newsId}, function ( data ){
+                    if ( data.status == 'y' ){
+                        alert(data.msg);
+                        document.location.reload();
+                    } else{
+                        alert(data.msg);
+                    }
+                }, 'json');
+            }
+        });
+    });
+
+</script>

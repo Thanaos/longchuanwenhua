@@ -1,0 +1,20 @@
+<footer>
+    <menu>
+        <a href="{:U('index/index')}" <empty name="action">class="active"</empty>>
+            <span class="glyphicon glyphicon-home"></span>
+            <small>首页</small>
+        </a>
+        <a href="{:U('index/order')}" <if condition="$action eq 'order'">class="active"</if>>
+            <span class="glyphicon glyphicon-list"></span>
+            <small>订单详情</small>
+        </a>
+        <a href="">
+            <span class="glyphicon glyphicon-shopping-cart"></span>
+            <small>缴费结算</small>
+        </a>
+        <a href="">
+            <span class="glyphicon glyphicon-user"></span>
+            <small>会员信息</small>
+        </a>
+    </menu>
+</footer>

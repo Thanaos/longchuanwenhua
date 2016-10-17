@@ -1,0 +1,20 @@
+[ 2016-09-13T13:08:03+08:00 ] 61.135.190.200 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016150s ]
+NOTIC: [8] Use of undefined constant CURL_SSLVERSION_TLSv1 - assumed 'CURL_SSLVERSION_TLSv1' D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 106 行.
+NOTIC: [8] Undefined index: nickname D:\wwwroot\longchuanwenhua\wwwroot\App\Home\Controller\BaseController.class.php 第 16 行.
+
+[ 2016-09-13T22:18:38+08:00 ] ::1 /longchuanwenhua/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] Undefined index: nickname D:\www\longchuanwenhua\App\Home\Controller\BaseController.class.php 第 17 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'longchuanwenhua'@'localhost' (using password: YES)
+

@@ -1,0 +1,2173 @@
+[ 2016-09-29T10:15:03+08:00 ] ::1 /longhcuanwenhua/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0562s ]
+SQL: SELECT * FROM `tp_member` WHERE `openid` = 'oudL8vswIa3ST5abdKFjXDoYuKhM' LIMIT 1   [ RunTime:0.0429s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0412s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0414s ]
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0544s ]
+SQL: SELECT * FROM `tp_package` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: time D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-09-29T10:15:57+08:00 ] ::1 /longhcuanwenhua/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0482s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0441s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0466s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0465s ]
+SQL: SELECT * FROM `tp_package` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: time D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2016-09-29T10:17:05+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/getVIp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0416s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0459s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0417s ]
+NOTIC: [2] Missing argument 1 for getMoneyByAge(), called in D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php on line 35 and defined D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 21 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 28 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 30 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 32 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 34 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 36 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `tp_package`  [ RunTime:0.0416s ]
+SQL: SHOW COLUMNS FROM `tp_package_type` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 1  [ RunTime:0.0407s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 2  [ RunTime:0.0421s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 3  [ RunTime:0.0408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2016-09-29T10:20:05+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/getVIp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0434s ]
+NOTIC: [2] Missing argument 1 for getMoneyByAge(), called in D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php on line 35 and defined D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 21 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 28 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 30 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 32 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 34 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 36 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0465s ]
+SQL: SELECT * FROM `tp_package`  [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `tp_package_type` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 1  [ RunTime:0.0424s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 2  [ RunTime:0.0440s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 3  [ RunTime:0.0429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined index: type_scale1 D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\c57ae7576c6a26cf88eba2a917bda9b4.php 第 115 行.
+NOTIC: [8] Undefined index: type_scale2 D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\c57ae7576c6a26cf88eba2a917bda9b4.php 第 119 行.
+NOTIC: [8] Undefined index: type_scale1 D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\c57ae7576c6a26cf88eba2a917bda9b4.php 第 115 行.
+NOTIC: [8] Undefined index: type_scale2 D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\c57ae7576c6a26cf88eba2a917bda9b4.php 第 119 行.
+NOTIC: [8] Undefined index: type_scale1 D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\c57ae7576c6a26cf88eba2a917bda9b4.php 第 115 行.
+NOTIC: [8] Undefined index: type_scale2 D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\c57ae7576c6a26cf88eba2a917bda9b4.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-09-29T10:20:52+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/getVIp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0467s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0436s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0407s ]
+NOTIC: [2] Missing argument 1 for getMoneyByAge(), called in D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php on line 35 and defined D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 21 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 28 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 30 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 32 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 34 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 36 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `tp_package`  [ RunTime:0.0422s ]
+SQL: SHOW COLUMNS FROM `tp_package_type` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 1  [ RunTime:0.0412s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 2  [ RunTime:0.0411s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 3  [ RunTime:0.0407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000278s ]
+
+[ 2016-09-29T10:29:52+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/getVIp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0702s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0545s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0469s ]
+NOTIC: [2] Missing argument 1 for getMoneyByAge(), called in D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php on line 35 and defined D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 21 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 28 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 30 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 32 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 34 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 36 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0464s ]
+SQL: SELECT * FROM `tp_package`  [ RunTime:0.0474s ]
+SQL: SHOW COLUMNS FROM `tp_package_type` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 1  [ RunTime:0.0461s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 2  [ RunTime:0.0440s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 3  [ RunTime:0.0545s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-09-29T15:32:49+08:00 ] ::1 /longhcuanwenhua/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0714s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0488s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.1583s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0996s ]
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.1332s ]
+SQL: SELECT * FROM `tp_package` WHERE `id` = 3 LIMIT 1   [ RunTime:0.1065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: time D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2016-09-29T15:32:53+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0411s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2016-09-29T15:34:00+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.1361s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.1193s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.1380s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.1334s ]
+ERR: 模板不存在:./App/Home/View/Index/goods.html
+
+[ 2016-09-29T15:34:12+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0973s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0934s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.1010s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2016-09-29T15:35:40+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.1125s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0734s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0777s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0712s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004267s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2016-09-29T15:35:47+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0599s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0411s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-09-29T15:39:13+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.3279s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.3220s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.3311s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.3560s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.3256s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.3436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: good_price D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\17c4bca283389dd62725b9c7ba8c16bb.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005431s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-09-29T15:39:25+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.3307s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.3084s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.3206s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.3183s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.3471s ]
+SQL: SELECT * FROM `tp_goods`  [ RunTime:0.3418s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2016-09-29T15:39:32+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.3458s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.3559s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.3330s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.3605s ]
+ERR: 非法操作:goods_detail
+
+[ 2016-09-29T15:41:26+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.3284s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.3013s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.3254s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.3359s ]
+ERR: 非法操作:goods_detail
+
+[ 2016-09-29T15:41:36+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.3349s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.3386s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.3301s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.3287s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.3402s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.3299s ]
+ERR: 模板不存在:./App/Home/View/Index/goods_detail.html
+
+[ 2016-09-29T15:41:45+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.3406s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.3086s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.2905s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.3294s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.4491s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.3348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-09-29T15:43:25+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0465s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0483s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0467s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0421s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2016-09-29T15:52:06+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0505s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0402s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+
+[ 2016-09-29T15:52:45+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0538s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0416s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0410s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: goods_data D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\1a107889ae1a36e116a772b0e3a9e0bd.php 第 66 行.
+NOTIC: [8] Undefined variable: goods_data D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\1a107889ae1a36e116a772b0e3a9e0bd.php 第 67 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011077s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-09-29T15:53:05+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0758s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.1142s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0892s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0402s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0405s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-09-29T15:53:32+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0459s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0449s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0467s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0449s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-09-29T15:53:43+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0423s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0417s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0414s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2016-09-29T15:53:55+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0664s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0412s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0538s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0415s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+
+[ 2016-09-29T15:54:32+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0428s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0406s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0473s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0411s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+
+[ 2016-09-29T15:57:46+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0380s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0580s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0368s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0372s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-09-29T15:59:00+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0404s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-09-29T15:59:18+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0426s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0397s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0398s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004532s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2016-09-29T15:59:20+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0481s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0424s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0412s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2016-09-29T15:59:34+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0464s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0439s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004539s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000307s ]
+
+[ 2016-09-29T16:00:42+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0458s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0429s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.1068s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-09-29T16:03:36+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/getVIp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0466s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0494s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0411s ]
+NOTIC: [2] Missing argument 1 for getMoneyByAge(), called in D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php on line 35 and defined D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 21 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 28 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 30 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 32 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 34 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 36 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `tp_package`  [ RunTime:0.0423s ]
+SQL: SHOW COLUMNS FROM `tp_package_type` [ RunTime:0.0459s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 1  [ RunTime:0.0412s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 2  [ RunTime:0.0406s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 3  [ RunTime:0.0408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2016-09-29T16:03:38+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0419s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0419s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-09-29T16:04:17+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0411s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0417s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-09-29T16:06:19+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0452s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0383s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0395s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0389s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000347s ]
+
+[ 2016-09-29T16:06:42+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0427s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0487s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0757s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0845s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2016-09-29T16:06:45+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0434s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0436s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0452s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0491s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004436s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-09-29T16:09:37+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0358s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0359s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0362s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-09-29T16:24:02+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0665s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0559s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0517s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0594s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0561s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0433s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-09-29T16:28:05+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0528s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0536s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0411s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-09-29T16:28:18+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0451s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-09-29T16:29:31+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.1108s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0860s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0748s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0473s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0700s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0515s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-09-29T16:29:34+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/sub_goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0454s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0486s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0445s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0480s ]
+SQL: INSERT INTO `tp_goods_order` (`user_id`,`yuan_money`,`money`,`addtime`,`order_sn`) VALUES ('1','5900.00','0','1475137774','1475137774') [ RunTime:0.0460s ]
+
+[ 2016-09-29T16:29:34+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0445s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `tp_package` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Undefined variable: time D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005598s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2016-09-29T16:30:18+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/sub_goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000398s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0504s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0446s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0465s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0490s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0435s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0457s ]
+SQL: INSERT INTO `tp_goods_order` (`user_id`,`yuan_money`,`money`,`addtime`,`order_sn`,`order_status`) VALUES ('1','5900.00','0','1475137818','1475137818','2') [ RunTime:0.0460s ]
+
+[ 2016-09-29T16:30:19+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0425s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0421s ]
+SQL: SELECT * FROM `tp_package` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0399s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: time D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\00e52909bed743ea261af4b6823297ff.php 第 69 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2016-09-29T16:31:11+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.3393s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0393s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0458s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0389s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2016-09-29T16:31:14+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/sub_goods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0371s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0458s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0368s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 147 行.
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0408s ]
+SQL: INSERT INTO `tp_goods_order` (`user_id`,`yuan_money`,`money`,`addtime`,`order_sn`) VALUES ('1','5900.00','2950','1475137873','1475137873') [ RunTime:0.0369s ]
+NOTIC: [8] Use of undefined constant CURLOP_TIMEOUT - assumed 'CURLOP_TIMEOUT' D:\WWW\longhcuanwenhua\ThinkPHP\Library\Vendor\WxPayPubHelperGood\WxPayPubHelper.php 第 154 行.
+NOTIC: [2] curl_setopt() expects parameter 2 to be long, string given D:\WWW\longhcuanwenhua\ThinkPHP\Library\Vendor\WxPayPubHelperGood\WxPayPubHelper.php 第 154 行.
+NOTIC: [2] curl_close(): 35 is not a valid cURL handle resource D:\WWW\longhcuanwenhua\ThinkPHP\Library\Vendor\WxPayPubHelperGood\WxPayPubHelper.php 第 174 行.
+NOTIC: [8] Undefined index: prepay_id D:\WWW\longhcuanwenhua\ThinkPHP\Library\Vendor\WxPayPubHelperGood\WxPayPubHelper.php 第 361 行.
+
+[ 2016-09-29T16:47:24+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.3466s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0833s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0422s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.1292s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.1478s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2016-09-29T16:48:12+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.1047s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0447s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0435s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000331s ]
+
+[ 2016-09-29T16:49:12+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.3363s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0499s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0679s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0488s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000289s ]
+
+[ 2016-09-29T16:49:33+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.2526s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0697s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0427s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0419s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+
+[ 2016-09-29T16:50:15+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0493s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0455s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0454s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0434s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0425s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2016-09-29T16:50:18+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0417s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0417s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-09-29T16:52:39+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/goods_detail/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0422s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0409s ]
+NOTIC: [8] Indirect modification of overloaded property Home\Controller\IndexController::$user_info has no effect D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php 第 128 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2016-09-29T17:02:24+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/getVIp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0572s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0402s ]
+NOTIC: [2] Missing argument 1 for getMoneyByAge(), called in D:\WWW\longhcuanwenhua\App\Home\Controller\IndexController.class.php on line 35 and defined D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 21 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 28 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 30 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 32 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 34 行.
+NOTIC: [8] Undefined variable: age D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 36 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 41 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 42 行.
+NOTIC: [8] Undefined variable: key D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+NOTIC: [8] Undefined index:  D:\WWW\longhcuanwenhua\App\Home\Common\function.php 第 43 行.
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `tp_package`  [ RunTime:0.0406s ]
+SQL: SHOW COLUMNS FROM `tp_package_type` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 1  [ RunTime:0.0406s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 2  [ RunTime:0.0427s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 3  [ RunTime:0.0404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-09-29T17:02:26+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0417s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2016-09-29T17:02:43+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0425s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2016-09-29T17:04:06+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0649s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0419s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2016-09-29T17:05:05+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0398s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2016-09-29T17:05:21+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0387s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0378s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0363s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0371s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2016-09-29T17:11:30+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0448s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0527s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0472s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0711s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0424s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000383s ]
+
+[ 2016-09-29T17:11:42+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0404s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2016-09-29T17:11:44+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0367s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0396s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0365s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2016-09-29T17:12:04+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0434s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2016-09-29T17:13:41+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0416s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2016-09-29T17:13:43+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order/status/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0465s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0473s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0451s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0447s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2016-09-29T17:13:45+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order/status/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2016-09-29T17:16:53+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order/status/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0404s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2016-09-29T17:16:57+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order/status/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2016-09-29T17:17:29+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order/status/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0460s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0411s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0405s ]
+
+[ 2016-09-29T17:17:45+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order/status/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0505s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0428s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 AND `order_status` = 0 ORDER BY id desc  [ RunTime:0.0438s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2016-09-29T17:17:48+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order/status/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0425s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0453s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 AND `order_status` = 2 ORDER BY id desc  [ RunTime:0.0417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2016-09-29T17:17:52+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order/status/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0424s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 AND `order_status` = 0 ORDER BY id desc  [ RunTime:0.0429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-09-29T17:17:54+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0619s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0509s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0708s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0503s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0468s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2016-09-29T17:17:57+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order/status/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000339s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0788s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0652s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0703s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0909s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0759s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-09-29T17:18:40+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.2023s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0840s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.1007s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0452s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0410s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011810s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2016-09-29T17:21:37+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0449s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0451s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: action D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\96e439737d56cff311c8a2e86738f072.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-09-29T17:21:39+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0419s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0408s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: action D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\96e439737d56cff311c8a2e86738f072.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-09-29T17:21:41+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0593s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0413s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: action D:\WWW\longhcuanwenhua\App\Runtime\Cache\Home\96e439737d56cff311c8a2e86738f072.php 第 30 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2016-09-29T17:22:41+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0424s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005642s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2016-09-29T17:22:44+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0403s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.1973s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0404s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000279s ]
+
+[ 2016-09-29T17:23:04+08:00 ] ::1 /longhcuanwenhua/index.php?s=/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `tp_member` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0419s ]
+SQL: SHOW COLUMNS FROM `tp_flash` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `tp_flash`  [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `tp_goods_order` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `tp_goods_order` WHERE `user_id` = 1 ORDER BY id desc  [ RunTime:0.0420s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+

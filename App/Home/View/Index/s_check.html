@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>特尊医疗</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<!-- <meta name="format-detection" content="telephone=no"/> -->
+	<meta name="format-detection" content="email=no"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+	<link rel="stylesheet" href="__ROOT__/Public/Home/css/style.css">
+	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">
+    <script src="__ROOT__/Public/Home/js/jquery.min.js?v=20160924"></script>
+    <script  src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/Home/js/layer/layer.js"></script>
+</head>
+<body>
+
+	<header>
+		<h1>申请会员</h1>
+		<a href="" class="glyphicon glyphicon-chevron-left"></a>
+	</header>
+
+	<include file="./App/Home/View/Public/foot.html" />
+	<section class="page">
+        <include file="./App/Home/View/Public/head.html" />
+
+
+
+	    <!-- form start -->
+		<form action="{:U('index/save_check')}" method="post">
+			<fieldset>
+
+                <h3>请上传体检证明</h3>
+                <div class="img-list">
+
+                    <ul class="clearfix">
+
+                        <li class="img-add" id="bl_btn">
+                            <i class="glyphicon glyphicon-plus" id="bl_img"></i>
+                        </li>
+                    </ul>
+                    <input type="hidden" name="bl_img" id="bl_image">
+                </div>
+
+
+				<input type="submit" id="submit" value="提交">
+
+			</fieldset>
+		</form>
+	    <!-- form end -->
+
+	</section>
+
+	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
+
+	<script src="__ROOT__/Public/Home/js/citys/distpicker.data.js"></script>
+	<script src="__ROOT__/Public/Home/js/citys/distpicker.js"></script>
+    <script src="__ROOT__/Public/Home/js/sub_form.js"></script>
+
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true
+	        // 启用箭头
+	        // nextButton: '.swiper-button-next',
+	        // prevButton: '.swiper-button-prev'
+	    });
+
+		$(function(){
+
+			// user-tab
+			$('.user-tab menu button').on('touchend',function(){
+				var	self =	$(this),
+					nums =  self.index();
+
+				self.addClass('active').siblings('button').removeClass('active');
+				$('.user-item ul').eq(nums).show().siblings('ul').hide();
+			})
+
+
+            $(document).on('click', '.glyphicon-remove',function(){
+                var id = $(this).attr('data-id');
+                var id = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr';
+                var img_str = $('#bl_image').val();
+                var img_str = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr,QLXIQRqC0YuIq3sqwAkqoXHj8Z-s5IIsoz950uZPEK2vVFVx4bmXU0ZO4PwLliTQ';
+                var img_arr = img_str.split(',');
+                for(var v in img_arr){
+                    if( img_arr[v] == id ){
+                        img_arr.splice(v,1);
+                    }
+                }
+                var new_img_str = img_arr.join(',');
+                $('#bl_image').val(new_img_str);
+                $(this).parent().remove();
+            })
+
+		})
+
+	</script>
+    <!-- 微信SDK -->
+    <script>
+        wx.config({
+                appId: '{$signPackage.appId}', // 必填，公众号的唯一标识
+                timestamp: {$signPackage.timestamp}, // 必填，生成签名的时间戳
+            nonceStr: '{$signPackage.nonceStr}', // 必填，生成签名的随机串
+            signature: '{$signPackage.signature}',// 必填，签名，见附录1
+            jsApiList: ['chooseImage','previewImage','uploadImage'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+        });
+        wx.ready(function(){
+            document.querySelector('#bl_img').onclick = function () {
+                var images = {
+                    localId: [],
+                    serverId: []
+                };
+                function upload(i, length, serverId) {
+                    wx.uploadImage({
+                        localId: images.localId[i],
+                        success: function (res) {
+                            i++;
+                            serverId.push(res.serverId);
+                            if (i < length) {
+                                upload(i, length, serverId);
+                            }
+                            if(i >= length){
+                                layer.open({type: 2});
+                                $.post("{:U('Index/uploadImg')}", {serverIds:'"'+serverId+'"'},function(data){
+                                    if( data.status == 'y' ){
+                                        var server_img = data.server.server_img;
+                                        var server_str = '';
+                                        $('#bl_image').val(data.server.server_id);
+                                        for( var i =0;i < server_img.length;i++ ){
+                                           $('#bl_btn').before('<li> <img src="__ROOT__'+server_img[i]['path']+'" alt=""> <span class="glyphicon glyphicon-remove" data-id="'+server_img[i]['id']+'"></span> </li>');
+                                            layer.closeAll();
+                                        }
+                                    }else{
+                                        alert(data.msg);
+                                        layer.closeAll();
+                                    }
+                                },'json')
+                            }
+                        },
+                        fail: function (res) {
+                            alert(JSON.stringify(res));
+                        }
+                    });
+                }
+                wx.chooseImage({
+                    count: 9,
+                    success: function (res) {
+                        images.localId = res.localIds;
+                        var i = 0, length = images.localId.length;
+                        serverId = [];
+                        setTimeout(function(){
+                            upload(i, length, serverId)
+                        },100)
+                    }
+                });
+            };
+            /*
+            document.querySelector('.item').onclick = function () {
+                wx.previewImage({
+                    urls: [
+                    <volist name="photo" id="vo">
+                    'http://'+window.location.host+'{$vo.path}',
+                </volist>
+                ]
+            });
+            };
+           */
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="__ROOT__/favicon.ico" type="image/x-icon"/>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/Admin/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/Admin/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/Admin/css/style.css"/>
+    <script type="text/javascript" src="__ROOT__/Public/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/Admin/js/common.js"></script>
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/Admin/css/jquery-ui.css" />
+    <script src="__ROOT__/Public/Admin/js/jquery.page.js"></script>
+    <script src="__ROOT__/Public/Admin/js/layer/layer.js"></script>
+    <script src="__ROOT__/Public/Admin/js/laydate/laydate.js"></script>
+
+
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+    <style>
+        .tcdPageCode{padding: 15px 20px;text-align: left;color: #ccc;text-align:center;} .tcdPageCode a{display: inline-block;color: #428bca;display: inline-block;height: 25px;	line-height: 25px;	padding: 0 10px;border: 1px solid #ddd;	margin: 0 2px;border-radius: 4px;vertical-align: middle;} .tcdPageCode a:hover{text-decoration: none;border: 1px solid #428bca;} .tcdPageCode span.current{display: inline-block;height: 25px;line-height: 25px;padding: 0 10px;margin: 0 2px;color: #fff;background-color: #428bca;	border: 1px solid #428bca;border-radius: 4px;vertical-align: middle;} .tcdPageCode span.disabled {
+            display: inline-block;
+            height: 25px;
+            line-height: 25px;
+            padding: 0 10px;
+            margin: 0 2px;
+            color: #bfbfbf;
+            background: #f2f2f2;
+            border: 1px solid #bfbfbf;
+            border-radius: 4px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<form class="form-inline definewidth m20" action="{:U('order/list')}" method="post">
+    开始时间：
+    <input type="text" name="start_time" id="start_time" class="abc input-default" placeholder="请选择时间" value="{$where.start}" onclick="laydate()">&nbsp;&nbsp;
+    结束时间：
+    <input type="text" name="end_time" id="end_time" class="abc input-default" placeholder="请选择时间" value="{$where.end}" onclick="laydate()">&nbsp;&nbsp;
+    <button type="submit" class="btn btn-primary">查询</button>
+</form>
+<div style="margin-top:10px;margin-left:30px"><span>平台总收益：{$count_money} 元</div>
+<table class="table table-bordered table-hover definewidth m10">
+    <thead>
+    <empty name="list">
+        <tr>
+            <th style="text-align:center">
+                管理员太懒了！什么都没有留下！
+            </th>
+        </tr>
+        <else/>
+        <tr>
+            <th>姓名</th>
+            <th>手机</th>
+            <th>套餐名称</th>
+            <th>应支付金额</th>
+            <th>支付金额</th>
+            <th>支付状态</th>
+            <th>支付时间</th>
+        </tr>
+    </empty>
+    </thead>
+    <foreach name="list" item="vo">
+        <tr>
+            <td>{$vo.name}</td>
+            <td>{$vo.mobile}</td>
+            <td>{$vo.goods_name}</td>
+            <td>{$vo.yuan_money} 元</td>
+            <td>{$vo.money} 元</td>
+            <td>支付成功</td>
+            <td style="text-align:left">{$vo.addtime|date='Y-m-d H:i:s',###}</td>
+        </tr>
+    </foreach>
+</table>
+<div class="tcdPageCode"></div>
+<volist name="list" id="vo">
+<!-- 弹出层 -->
+<div class="modal fade" id="myModal_{$vo.id}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    ×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    病情明细
+                </h4>
+            </div>
+
+            <div class="modal-body">
+                <table class="table">
+                    <tbody>
+                    <tr>
+                        <td>临床诊断</td>
+                        <td>{$sickid[$vo['diagnose']]}</td>
+                    </tr>
+                    <tr>
+                        <td>患病时长</td>
+                        <td><if condition="$vo.illness_time lt 6">{$vo.illness_time} 年<else />5年以上</if></td>
+                    </tr>
+
+                    <tr>
+                        <td>既往病史</td>
+                        <td>{$vo.illness_history}</td>
+                    </tr>
+
+                    <tr>
+                        <td>过敏史</td>
+                        <td>{$vo.gm_history}</td>
+                    </tr>
+
+                    <tr>
+                        <td>家族史</td>
+                        <td>{$vo.jz_history}</td>
+                    </tr>
+
+                    <tr>
+                        <td>长期居住地</td>
+                        <td>{$vo.cq_domicile}</td>
+                    </tr>
+
+                    <tr>
+                        <td>个人简史</td>
+                        <td>{$vo.description}</td>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+</volist>
+</body>
+</html>
+<script>
+    $(".tcdPageCode").createPage({
+        pageCount:{$show.pageCount},
+        current:{$show.current},
+        backFn: function ( p ){
+            window.location.href = '__APP__/admin/news/{$type}/' + p + '.html';
+        }
+    });
+    $(function (){
+
+        $('#addnew').click(function (){
+            window.location.href = "__APP__/admin/user/edit.html";
+        });
+
+        $('.del').click(function (){
+            var r = confirm("确定要删除该数据？");
+            var newsId = $(this).attr("name");
+            if ( r == true ){
+                $.post("__APP__/admin/user/del.html",{id:newsId}, function ( data ){
+                    if ( data.status == 'y' ){
+                        alert(data.msg);
+                        document.location.reload();
+                    } else{
+                        alert(data.msg);
+                    }
+                }, 'json');
+            }
+        });
+    });
+
+</script>
+

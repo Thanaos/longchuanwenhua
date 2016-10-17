@@ -1,0 +1,127 @@
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class BaseController extends Controller{
+    
+    public function __construct()
+    {
+        parent::__construct();
+        //检测是否是注册用户
+        $this->userid = session('userid');
+        $this->auth_userinfo = session('auth_userinfo');
+        //获取信息
+        if( empty($this->auth_userinfo) && empty($this->userid) ){
+            do{
+                $wx = $this->auths('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+				dump($wx);
+                if( $wx['userinfo']['nickname'] ){
+                    session('auth_userinfo', $wx);
+                    $this->auth_userinfo = $wx;
+					dump($this->auth_userinfo);
+					exit;
+                }else{
+					dump(111);
+				}
+				exit;
+            }while(empty($this->auth_userinfo));
+
+        }
+		dump($this->auth_userinfo);
+		exit;
+        if( empty($this->userid) ){
+            $user_info = M('member')->where(array('openid'=>$this->auth_userinfo['userinfo']['openid']))->find();
+            if( !$user_info ){
+                redirect(U('member/register'));
+                exit;
+            }else{
+                $this->userid = $user_info['id'];
+                session('userid', $user_info['id']);
+            }
+        }
+        if( $this->userid > 0 ){
+            $user_info = M('member')->where(array('id'=>$this->userid))->find();
+            $this->user_info = $user_info;
+            $this->assign('user_info', $user_info);
+        }
+        //查询flash
+        $flash = M('flash')->select();
+        $this->assign('flash', $flash);
+
+    }
+
+
+    /* 微信自动登录所需函数START */
+    
+    protected function cookie($var, $value = '', $time = 0, $path = '', $domain = '', $s = false)
+	{
+		error_reporting(E_ALL ^ E_NOTICE);
+		$_COOKIE[$var] = $value;
+		if (is_array($value)) {
+			foreach ($value as $k => $v) {
+				@setcookie($var . '[' . $k . ']', $v, $time, $path, $domain, $s);
+			}
+		} else {
+			@setcookie($var, $value, $time, $path, $domain, $s);
+		}
+	}
+
+    protected function auths($urls)
+	{
+//	    $auth_userinfo = session('auth_userinfo');
+//        $auth_userinfo = unserialize('a:2:{s:6:"openid";s:28:"oudL8vswIa3ST5abdKFjXDoYuKhM";s:8:"userinfo";a:9:{s:6:"openid";s:28:"oudL8vswIa3ST5abdKFjXDoYuKhM";s:8:"nickname";s:9:"夏文龙";s:3:"sex";i:1;s:8:"language";s:5:"zh_CN";s:4:"city";s:6:"青岛";s:8:"province";s:6:"山东";s:7:"country";s:6:"中国";s:10:"headimgurl";s:126:"http://wx.qlogo.cn/mmopen/nGL1ReThHaK024OpbuZwPBpTBWamG0jFgCxzfKd1nSLicEq98fVUG75x5QEgPf55N60ZHzYmpMWxIAdGj6ABe4OBia2MSE3IZH/0";s:9:"privilege";a:0:{}}}');
+		$openid = '';
+		$access_token = '';
+		$ret = array();
+        
+        if(empty($_GET['code'])){
+            $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0b184188b0865ca9&redirect_uri=".urlencode($urls)."&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect";
+            //$url="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx0b184188b0865ca9&redirect_uri=".urlencode($urls)."&response_type=code&scope=snsapi_base&state=1#wechat_redirect";
+            Header("Location: $url");
+        }
+        if(!empty($_GET['code'])){
+            $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx0b184188b0865ca9&secret=55af2a82817520f7873d50fef46c3211&code=".$_GET['code']."&grant_type=authorization_code";
+            $datas = $this->https_request($url);
+            $result = json_decode($datas,true);
+            $openid = $result['openid'];
+            $access_token = $result['access_token'];
+            //$this->cookie('openid',$openid,time()+3600*24*365,"/");
+        }
+		
+        /*
+		$tokenurl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx0b184188b0865ca9&secret=55af2a82817520f7873d50fef46c3211";
+		$tokresult = $this->https_request($tokenurl);
+		$jsoninfo = json_decode($tokresult, true);
+		$access_token = $result['access_token'];
+        */
+        $url = "https://api.weixin.qq.com/sns/userinfo?access_token=".$access_token."&openid=".$openid."&lang=zh_CN";
+		//$url = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=".$access_token."&openid=".$openid;
+		$res = $this->https_request($url);
+		$results = json_decode($res,true);
+
+		$ret['openid'] = $openid;
+		$ret['userinfo'] = $results;
+
+		return $ret;
+	}
+
+
+    protected function https_request($url, $data = null)
+	{
+		$curl = curl_init();
+		curl_setopt($curl, CURLOPT_URL, $url);
+		curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+		curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, FALSE);
+		curl_setopt($curl, CURLOPT_SSLVERSION, CURL_SSLVERSION_TLSv1);
+		if (!empty($data)){
+			curl_setopt($curl, CURLOPT_POST, 1);
+			curl_setopt($curl, CURLOPT_POSTFIELDS, $data);
+		}
+		curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+		$output = curl_exec($curl);
+		curl_close($curl);
+		return $output;
+	}
+
+    /* 微信自动登录所需函数END */
+
+}

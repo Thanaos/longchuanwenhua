@@ -1,0 +1,17 @@
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <volist name="flash" id="vo">
+        <div class="swiper-slide">
+            <a href="http://{$vo.url}"><img src="__ROOT__/{$vo.image}" alt=""></a>
+        </div>
+        </volist>
+    </div>
+    <!-- 启用下标 -->
+    <div class="swiper-pagination"></div>
+    <!-- 启用左右箭头 -->
+    <!--
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    -->
+</div>

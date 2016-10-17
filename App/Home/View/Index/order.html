@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>特尊医疗</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<!-- <meta name="format-detection" content="telephone=no"/> -->
+	<meta name="format-detection" content="email=no"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+	<link rel="stylesheet" href="__ROOT__/Public/Home/css/style.css">
+	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">
+</head>
+<body>
+	
+	<header>
+		<h1>我的订单</h1>
+		<a href="" class="glyphicon glyphicon-chevron-left"></a>
+	</header>
+
+
+	<include file="./App/Home/View/Public/foot.html"/>
+
+	<section class="page">
+
+		<include file="./App/Home/View/Public/head.html" />
+
+
+		<div class="user-type">
+			<span>姓名：{$user_info.name}</span>
+			<span>身份证号：{$user_info.idcard}</span>
+		</div>
+
+		<div class="user-tab">
+			<menu>
+				<button <if condition="$status eq 1">class="active"</if>><a href="{:U('index/order', array('status'=>1))}">全部</a></button>
+				<button <if condition="$status eq 2">class="active"</if>><a href="{:U('index/order', array('status'=>2))}">未付款</a></button>
+				<button <if condition="$status eq 3">class="active"</if>><a href="{:U('index/order', array('status'=>3))}">已付款</a></button>
+			</menu>
+
+			<div class="user-item">
+				<ul style="display: block">
+                    <volist name="order_list" id="vo">
+					<li>
+						<a href="">
+							<span class="time">{$vo.addtime|date='Y-m-d',###}</span>
+							<strong>{$vo.goods_name}</strong>
+							<small>&gt;</small>
+							<span class="status"><if condition="$vo.order_status eq 0">未付款<elseif condition="$vo.order_status eq 2" />已付款</if></span>
+						</a>
+					</li>
+					</volist>
+				</ul>
+			</div>
+
+		</div>
+
+	</section>
+	
+	<script src="__ROOT__/Public/Home/js/jquery.min.js"></script>
+	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true
+	        // 启用箭头
+	        // nextButton: '.swiper-button-next',
+	        // prevButton: '.swiper-button-prev'
+	    });
+
+		$(function(){
+
+		})
+
+	</script>	
+
+</body>
+</html>

@@ -1,0 +1,349 @@
+[ 2016-09-25T11:57:04+08:00 ] ::1 /longchuanwenhua/index.php?s=/admin/income/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0634s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0612s ]
+NOTIC: [8] Undefined index: id D:\www\longchuanwenhua\App\Admin\Controller\FinanceController.class.php 第 8 行.
+SQL: SHOW COLUMNS FROM `tp_vip_order` [ RunTime:0.0644s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_vip_order as o WHERE (  o.order_status = 2 ) LIMIT 1   [ RunTime:0.0608s ]
+SQL: SELECT o.*,m.name,m.birthday,m.idCard,m.mobile FROM tp_vip_order as o left JOIN tp_member as m on o.user_id = m.id  WHERE (  o.order_status = 2 ) LIMIT 0,20   [ RunTime:0.0625s ]
+SQL: SHOW COLUMNS FROM `tp_vip_order` [ RunTime:0.0640s ]
+SQL: SELECT SUM(money) AS tp_sum FROM `tp_vip_order` WHERE ( order_status = 2 ) LIMIT 1   [ RunTime:0.0609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined index: name D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 57 行.
+NOTIC: [8] Undefined index: mobile D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 59 行.
+NOTIC: [8] Undefined index: idCard D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 61 行.
+NOTIC: [8] Undefined index: diagnose D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 114 行.
+NOTIC: [8] Undefined variable: sickid D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 114 行.
+NOTIC: [8] Undefined index: illness_time D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 118 行.
+NOTIC: [8] Undefined index: illness_time D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 118 行.
+NOTIC: [8] Undefined index: illness_history D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 123 行.
+NOTIC: [8] Undefined index: gm_history D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 128 行.
+NOTIC: [8] Undefined index: jz_history D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 133 行.
+NOTIC: [8] Undefined index: cq_domicile D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 138 行.
+NOTIC: [8] Undefined index: description D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 143 行.
+NOTIC: [8] Undefined variable: type D:\www\longchuanwenhua\App\Runtime\Cache\Admin\31d3db9de1d18f82fe3f94ec6f55d2fa.php 第 160 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2016-09-25T11:57:05+08:00 ] ::1 /longchuanwenhua/index.php?s=/admin/subsidies/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0583s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0497s ]
+NOTIC: [8] Undefined index: id D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0540s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_subsidies as s LIMIT 1   [ RunTime:0.0481s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s INNER JOIN tp_member as m on m.id = s.userid  LIMIT 0,20   [ RunTime:0.0496s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined index: name D:\www\longchuanwenhua\App\Runtime\Cache\Admin\198e07703a367a71243bf2b898921dab.php 第 56 行.
+NOTIC: [8] Undefined index: mobile D:\www\longchuanwenhua\App\Runtime\Cache\Admin\198e07703a367a71243bf2b898921dab.php 第 58 行.
+NOTIC: [8] Undefined index: idCard D:\www\longchuanwenhua\App\Runtime\Cache\Admin\198e07703a367a71243bf2b898921dab.php 第 60 行.
+NOTIC: [8] Undefined variable: type D:\www\longchuanwenhua\App\Runtime\Cache\Admin\198e07703a367a71243bf2b898921dab.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008510s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2016-09-25T11:57:26+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0479s ]
+NOTIC: [2] PDOStatement::execute(): MySQL server has gone away D:\www\longchuanwenhua\ThinkPHP\Library\Think\Db\Driver.class.php 第 169 行.
+NOTIC: [2] PDOStatement::execute(): Error reading result set's header D:\www\longchuanwenhua\ThinkPHP\Library\Think\Db\Driver.class.php 第 169 行.
+ERR: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away
+
+[ 2016-09-25T11:57:26+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0498s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0475s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0497s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0492s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0509s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-09-25T12:12:00+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.7413s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.2138s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.4721s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.4373s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:2.3463s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.9887s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+
+[ 2016-09-25T12:12:32+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0563s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0493s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0455s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0479s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+
+[ 2016-09-25T12:14:22+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0539s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0466s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0744s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0481s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0459s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: type D:\www\longchuanwenhua\App\Runtime\Cache\Admin\2e8cb05cf47105dbd042417a1a77b371.php 第 78 行.
+NOTIC: [8] Undefined index: type D:\www\longchuanwenhua\App\Runtime\Cache\Admin\2e8cb05cf47105dbd042417a1a77b371.php 第 78 行.
+NOTIC: [8] Undefined index: type D:\www\longchuanwenhua\App\Runtime\Cache\Admin\2e8cb05cf47105dbd042417a1a77b371.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-09-25T12:18:01+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0485s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0453s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0607s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0467s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0474s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+
+[ 2016-09-25T12:18:11+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0463s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0477s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0463s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0475s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+
+[ 2016-09-25T12:18:28+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0638s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0614s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0635s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0621s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0635s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+
+[ 2016-09-25T12:19:43+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0453s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0633s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0464s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0486s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0455s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+
+[ 2016-09-25T12:20:26+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0479s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0462s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0472s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+
+[ 2016-09-25T12:20:51+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0466s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0452s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+
+[ 2016-09-25T12:21:38+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:1.7093s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0471s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0452s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+
+[ 2016-09-25T12:23:46+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0519s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0484s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0519s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0507s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0511s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+
+[ 2016-09-25T12:26:43+08:00 ] ::1 /longchuanwenhua/index.php?s=/Admin/member/subsidies_detail/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0488s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0453s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0492s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '7' LIMIT 1   [ RunTime:0.0462s ]
+NOTIC: [8] Undefined variable: img_str D:\www\longchuanwenhua\App\Admin\Controller\MemberController.class.php 第 87 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0483s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 1 and server_id in ("gbBpKCDW3g-hK9LvpwlzEJlG19r08N5dllYWXpbfDnfKcmbmw2TrpDD7fXh6c9jX","0FlbklSCad2PmVNxVbhuzk82Pg_VX9IQ5oU4zQgSmHaSkAA_FNAyX9Ih15sEWMe7") )  [ RunTime:0.0461s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+

@@ -1,0 +1,276 @@
+/* Manifest */
+
+// 基准
+@base: 16;
+
+// 字号
+@size: 0rem + @base;
+
+// 行高
+@line: round( @size / @size, 2 );
+
+// 字体(非衬线)
+@family: Helvetica, Tahoma, Arial, Verdana, Georgia, Sans-Serif, Serif;
+
+// 颜色
+@color:            #2d2d2d;
+@color-inverse:    #fff;
+@color-active:     #c03;
+@color-pure:       #903;
+@color-disabled:   #999;
+@color-line:       #ccc;
+@color-dim:        #ccc;
+@color-info:       #eee;
+@color-background: #f4f4f4;
+@color-board:      #fff;
+@button-bg:        #000;
+@button-tx:        #fff;
+
+// 字号
+@size-1: @size * 1.125; // 18
+@size-2: @size * 1.250; // 20
+@size-3: @size * 1.375; // 22
+@size-4: @size * 1.500; // 24
+@size-5: @size * 1.625; // 26
+@size-6: @size * 1.750; // 28
+@size-7: @size * 1.875; // 30
+@size-8: @size * 2.000; // 32
+
+// 栅栏
+@col-1:   8.33333333%;
+@col-2:  16.66666667%;
+@col-3:  25%;
+@col-4:  33.33333333%;
+@col-5:  41.66666667%;
+@col-6:  50%;
+@col-7:  58.33333333%;
+@col-8:  66.66666667%;
+@col-9:  75%;
+@col-10: 83.33333333%;
+@col-11: 91.66666667%;
+@col-12: 100%;
+
+// 间距
+@distance: 4;
+@distance-1:  @distance * 1;  // 4
+@distance-2:  @distance * 2;  // 8
+@distance-3:  @distance * 3;  // 12
+@distance-4:  @distance * 4;  // 16
+@distance-5:  @distance * 5;  // 20
+@distance-6:  @distance * 6;  // 24
+@distance-7:  @distance * 7;  // 28
+@distance-8:  @distance * 8;  // 32
+@distance-9:  @distance * 9;  // 36
+@distance-10: @distance * 10; // 40
+@distance-11: @distance * 11; // 44
+@distance-12: @distance * 12; // 48
+@distance-13: @distance * 13; // 52
+@distance-14: @distance * 14; // 56
+@distance-15: @distance * 15; // 60
+@distance-16: @distance * 16; // 64
+@distance-17: @distance * 17; // 68
+@distance-18: @distance * 18; // 72
+@distance-19: @distance * 19; // 76
+@distance-20: @distance * 20; // 80
+
+// 图标
+@icon-base:   8;
+@icon-mini:   @icon-base * 2;
+@icon-small:  @icon-base * 3;
+@icon-normal: @icon-base * 4;
+@icon-big:    @icon-base * 5;
+@icon-large:  @icon-base * 6;
+@icon-max:    @icon-base * 7.5;
+
+// 圆角
+@radius:   .125rem;
+@radius-0: @radius * 0; // 0
+@radius-1: @radius * 1; // .125
+@radius-2: @radius * 2; // .25
+@radius-3: @radius * 3; // .375
+@radius-4: @radius * 4; // .5
+@radius-5: @radius * 5; // .625
+@radius-6: @radius * 6; // .75
+@radius-7: @radius * 7; // .875
+@radius-8: @radius * 8; // 1
+
+// 时间
+@thunder: .16s;
+@fast:    .24s;
+@smooth:  .36s;
+@slow:    .64s;
+
+// 黑白灰
+@dark:    #121212;
+@dark-0:  @dark * 0;
+@dark-1:  @dark * 1;
+@dark-2:  @dark * 2;
+@dark-3:  @dark * 3;
+@dark-4:  @dark * 4;
+@dark-5:  @dark * 5;
+@dark-6:  @dark * 6;
+@dark-7:  @dark * 7;
+@dark-8:  @dark * 8;
+@dark-9:  @dark * 9;
+@dark-10: @dark * 10;
+@dark-11: @dark * 11;
+@dark-12: @dark * 12;
+@dark-13: @dark * 13;
+@dark-14: @dark * 13.8;
+@dark-15: @dark * 14;
+@dark-16: @dark * 15;
+
+// shern
+
+@reddark: #C01639;
+/* Computer Color */
+
+/*	赤	*/
+@maroon:				maroon;					/*	#800000	*/
+@darkred:				darkred;				/*	#8b0000	*/
+@brown:					brown;					/*	#a52a2a	*/
+@firebrick:				firebrick;				/*	#b22222	*/
+@crimson:				crimson;				/*	#dc143c	*/
+@red:					red;					/*	#ff0000	*/
+
+/*	粉	*/
+@mediumvioletred:		mediumvioletred;		/*	#c71585	*/
+@palevioletred:			palevioletred;			/*	#d87093	*/
+@deeppink:				deeppink;				/*	#ff1493	*/
+@fuchsia:				fuchsia;				/*	#ff00ff	*/
+@magenta:				magenta;				/*	#ff00ff	*/
+@hotpink:				hotpink;				/*	#ff69b4	*/
+@pink:					pink;					/*	#ffc0cb	*/
+@lightpink:				lightpink;				/*	#ffb6c1	*/
+@mistyrose:				mistyrose;				/*	#ffe4e1	*/
+@lavenderblush:			lavenderblush;			/*	#fff0f5	*/
+
+/*	紫	*/
+@indigo:				indigo;					/*	#4b0082	*/
+@purple:				purple;					/*	#800080	*/
+@darkmagenta:			darkmagenta;			/*	#8b008b	*/
+@darkorchid:			darkorchid;				/*	#9932cc	*/
+@blueviolet:			blueviolet;				/*	#8a2be2	*/
+@darkviolet:			darkviolet;				/*	#9400d3	*/
+@slateblue:				slateblue;				/*	#6a5acd	*/
+@mediumpurple:			mediumpurple;			/*	#9370db	*/
+@mediumslateblue:		mediumslateblue;		/*	#7b68ee	*/
+@mediumorchid:			mediumorchid;			/*	#ba55d3	*/
+@violet:				violet;					/*	#ee82ee	*/
+@plum:					plum;					/*	#dda0dd	*/
+@thistle:				thistle;				/*	#d8bfd8	*/
+@lavender:				lavender;				/*	#e6e6fa	*/
+
+/*	橙	*/
+@saddlebrown:			saddlebrown;			/*	#8b4513 */
+@sienna:				sienna;					/*	#a0522d	*/
+@chocolate:				chocolate;				/*	#d2691e	*/
+@indianred:				indianred;				/*	#cd5c5c	*/
+@rosybrown:				rosybrown;				/*	#bc8f8f	*/
+@lightcorol:			lightcorol;				/*	#f08080	*/
+@salmon:				salmon;					/*	#fa8072	*/
+@lightsalmon:			lightsalmon;			/*	#ffa07a	*/
+@orangered:				orangered;				/*	#ff4500	*/
+@tomato:				tomato;					/*	#ff6347	*/
+@coral:					coral;					/*	#ff7f50	*/
+@darkorange:			darkorange;				/*	#ff8c00	*/
+@sandybrown:			sandybrown;				/*	#f4a460	*/
+@peru:					peru;					/*	#cd853f	*/
+@tan:					tan;					/*	#d2b48c	*/
+@burlywood:				burlywood;				/*	#deb887	*/
+@wheat:					wheat;					/*	#f5deb3	*/
+@moccasin:				moccasin;				/*	#ffe4b5	*/
+@navajowhite:			navajowhite;			/*	#ffdead	*/
+@peachpuff:				peachpuff;				/*	#ffdab9	*/
+@bisque:				bisque;					/*	#ffe4c4	*/
+@antiquewhite:			antiquewhite;			/*	#faebd7	*/
+@papayawhip:			papayawhip;				/*	#ffefd5	*/
+@cornsilk:				cornsilk;				/*	#fff8dc	*/
+@oldlace:				oldlace;				/*	#fdf5e6	*/
+@linen:					linen;					/*	#faf0e6	*/
+@seashell:				seashell;				/*	#fff5ee	*/
+@snow:					snow;					/*	#fffafa	*/
+@floralwhite:			floralwhite;			/*	#fffaf0	*/
+@ivory:					ivory;					/*	#fffff0	*/
+@mintcream:				mintcream;				/*	#f5fffa	*/
+
+/*	金	*/
+@darkgoldenrod:			darkgoldenrod;			/*	#b8860b	*/
+@goldenrod:				goldenrod;				/*	#daa520	*/
+@gold:					gold;					/*	#ffd700	*/
+@yellow:				yellow;					/*	#ffff00	*/
+@darkkhaki:				darkkhaki;				/*	#bdb76b	*/
+@khaki:					khaki;					/*	#f0e68c	*/
+@palegoldenrod:			palegoldenrod;			/*	#eee8aa	*/
+@beige:					beige;					/*	#f5f5dc	*/
+@lemonchiffon:			lemonchiffon;			/*	#fffacd	*/
+@lightgoldenrodyellow:	lightgoldenrodyellow;	/*	#fafad2	*/
+@lightyellow:			lightyellow;			/*	#ffffe0	*/
+
+/*	绿	*/
+@darkslategray:			darkslategray;			/*	#2f4f4f	*/
+@darkolivegreen:		darkolivegreen;			/*	#556b2f	*/
+@olive:					olive;					/*	#808000	*/
+@darkgreen:				darkgreen;				/*	#006400	*/
+@forestgreen:			forestgreen;			/*	#228b22	*/
+@seagreen:				seagreen;				/*	#2e8b57	*/
+@green:					green;					/*	#008080	*/
+@teal:					teal;					/*	#008080	*/
+@lightseagreen:			lightseagreen;			/*	#20b2aa	*/
+@mediumaquamarine:		mediumaquamarine;		/*	#66cdaa	*/
+@mediumseagreen:		mediumseagreen;			/*	#3cb371	*/
+@darkseagreen:			darkseagreen;			/*	#8fbc8f	*/
+@yellowgreen:			yellowgreen;			/*	#9acd32	*/
+@limegreen:				limegreen;				/*	#32cd32	*/
+@lime:					lime;					/*	#00ff00	*/
+@chartreuse:			chartreuse;				/*	#7fff00	*/
+@lawngreen:				lawngreen;				/*	#7cfc00	*/
+@greenyellow:			greenyellow;			/*	#adff2f	*/
+@mediumspringgreen:		mediumspringgreen;		/*	#00fa9a	*/
+@springgreen:			springgreen;			/*	#00ff7f	*/
+@lightgreen:			lightgreen;				/*	#90ee90	*/
+@palegreen:				palegreen;				/*	#98f898	*/
+@aquamarine:			aquamarine;				/*	#7fffd4	*/
+@honeydew:				honeydew;				/*	#f0fff0	*/
+
+/*	蓝	*/
+@midnightblue:			midnightblue;			/*	#191970	*/
+@navy:					navy;					/*	#000080	*/
+@darkblue:				darkblue;				/*	#00008b	*/
+@darkslateblue:			darkslateblue;			/*	#483d8b	*/
+@mediumblue:			mediumblue;				/*	#0000cd	*/
+@royalblue:				royalblue;				/*	#4169e1	*/
+@dodgerblue:			dodgerblue;				/*	#1e90ff	*/
+@cornflowerblue:		cornflowerblue;			/*	#6495ed	*/
+@deepskyblue:			deepskyblue;			/*	#00bfff	*/
+@lightskyblue:			lightskyblue;			/*	#87cefa	*/
+@lightsteelblue:		lightsteelblue;			/*	#b0c4de	*/
+@lightblue:				lightblue;				/*	#add8e6	*/
+@steelblue:				steelblue;				/*	#4682b4	*/
+@darkcyan:				darkcyan;				/*	#008b8b	*/
+@cadetblue:				cadetblue;				/*	#5f9ea0	*/
+@darkturquoise:			darkturquoise;			/*	#00ced1	*/
+@mediumturquoise:		mediumturquoise;		/*	#48d1cc	*/
+@turquoise:				turquoise;				/*	#40e0d0	*/
+@skyblue:				skyblue;				/*	#87cecb	*/
+@powderblue:			powderblue;				/*	#b0e0e6	*/
+@paleturquoise:			paleturquoise;			/*	#afeeee	*/
+@lightcyan:				lightcyan;				/*	#e0ffff	*/
+@azure:					azure;					/*	#f0ffff	*/
+@aliceblue:				aliceblue;				/*	#f0f8ff	*/
+@aqua:					aqua;					/*	#00ffff	*/
+@cyan:					cyan;					/*	#00ffff	*/
+
+/*	黑/白/灰	*/
+@black:					black;					/*	#000000	*/
+@dimgray:				dimgray;				/*	#696969	*/
+@gray:					gray;					/*	#808080	*/
+@slategray:				slategray;				/*	#708090	*/
+@lightslategray:		lightslategray;			/*	#778899	*/
+@darkgray:				darkgray;				/*	#a9a9a9	*/
+@silver:				silver;					/*	#c0c0c0	*/
+@lightgray:				lightgray;				/*	#d3d3d3	*/
+@gainsboro:				gainsboro;				/*	#dcdcdc	*/
+@whitesmoke:			whitesmoke;				/*	#f5f5f5	*/
+@ghostwhite:			ghostwhite;				/*	#f8f8ff	*/
+@white:					white;					/*	#ffffff	*/

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>特尊医疗</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<!-- <meta name="format-detection" content="telephone=no"/> -->
+	<meta name="format-detection" content="email=no"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+	<link rel="stylesheet" href="__ROOT__/Public/Home/css/style.css">
+	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">
+	<script language="javascript">
+		function jsApiCall(appId,timeStamp,nonceStr,package,signType,paySign)
+		{
+			WeixinJSBridge.invoke(
+				'getBrandWCPayRequest', {
+					"appId" : appId,     //公众号名称，由商户传入
+					"timeStamp": timeStamp,         //时间戳，自1970年以来的秒数
+					"nonceStr" : nonceStr, //随机串
+					"package" : package,
+					"signType" : signType,         //微信签名方式:
+					"paySign" : paySign //微信签名
+				},
+				function(res){
+					WeixinJSBridge.log(res.err_msg);
+					if(res.err_msg == "get_brand_wcpay_request:ok" ) {
+						window.location.href = "http://"+window.location.host;
+					}else if(res.err_msg == "get_brand_wcpay_request:cancel"){
+						layer.open({
+							btn: ['确定'],content:'您取消了支付！',shade:true,shadeClose:false})
+					}else if(res.err_msg == "get_brand_wcpay_request:fail"){
+						layer.open({btn: ['确定'],content:'支付失败',shade:true,shadeClose:false})
+					}
+				}
+			);
+		}
+
+		function callpay(appId,timeStamp,nonceStr,package,signType,paySign)
+		{
+			if (typeof WeixinJSBridge == "undefined"){
+				if( document.addEventListener ){
+					document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+				}else if (document.attachEvent){
+					document.attachEvent('WeixinJSBridgeReady', jsApiCall);
+					document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+				}
+			}else{
+				jsApiCall(appId,timeStamp,nonceStr,package,signType,paySign);
+			}
+		}
+	</script>
+</head>
+<body>
+	
+	<header>
+		<h1>套餐详情</h1>
+		<a href="" class="glyphicon glyphicon-chevron-left"></a>
+	</header>
+
+	<include file="./App/Home/View/Public/foot.html" />
+
+	<section class="page">
+
+		<include file="./App/Home/View/Public/head.html" />
+
+
+	    <!-- shop-list -->
+	    <div class="shop-detail">
+	    	
+	    	<h3>{$goods_data.good_name}</h3>
+            <if condition="($scale_price eq 'yuan') and ($scale_price neq 0)">
+				<span>价格：￥{$goods_data.good_price}</span>
+			<else />
+				<span class="old-price">原价：￥{$goods_data.good_price}</span>
+				<span class="new-price">现价：￥{$scale_price}</span>
+			</if>
+
+			<hr>
+
+			<div>
+                {$goods_data['good_detail']}
+			</div>
+			<input type="button" id="wechar_pay" value="去支付">
+	    </div>
+
+
+	</section>
+	
+	<script src="__ROOT__/Public/Home/js/jquery.min.js"></script>
+	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
+	<script src="__ROOT__/Public/Home/js/layer/layer.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true
+	        // 启用箭头
+	        // nextButton: '.swiper-button-next',
+	        // prevButton: '.swiper-button-prev'
+
+			//提交订单
+		});
+		$('#wechar_pay').click(function(){
+			layer.open({type: 2});
+			var id = {$goods_data.id};
+			if( id <= 0 ) return false;
+			//获取钱数
+			$.post("{:U('index/sub_goods')}", {id:id}, function(data){
+				if(data.status == 'y'){
+				    layer.closeAll();
+					if( data.money == 0 ){
+						window.location.href = "{:U('index/order')}";
+					}
+					callpay(data.appId,data.timeStamp,data.nonceStr,data.package,data.signType,data.paySign);
+				}else{
+					layer.closeAll();
+					alert(data.msg);
+				}
+			},'json');
+		})
+
+	</script>
+
+</body>
+</html>
