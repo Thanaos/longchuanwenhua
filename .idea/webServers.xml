@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="f30a0c27-0961-45a5-b7f0-49312c3bf676" name="longchuanwenhua" url="http://longchuanwenhua.gotoftp4.com">
-        <fileTransfer host="longchuanwenhua.gotoftp4.com" port="21" rootFolder="/longchuanwenhua/wwwroot/">
+      <webServer id="9810593f-addf-486a-8a3b-21d13389d2bd" name="ali" url="http://hyu2409230001.my3w.com">
+        <fileTransfer host="hyu2409230001.my3w.com" port="21" rootFolder="/htdocs/">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
           </advancedOptions>

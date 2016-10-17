@@ -13,6 +13,13 @@ class IndexController extends BaseController{
     }
     
     function getVip(){
+        //检查是否可以购买
+        $now = time();
+        $a_check = M('check')->where(array('user_id'=>$this->userid, 'checktime'=>array('gt', $now-3600*24*7)))->find();
+        if( empty($a_check) ){
+            redirect(U('index/s_check'));
+            exit;
+        }
         //获取用户年龄
         $id_card = $this->user_info['idcard'];
         //大于60岁不允许申请
@@ -43,6 +50,51 @@ class IndexController extends BaseController{
         $this->display();
     }
     
+    /**
+     * 申请审核
+     */
+    function s_check(){
+            
+        $is_read = I('post.yes');
+        $no_read = I('post.no');
+        if( !empty($no_read) ){
+            redirect(U('index/index'));
+        }
+        if( !empty($is_read) ){
+            //微信签名
+            $wx_config = M('weixin_config')->where('id = 1')->find();
+            $jssdk = new \Org\Util\Wxsdk($wx_config['appid'], $wx_config['secret']);
+            $signPackage = $jssdk->GetSignPackage();
+            $this->assign('signPackage', $signPackage);
+            $this->display();
+        }else{
+            $data = M('agreement')->where('id = 1')->find();
+            $this->assign('data', $data);
+            $this->display('article_vip');
+        }
+    }
+    
+    function save_check(){
+        if( IS_POST ){
+            $bl_img = I('post.bl_img');
+            if( empty($bl_img) ){
+                $this->assign('message', '必须上传体检图片！');
+                $this->display('Public:error');
+                exit;
+            }
+            $data = array('user_id'=>$this->userid, 'bl_img'=>$bl_img, 'addtime'=>time());
+            $insert = M('check')->add($data);
+            if( $insert > 0 ){
+                $this->assign('url', 'http://'.$_SERVER['HTTP_HOST'].U('Index/index'));
+                $this->assign('message', '恭喜您申请成功，请等侯审核！');
+                $this->display('Public:success');
+            }else{
+                $this->assign('message', '服务器出错！');
+                $this->display('Public:error');
+            }
+        }
+    }
+    
     function getMoney(){
         if( IS_AJAX && IS_POST ){
             $type = I('post.type');
@@ -70,7 +122,7 @@ class IndexController extends BaseController{
             $unifiedOrder->setParameter("out_trade_no", $order_sn);
             $unifiedOrder->setParameter("total_fee", $price);
             //$unifiedOrder->setParameter("total_fee",1);
-            $unifiedOrder->setParameter("notify_url", "http://longchuanwenhua.gotoip4.com/payback.php");
+            $unifiedOrder->setParameter("notify_url", "http://mobile.zrtzbj.com.cn/payback.php");
             $unifiedOrder->setParameter("attach", "order_sn=" . $order_sn . "&userid=" . $this->userid);
             $unifiedOrder->setParameter("trade_type", "JSAPI");
             $prepay_id = $unifiedOrder->getPrepayId();
@@ -160,11 +212,12 @@ class IndexController extends BaseController{
         //生成订单
         $order_sn = time();
         if( $scale_price == 0 ){ //不需要支付
-            $data = array('user_id'=>$this->userid, 'goods_id'=>$goods_data['id'], 'goods_name'=>$goods_data['goods_name'], 'yuan_money'=>$goods_data['good_price'], 'money'=>$scale_price, 'addtime'=>time(), 'order_sn'=>$order_sn, 'order_status'=>2);
+            $data = array('user_id'=>$this->userid, 'goods_id'=>$goods_data['id'], 'goods_name'=>$goods_data['good_name'], 'yuan_money'=>$goods_data['good_price'], 'money'=>$scale_price, 'addtime'=>time(), 'order_sn'=>$order_sn, 'order_status'=>2);
             M('goods_order')->add($data);
             $this->ajaxReturn(array('status'=>'y', 'money'=>0, 'msg'=>'支付成功'));
+            exit;
         }else{
-            $data = array('user_id'=>$this->userid, 'goods_id'=>$goods_data['id'], 'goods_name'=>$goods_data['goods_name'], 'yuan_money'=>$goods_data['good_price'], 'money'=>$scale_price, 'addtime'=>time(), 'order_sn'=>$order_sn);
+            $data = array('user_id'=>$this->userid, 'goods_id'=>$goods_data['id'], 'goods_name'=>$goods_data['good_name'], 'yuan_money'=>$goods_data['good_price'], 'money'=>$scale_price, 'addtime'=>time(), 'order_sn'=>$order_sn);
             M('goods_order')->add($data);
         }
         Vendor('WxPayPubHelperGood.WxPayPubHelper');
@@ -177,7 +230,7 @@ class IndexController extends BaseController{
         $unifiedOrder->setParameter("out_trade_no", $order_sn);
         $unifiedOrder->setParameter("total_fee", $price);
         //$unifiedOrder->setParameter("total_fee",1);
-        $unifiedOrder->setParameter("notify_url", "http://longchuanwenhua.gotoip4.com/goodsback.php");
+        $unifiedOrder->setParameter("notify_url", "http://mobile.zrtzbj.com.cn/goodsback.php");
         $unifiedOrder->setParameter("attach", "order_sn=" . $order_sn . "&userid=" . $this->userid);
         $unifiedOrder->setParameter("trade_type", "JSAPI");
         $prepay_id = $unifiedOrder->getPrepayId();

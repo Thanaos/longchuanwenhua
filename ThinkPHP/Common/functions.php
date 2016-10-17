@@ -631,7 +631,7 @@ function M($name='', $tablePrefix='',$connection='') {
  * @return string
  */
 function parse_res_name($name,$layer,$level=1){
-    if(strpos($name,'://')) {// 指定扩展资源
+    if(strpos($name,'://')) { // 指定扩展资源
         list($extend,$name)  =   explode('://',$name);
     }else{
         $extend  =   '';

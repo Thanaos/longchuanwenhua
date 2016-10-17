@@ -9,16 +9,15 @@ class BaseController extends Controller{
         //检测是否是注册用户
         $this->userid = session('userid');
         $this->auth_userinfo = session('auth_userinfo');
-        
         //获取信息
         if( empty($this->auth_userinfo) && empty($this->userid) ){
-            do{
-                $wx = $this->auths('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
-                if( $wx['userinfo']['nickname'] ){
-                    session('auth_userinfo', $wx);
-                    $this->auth_userinfo = $wx;
-                }
-            }while(empty($this->auth_userinfo));
+            $wx = $this->auths('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+            if( $wx['userinfo']['nickname'] ){
+                session('auth_userinfo', $wx);
+                $this->auth_userinfo = $wx;
+            }else{
+				exit;
+			}
 
         }
         if( empty($this->userid) ){
@@ -60,10 +59,9 @@ class BaseController extends Controller{
 
     protected function auths($urls)
 	{
-	    $auth_userinfo = session('auth_userinfo');
         $auth_userinfo = unserialize('a:2:{s:6:"openid";s:28:"oudL8vswIa3ST5abdKFjXDoYuKhM";s:8:"userinfo";a:9:{s:6:"openid";s:28:"oudL8vswIa3ST5abdKFjXDoYuKhM";s:8:"nickname";s:9:"夏文龙";s:3:"sex";i:1;s:8:"language";s:5:"zh_CN";s:4:"city";s:6:"青岛";s:8:"province";s:6:"山东";s:7:"country";s:6:"中国";s:10:"headimgurl";s:126:"http://wx.qlogo.cn/mmopen/nGL1ReThHaK024OpbuZwPBpTBWamG0jFgCxzfKd1nSLicEq98fVUG75x5QEgPf55N60ZHzYmpMWxIAdGj6ABe4OBia2MSE3IZH/0";s:9:"privilege";a:0:{}}}');
-	    if( $auth_userinfo ){
-	        return $auth_userinfo;
+        if( $auth_userinfo ){
+            return $auth_userinfo;
         }
 		$openid = '';
 		$access_token = '';

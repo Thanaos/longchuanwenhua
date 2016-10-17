@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>admin - system</title>
+	<title>特尊医疗</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -11,7 +11,7 @@
 	<meta name="format-detection" content="email=no"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
 	<link rel="stylesheet" href="__ROOT__/Public/Home/css/style.css">
-	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">yy
+	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">
 </head>
 <body>
 	
@@ -58,7 +58,7 @@
 		<form action="{:U('member/ajax_register')}" method="post" id="register">
 			<fieldset>
 
-				<h3>患者信息</h3>
+				<h3>申请人信息</h3>
 
 				<div class="row">
 					<label for="">姓名</label>
@@ -78,7 +78,7 @@
 				<div class="row">
 					<label for="">年龄</label>
 					<div class="form-group">
-						<input type="text" name="age" id="age" class="form-control"  placeholder="请输入年龄">
+						<input type="tel" name="age" id="age" class="form-control"  placeholder="请输入年龄">
 					</div>
 				</div>
 
@@ -90,81 +90,56 @@
 				</div>
 
 				<div class="row">
-					<label for="">生日</label>
-					<div class="form-group">
-						<input type="text" class="form-control" id="birthday" name="birthday" placeholder="请输入出生日期">
-					</div>
-				</div>
-
-				<div class="row">
-					<label for="">电话</label>
+					<label for="">手机号码</label>
 					<div class="form-group">
 						<input type="tel" class="form-control" name="mobile" id="mobile" placeholder="请输入电话">
 					</div>
 				</div>
 
 				<div class="row">
-					<label for="">委托人</label>
+					<label for="">微信号</label>
 					<div class="form-group">
-						<input type="text" class="form-control" name="bailor" id="bailor" placeholder="请输入委托人姓名">
+						<input type="text" class="form-control" name="wxid" id="wxid" placeholder="请输入微信号">
 					</div>
 				</div>
 
 				<div class="row">
-					<label for="">委托人电话</label>
+					<label for="">生日</label>
 					<div class="form-group">
-						<input type="tel" class="form-control" name="bailor_mobile" id="bailor_mobile" placeholder="请输入委托人电话">
+						<input type="text" class="form-control" id="birthday" name="birthday" placeholder="请输入出生日期">
 					</div>
 				</div>
 
 
-				<br>
-				<h3>居住地</h3>
-                <div id="address1">
-                    <div class="row">
-                        <div class="form-group">
-                            <select name="d_s" data-province="" class="form-control" id=""></select>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <label for=""></label>
-                        <div class="form-group">
-                            <select name="d_c" data-city="" class="form-control" id=""></select>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <label for=""></label>
-                        <div class="form-group">
-                            <select name="d_d" data-district="" class="form-control" id=""></select>
-                        </div>
-                    </div>
-                </div>
+				<div class="row">
+					<label for="">邮箱</label>
+					<div class="form-group">
+						<input type="text" class="form-control" name="email" id="email" placeholder="请输入邮箱">
+					</div>
+				</div>
 
 
-				<br>
-				<h3>住址</h3>
-                <div id="address2">
-                    <div class="row">
-                        <div class="form-group">
-                            <select name="c_s" class="form-control" id=""></select>
-                        </div>
-                    </div>
+				<div id="address1">
+					<label for="" style="position: absolute; font-size: 0.6rem; width: 5em; line-height: 1.4rem;">住址</label>
+					<div class="row">
+						<div class="form-group">
+							<select name="d_s" data-province="" class="form-control" id=""></select>
+						</div>
+					</div>
 
-                    <div class="row">
-                        <label for=""></label>
-                        <div class="form-group">
-                            <select name="c_c" class="form-control" id=""></select>
-                        </div>
-                    </div>
+					<div class="row">
+						<label for=""></label>
+						<div class="form-group">
+							<select name="d_c" data-city="" class="form-control" id=""></select>
+						</div>
+					</div>
 
-                    <div class="row">
-                        <label for=""></label>
-                        <div class="form-group">
-                            <select name="c_d" class="form-control" id=""></select>
-                        </div>
-                    </div>
+					<div class="row">
+						<label for=""></label>
+						<div class="form-group">
+							<select name="d_d" data-district="" class="form-control" id=""></select>
+						</div>
+					</div>
 				</div>
 
 				<div class="row">
@@ -174,32 +149,32 @@
 					</div>
 				</div>
 
-				<br>
 				<h3>病史</h3>
 
-                <div class="row">
-                    <label for="">临床诊断</label>
-                    <div class="form-group">
-                        <select name="diagnose" id="" class="form-control">
-                            <option>请选择</option>
-                            <volist name="sickid" id="vo">
+
+				<div class="row">
+					<label for="">临床诊断</label>
+					<div class="form-group">
+						<select name="diagnose" id="" class="form-control">
+							<option>请选择</option>
+							<volist name="sickid" id="vo">
 								<option value="{$i}">{$vo}</option>
 							</volist>
-                        </select>
-                    </div>
-                </div>
+						</select>
+					</div>
+				</div>
 				<div class="row">
 					<label for="">患病时间</label>
 					<div class="form-group">
-                        <select name="illness_time" id="" class="form-control">
-                            <option>请选择</option>
-                            <option value="1">1年</option>
-                            <option value="2">2年</option>
-                            <option value="3">3年</option>
-                            <option value="4">4年</option>
-                            <option value="5">5年</option>
-                            <option value="6">5年以上</option>
-                        </select>
+						<select name="illness_time" id="" class="form-control">
+							<option>请选择</option>
+							<option value="1">1年</option>
+							<option value="2">2年</option>
+							<option value="3">3年</option>
+							<option value="4">4年</option>
+							<option value="5">5年</option>
+							<option value="6">5年以上</option>
+						</select>
 					</div>
 				</div>
 				<div class="row">
@@ -229,8 +204,123 @@
 						<textarea name="description" placeholder="如：禁止吸烟喝酒"></textarea>
 					</div>
 				</div>
-				<input type="submit" id="submit" value="提交">
+				<div id="address2">
+					<div class="row">
+						<label for="" style="position: absolute; font-size: 0.6rem; width: 5em; line-height: 1.4rem;">长期居住地</label>
+						<div class="form-group">
+							<select name="c_s" class="form-control" id=""></select>
+						</div>
+					</div>
 
+					<div class="row">
+						<label for=""></label>
+						<div class="form-group">
+							<select name="c_c" class="form-control" id=""></select>
+						</div>
+					</div>
+
+					<div class="row">
+						<label for=""></label>
+						<div class="form-group">
+							<select name="c_d" class="form-control" id=""></select>
+						</div>
+					</div>
+				</div>
+
+				<h3>诊断报告</h3>
+				<div class="img-list">
+
+					<ul class="clearfix">
+
+						<li class="img-add" id="bl_btn">
+							<i class="glyphicon glyphicon-plus" id="bl_img"></i>
+						</li>
+					</ul>
+					<input type="hidden" name="bl_img" id="bl_image">
+				</div>
+
+
+				<h3>受托人信息</h3>
+
+				<div class="row">
+					<label for="">与本人关系</label>
+					<div class="form-group">
+						<input type="text" class="form-control" name="relation" id="relation" placeholder="请输入受托人关系">
+					</div>
+				</div>
+
+
+				<div class="row">
+					<label for="">姓名</label>
+					<div class="form-group">
+						<input type="text" class="form-control" name="bailor" id="bailor" placeholder="请输入受托人姓名">
+					</div>
+				</div>
+
+
+
+				<div class="row">
+					<label for="">电话</label>
+					<div class="form-group">
+						<input type="tel" class="form-control" name="bailor_mobile" id="bailor_mobile" placeholder="请输入受托人电话">
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">微信号</label>
+					<div class="form-group">
+						<input type="text" class="form-control" name="s_wxid" id="s_wxid" placeholder="请输入受托人微信号">
+					</div>
+				</div>
+
+				<div class="row">
+					<label for="">邮箱</label>
+					<div class="form-group">
+						<input type="text" class="form-control" name="bailor_email" id="bailor_email" placeholder="请输入受托人邮箱">
+					</div>
+				</div>
+
+
+				<div class="row">
+					<label for="">身份证号</label>
+					<div class="form-group">
+						<input type="tel" class="form-control" name="bailor_idcard" id="bailor_idcard" placeholder="请输入受托人身份证">
+					</div>
+				</div>
+
+
+				<div id="address2">
+					<div class="row">
+						<label for="">住址</label>
+						<div class="form-group">
+							<select name="s_s" class="form-control" id=""></select>
+						</div>
+					</div>
+
+					<div class="row">
+						<label for=""></label>
+						<div class="form-group">
+							<select name="s_c" class="form-control" id=""></select>
+						</div>
+					</div>
+
+					<div class="row">
+						<label for=""></label>
+						<div class="form-group">
+							<select name="s_d" class="form-control" id=""></select>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<label for="">街道</label>
+					<div class="form-group">
+						<input type="text" class="form-control" name="s_address" placeholder="请输入街道">
+					</div>
+				</div>
+
+
+
+				<input type="submit" id="submit" value="提交">
 			</fieldset>
 		</form>
 	    <!-- form end -->
@@ -242,6 +332,8 @@
     <script src="__ROOT__/Public/Home/js/form.js"></script>
     <script src="__ROOT__/Public/Home/js/citys/distpicker.data.js"></script>
     <script src="__ROOT__/Public/Home/js/citys/distpicker.js"></script>
+	<script  src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
+	<script type="text/javascript" src="__ROOT__/Public/Home/js/layer/layer.js"></script>
 	<script>
 		var swiper = new Swiper('.swiper-container', {
 	        pagination: '.swiper-pagination',
@@ -277,7 +369,93 @@
 
 		})
 
-	</script>	
+		$(document).on('click', '.glyphicon-remove',function(){
+			var id = $(this).attr('data-id');
+			var id = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr';
+			var img_str = $('#bl_image').val();
+			var img_str = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr,QLXIQRqC0YuIq3sqwAkqoXHj8Z-s5IIsoz950uZPEK2vVFVx4bmXU0ZO4PwLliTQ';
+			var img_arr = img_str.split(',');
+			for(var v in img_arr){
+				if( img_arr[v] == id ){
+					img_arr.splice(v,1);
+				}
+			}
+			var new_img_str = img_arr.join(',');
+			$('#bl_image').val(new_img_str);
+			$(this).parent().remove();
+		})
 
+	</script>
+	<script>
+		wx.config({
+				appId: '{$signPackage.appId}', // 必填，公众号的唯一标识
+				timestamp: {$signPackage.timestamp}, // 必填，生成签名的时间戳
+			nonceStr: '{$signPackage.nonceStr}', // 必填，生成签名的随机串
+			signature: '{$signPackage.signature}',// 必填，签名，见附录1
+			jsApiList: ['chooseImage','previewImage','uploadImage'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+		});
+		wx.ready(function(){
+			document.querySelector('#bl_img').onclick = function () {
+				var images = {
+					localId: [],
+					serverId: []
+				};
+				function upload(i, length, serverId) {
+					wx.uploadImage({
+						localId: images.localId[i],
+						success: function (res) {
+							i++;
+							serverId.push(res.serverId);
+							if (i < length) {
+								upload(i, length, serverId);
+							}
+							if(i >= length){
+								layer.open({type: 2});
+								$.post("{:U('member/uploadImg')}", {serverIds:'"'+serverId+'"'},function(data){
+									if( data.status == 'y' ){
+										var server_img = data.server.server_img;
+										var server_str = '';
+										$('#bl_image').val(data.server.server_id);
+										for( var i =0;i < server_img.length;i++ ){
+											$('#bl_btn').before('<li> <img src="__ROOT__'+server_img[i]['path']+'" alt=""> <span class="glyphicon glyphicon-remove" data-id="'+server_img[i]['id']+'"></span> </li>');
+											layer.closeAll();
+										}
+									}else{
+										alert(data.msg);
+										layer.closeAll();
+									}
+								},'json')
+							}
+						},
+						fail: function (res) {
+							alert(JSON.stringify(res));
+						}
+					});
+				}
+				wx.chooseImage({
+					count: 9,
+					success: function (res) {
+						images.localId = res.localIds;
+						var i = 0, length = images.localId.length;
+						serverId = [];
+						setTimeout(function(){
+							upload(i, length, serverId)
+						},100)
+					}
+				});
+			};
+			/*
+			 document.querySelector('.item').onclick = function () {
+			 wx.previewImage({
+			 urls: [
+			 <volist name="photo" id="vo">
+			 'http://'+window.location.host+'{$vo.path}',
+			 </volist>
+			 ]
+			 });
+			 };
+			 */
+		});
+	</script>
 </body>
 </html>

@@ -54,6 +54,49 @@ class IndexController extends AdminController {
         
     }
     
+    public function agreement(){
+        $db = M('agreement');
+        if( $this->act == 'list' ){
+            $p = isset($_GET['id']) ? intval($_GET['id']) : 1;
+            $max = 20;
+            $count = $db->count();
+            $Page = new \Think\Page($count, $max);
+            $list = $db->page($p, $max)->select();
+            $show['pageCount'] = $Page->totalPages ? $Page->totalPages : 1;//总页数
+            $show['current'] = $p;
+            $this->assign('list', $list);
+            $this->assign('show', $show);
+            $this->display('agreement_list');
+        
+            /* 新增操作 */
+        }elseif( $this->act == 'edit' ){
+            $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+            if($id){
+                $data = $db->where(array('id'=>$id))->find();
+                $this->assign('data', $data);
+            }
+            $this->display('agreement_edit');
+        }
+    
+        /*******保存********/
+        else if($this->act == 'save'){
+            $id = empty($_POST['id']) ? 0 : intval($_POST['id']);
+            $name = isset($_POST['name']) ? $_POST['name'] : exit(json_encode(array('status'=>'n', 'msg'=>'协议名称必须填写')));
+            $content = isset($_POST['content']) ? $_POST['content'] : exit(json_encode(array('status'=>'n', 'msg'=>'协议内容必须填写')));
+            $data = array('name'=>$name, 'content'=>$content, 'addtime'=>time());
+            if($id){
+                $insert = $db->where(array('id'=>$id))->save($data);
+            }else{
+                $insert = $db->add($data);
+            }
+            if($insert){
+                exit(json_encode(array('status'=>'y', 'msg'=>'操作成功', 'id'=>$insert)));
+            }else{
+                exit(json_encode(array('status'=>'n', 'msg'=>'操作失败')));
+            }
+        }
+    }
+    
     /* 诊疗项目管理 */
     public function goods()
     {
@@ -391,7 +434,7 @@ class IndexController extends AdminController {
         $upload = new \Think\Upload();// 实例化上传类
         $upload->maxSize   =     3145728 ;// 设置附件上传大小
         $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-        $upload->rootPath  =      './Uploads/'; // 设置附件上传根目录
+        $upload->rootPath  =      './uploads/'; // 设置附件上传根目录
         $upload->savePath  =      ''; // 设置附件上传（子）目录
         //是否添加水印
         if(intval($_POST['iswater']) == 1){
@@ -443,7 +486,7 @@ class IndexController extends AdminController {
         $upload = new \Think\Upload();// 实例化上传类
         $upload->maxSize   =     3145728 ;// 设置附件上传大小
         $upload->exts      =     array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
-        $upload->rootPath  =      './Uploads/'; // 设置附件上传根目录
+        $upload->rootPath  =      './uploads/'; // 设置附件上传根目录
         $upload->savePath  =      ''; // 设置附件上传（子）目录
             //默认水印的图片
             $water_url ='Public/Admin/image/gtt.png';

@@ -53,7 +53,8 @@
             <?php if(($admin_role == 1) or ($admin_role == 2) or ($admin_role == 'all')): ?>{id:'7',text:'补贴申请',href:'/longhcuanwenhua/index.php?s=/admin/subsidies/list.html'}<?php endif; ?>
             ]},
             <?php if(($admin_role == 2) or ($admin_role == 'all')): ?>{text:'财务管理 ',items:[
-                {id:'6',text:'收入详情',href:'/longhcuanwenhua/index.php?s=/admin/income/list.html'}
+                {id:'6',text:'年费收入详情',href:'/longhcuanwenhua/index.php?s=/admin/income/list.html'},
+                {id:'10',text:'套餐收入详情',href:'/longhcuanwenhua/index.php?s=/admin/order/list.html'}
             ]},<?php endif; ?>
             <?php if($admin_role == 'all'): ?>{text:'权限管理',items:[
                 {id:'2',text:'用户管理',href:'/longhcuanwenhua/index.php?s=/admin/power/user.html'}
