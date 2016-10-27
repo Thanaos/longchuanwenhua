@@ -58,7 +58,7 @@ class PowerController extends AdminController{
             if( $id > 0 ){
                 $data = array('name'=>$name, 'createtime'=>date('Y-m-d H:i:s'), 'group_id'=>$group);
                 if( !empty($pwd) ){
-                    $data['pwd'] = $pwd;
+                    $data['pwd'] = md5($pwd);
                 }
                 $insert = M('user')->where(array('id'=>$id))->save($data);
             }else{

@@ -2212,7 +2212,7 @@ article > p {
 }
 article h3 {
   margin-bottom: 10px;
-  border-left: 3px solid #31619d;
+  /*border-left: 3px solid #31619d;*/
   padding: 3px 0 3px 10px;
   font-size: 16px;
   line-height: 26.25px;
@@ -2221,9 +2221,7 @@ article h3 + p {
   text-indent: 0;
   padding: 0 0 0 15px;
 }
-article em {
-  color: #ff0000;
-}
+
 .radio-list {
   padding: 20px 1%;
   margin: 0 0 2rem 0;

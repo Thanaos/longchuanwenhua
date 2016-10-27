@@ -54,6 +54,28 @@ class IndexController extends AdminController {
         
     }
     
+    public function clist(){
+        $db = M('clist');
+        if( $this->act == 'list' ){
+            $data = $db->where(array('id'=>1))->find();
+            $this->assign('data', $data);
+            $this->display('clist_edit');
+        }
+    
+        /*******保存********/
+        else if($this->act == 'save'){
+            $path = isset($_POST['path']) ? $_POST['path'] : exit(json_encode(array('status'=>'n', 'msg'=>'')));
+            $data = array('path'=>$path);
+            $insert = $db->where(array('id'=>1))->save($data);
+            if($insert){
+                exit(json_encode(array('status'=>'y', 'msg'=>'操作成功', 'id'=>$insert)));
+            }else{
+                exit(json_encode(array('status'=>'n', 'msg'=>'操作失败')));
+            }
+        }
+    
+    }
+    
     public function agreement(){
         $db = M('agreement');
         if( $this->act == 'list' ){

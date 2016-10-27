@@ -40,6 +40,7 @@ $(function(){
         $('form :input').trigger('blur');
         var _numError = $('.form-control-error').length;
         if(_numError){
+            alert('请修改错误信息！');
             return false;
         }
      });

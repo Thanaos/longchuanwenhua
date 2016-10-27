@@ -94,10 +94,10 @@
             <td>{$vo.domicile}</td>
             <td style="text-align:left">{$vo.addtime|date='Y-m-d H:i:s',###}</td>
             <td>
-                <if condition="$vo.status eq 1">
-                    未通过
-                <elseif condition="$vo.status eq 2" />
-                    已通过
+                <if condition="$vo.times eq -1">
+                    <span style="color:red">未通过</span>
+                <elseif condition="$vo.times egt 3" />
+                    <span style="color:green">已通过</span>
                 <else />
                     未审核
                 </if>

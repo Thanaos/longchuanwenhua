@@ -19,7 +19,7 @@
 <body>
 
 	<header>
-		<h1>申请会员</h1>
+		<h1>申请补贴</h1>
 		<a href="" class="glyphicon glyphicon-chevron-left"></a>
 	</header>
 
@@ -36,19 +36,19 @@
 				<h3>诊断信息</h3>
 
 				<div class="row">
-					<label for="">诊断</label>
+					<label for="">诊　　断</label>
 					<div class="form-group">
 						<input type="text" id="zd" name="zd" class="form-control" placeholder="请输入诊断结果">
 					</div>
 				</div>
 
 				<div class="row">
-					<label for="">诊断医师</label>
+					<label for="">诊断医院</label>
 					<div class="form-group">
 						<input type="text" id="zd_doctor" name="zd_doctor" class="form-control" placeholder="请输入诊断医师">
 					</div>
 				</div>
-                <h3>病例图片</h3>
+                <h3>诊断证明</h3>
                 <div class="img-list">
 
                     <ul class="clearfix">
@@ -76,6 +76,7 @@
 
 	<script>
 		var swiper = new Swiper('.swiper-container', {
+			autoplay : 3000,    //可选选项，自动滑动
 	        pagination: '.swiper-pagination',
 	        paginationClickable: true
 	        // 启用箭头
@@ -95,11 +96,9 @@
 			})
 
 
-            $(document).on('click', '.glyphicon-remove',function(){
+			$('.page').on('click','.img-list .glyphicon-remove',function(){
                 var id = $(this).attr('data-id');
-                var id = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr';
                 var img_str = $('#bl_image').val();
-                var img_str = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr,QLXIQRqC0YuIq3sqwAkqoXHj8Z-s5IIsoz950uZPEK2vVFVx4bmXU0ZO4PwLliTQ';
                 var img_arr = img_str.split(',');
                 for(var v in img_arr){
                     if( img_arr[v] == id ){

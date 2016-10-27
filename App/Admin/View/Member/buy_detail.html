@@ -61,6 +61,23 @@
     </tr>
     </volist>
     <tr>
+        <td colspan="4"><h5>审核记录</h5></td>
+    </tr>
+    <tr>
+        <td>管理员</td>
+        <td>审核状态</td>
+        <td>备注</td>
+        <td>操作时间</td>
+    </tr>
+    <volist name="check_list" id="vo">
+        <tr>
+            <td>{$vo.name}<if condition="$vo.group_id eq 1">(超级管理员)<elseif condition="$vo.group_id eq 2" />(医事审核)<elseif condition="$vo.group_id eq 3" />(财务审核)</if></td>
+            <td><if condition="$vo.status eq 1"><span style="color:red">不通过</span><else /><span style="color:green">通过</span></if></td>
+            <td>{$vo.remark}</td>
+            <td>{$vo.addtime|date='Y-m-d H:i:s',###}</td>
+        </tr>
+    </volist>
+    <tr>
         <td colspan="4"><h5>审核操作</h5></td>
     </tr>
     <tr>
@@ -81,6 +98,7 @@
 </body>
 </html>
 <script>
+        var index = parent.layer.getFrameIndex(window.name); //获取窗口索引
     $(function(){
         $('#submit').click(function(){
             var id = {$id};
@@ -92,8 +110,12 @@
                     return false;
                 }
             }
-            $.post('{:U("member/subsidies", array("act"=>"yes"))}',{id:id,status:status,remark:remark},function(data){
+            $.post('{:U("member/check_log")}',{id:id,status:status,remark:remark,type:1},function(data){
                 if( data.status == 'y' ){
+                    alert(data.msg);
+                    parent.document.location.reload();
+//                    parent.layer.close(index);
+                }else{
                     alert(data.msg);
                 }
             },'json')

@@ -15,6 +15,11 @@ class MemberController extends AdminController{
                 $name = I('post.name') ? I('post.name') : '';
                 $mobile = I('post.mobile') ? I('post.mobile') : '';
                 $idCard = I('post.idCard') ? I('post.idCard') : '';
+                $start_age = I('post.start_age') ? I('post.start_age') : '';
+                $end_age = I('post.end_age') ? I('post.end_age') : '';
+                $illness_time = I('post.illness_time') ? I('post.illness_time') : '';
+                $diagnose = I('post.diagnose') ? I('post.diagnose') : '';
+                $domicile = I('post.cq_domicile') ? I('post.cq_domicile') : '';
                 if( $name ){
                     $where['name'] = $name;
                 }
@@ -23,6 +28,19 @@ class MemberController extends AdminController{
                 }
                 if( $idCard ){
                     $where['idCard'] = $idCard;
+                }
+                if( !empty($start_age) && !empty($end_age) ){
+                    $where['age'] = array('between', array($start_age, $end_age));
+                }
+                
+                if( $illness_time > 0 ){
+                    $where['illness_time'] = $illness_time;
+                }
+                if( $diagnose > 0 ){
+                    $where['diagnose'] = $diagnose;
+                }
+                if( $domicile ){
+                    $where['cq_domicile'] = array('like', '%'.$domicile.'%');
                 }
                 
             }
@@ -51,11 +69,94 @@ class MemberController extends AdminController{
             }
             $show['pageCount'] = $Page->totalPages ? $Page->totalPages : 1;
             $show['current'] = $p;
-            $this->assign('where', $where);
+            $this->assign('where', array('name'=>$name, 'mobile'=>$mobile, 'idCard'=>$idCard, 'start_age'=>$start_age, 'end_age'=>$end_age, 'illness_time'=>$illness_time, 'diagnose'=>$diagnose, 'cq_domicile'=>$domicile));
             $this->assign('show', $show);
             $this->assign('list', $list);
             
             $this->display('member_list');
+        }elseif($this->act == 'check_log'){
+            if( IS_AJAX && IS_POST ){
+                $type = I('post.type');
+                $status = I('post.status');
+                $remark = I('post.remark');
+                $id = I('post.id');
+                //检查权限
+                if( $this->admin['group_id'] != 2 ){
+                    $this->ajaxReturn(array('status'=>'n', 'msg'=>'没有权限'));
+                }
+                if(M('check_log')->where(array('type'=>$type, 'mod_id'=>$id, 'admin_id'=>$this->admin['id']))->find()){
+                    $this->ajaxReturn(array('status'=>'n', 'msg'=>'您已经审核过了'));
+                }
+                $yi_count = M('check_log')->where(array('type'=>$type, 'mod_id'=>$id))->count();
+                if( $yi_count >=3 ){
+                    $this->ajaxReturn(array('status'=>'n', 'msg'=>'当前已经有三个人审核过，不需要审核'));
+                }
+                //插入数据
+                $data = array('admin_id'=>$this->admin['id'], 'admin_group'=>$this->admin['group_id'], 'type'=>$type, 'mod_id'=>$id, 'status'=>$status, 'remark'=>$remark, 'addtime'=>time());
+                $insert = M('check_log')->add($data);
+                if( $type == 1 ){
+                    $check_db = M('check');
+                }else{
+                    $check_db = M('subsidies');
+                }
+                $mod_data = $check_db->where(array('id'=>$id))->find();
+                $user_data = M('member')->where(array('id'=>$mod_data['user_id']))->find();
+                $w_title = '审核进度';
+                //添加操作次数
+                if( $status == 1 && $mod_data['times'] != -1 ){
+                    $check_db->where(array('id'=>$id))->save(array('times'=>-1));
+                    $w_description = '亲爱的'.$user_data['name']."您好！您的会员申请果：未通过！"."\r\n".$user_data['remark'];
+                    $post_msg = '{
+                    "touser":"'.$user_data['openid'].'",
+                    "msgtype":"news",
+                    "news":{
+                    "articles": [
+                        {
+                            "title":"'.$w_title.'",
+                            "description":"'.$w_description.'",
+                        }
+                    ]
+                    }
+                }';
+                }elseif($status == 2 && $mod_data['times'] != -1){
+                        $check_db->where(array('id'=>$id))->save(array('times'=>$mod_data['times']+1));
+                }
+                if( $mod_data['times'] == 2 ){
+                    $w_description = '亲爱的'.$user_data['name']."您好！您的会员申请结果：已通过！\r\n".'点击此处继续购买';
+                    $w_url = $_SERVER['HTTP_HOST'].'/index.php/home/index/getVip.html';
+                    $post_msg = '{
+                    "touser":"'.$user_data['openid'].'",
+                    "msgtype":"news",
+                    "news":{
+                    "articles": [
+                            {
+                                "title":"'.$w_title.'",
+                                "description":"'.$w_description.'",
+                                "url":"'.$w_url.'",
+                            }
+                                ]
+                        }
+                    }';
+                }
+                if( !empty($w_description) ){
+                    $access_token = $this->access_token();
+                    $url = 'https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token='.$access_token;
+                    $ret_json = $this->curl_grab_page($url, $post_msg);
+                    $ret = json_decode($ret_json);
+                    if($ret->errmsg != 'ok')
+                    {
+                        $access_token = $this->new_access_token();
+                        $url = 'https://api.weixin.qq.com/cgi-bin/message/custom/send?access_token='.$access_token;
+                        $ret_json = $this->curl_grab_page($url, $post_msg);
+                        $ret = json_decode($ret_json);
+                    }
+                }
+                if( $insert >0 ){
+                    $this->ajaxReturn(array('status'=>'y', 'msg'=>'操作成功'));
+                }else{
+                    $this->ajaxReturn(array('status'=>'n', 'msg'=>'系统出错'));
+                }
+            }
         }
         
     }
@@ -84,7 +185,7 @@ class MemberController extends AdminController{
             $service = M('subsidies as s');
             $count = $service->where($where)->count();
             $Page = new \Think\Page($count, $max);
-            $list = $service->join('tp_member as m on m.id = s.userid')->where($where)->page($p, $max)->field('s.*,m.*,s.id as sid')->select();
+            $list = $service->join('tp_member as m on m.id = s.userid', 'left')->where($where)->page($p, $max)->field('s.*,m.*,s.id as sid')->select();
             $show['pageCount'] = $Page->totalPages ? $Page->totalPages : 1;
             $show['current'] = $p;
             $this->assign('where', $where);
@@ -130,38 +231,11 @@ class MemberController extends AdminController{
             }
             M('check')->where(array('id'=>$id))->save(array('status'=>$status, 'checktime'=>time(), 'remark'=>$remark));
             $check_data = M('check')->where(array('id'=>$id))->find();
-            $user_data = M('member')->where(array('id'=>$check_data['user_id']))->find();
-            $w_title = '审核进度';
+
             if( $status == 2 ){
-                $w_description = '亲爱的'.$user_data['name']."您好！您的会员申请已经审核完毕\r\n".'审核结果：已通过！'."\r\n".'点击此处继续购买';
-                $w_url = $_SERVER['HTTP_HOST'].'/index.php/home/index/getVip.html';
-                $post_msg = '{
-                    "touser":"'.$user_data['openid'].'",
-                    "msgtype":"news",
-                    "news":{
-                    "articles": [
-                        {
-                            "title":"'.$w_title.'",
-                            "description":"'.$w_description.'",
-                            "url":"'.$w_url.'",
-                        }
-                    ]
-                    }
-                }';
+
             }else{
-                $w_description = '亲爱的'.$user_data['name']."您好！您的会员申请已经审核完毕\r\n".'审核结果：未通过！'."\r\n".$check_data['remark'];
-                $post_msg = '{
-                    "touser":"'.$user_data['openid'].'",
-                    "msgtype":"news",
-                    "news":{
-                    "articles": [
-                        {
-                            "title":"'.$w_title.'",
-                            "description":"'.$w_description.'",
-                        }
-                    ]
-                    }
-                }';
+
             }
 
             $access_token = $this->access_token();
@@ -182,9 +256,12 @@ class MemberController extends AdminController{
         
     }
 
-    function subsidies_detail(){
+        function subsidies_detail(){
         $id = I('get.id') ? I('get.id') : exit('参数不正确！');
         $data = M('subsidies as s')->where(array('s.id'=>$id))->join('tp_member as m on m.id = s.userid', 'left')->field('s.*,m.*,s.id as sid')->find();
+        //查询审核记录
+        $check_list = M('check_log as c')->where(array('c.mod_id'=>$data['sid'], 'c.type'=>2))->join('tp_user as u on u.id=c.admin_id')->order('addtime asc')->field('c.*,u.name,u.group_id')->select();
+        $this->assign('check_list', $check_list);
         $img_arr = explode(',', $data['bl_image']);
         foreach( $img_arr as $v ){
             $img_str .= '"'.$v.'",';
@@ -210,6 +287,9 @@ class MemberController extends AdminController{
     function buy_detail(){
         $id = I('get.id') ? I('get.id') : exit('参数不正确！');
         $data = M('check')->where(array('id'=>$id))->find();
+        //查询审核记录
+        $check_list = M('check_log as c')->where(array('c.mod_id'=>$data['id'], 'c.type'=>1))->join('tp_user as u on u.id=c.admin_id')->order('addtime asc')->field('c.*,u.name,u.group_id')->select();
+        $this->assign('check_list', $check_list);
         $img_arr = explode(',', $data['bl_img']);
         foreach( $img_arr as $v ){
             $img_str .= '"'.$v.'",';

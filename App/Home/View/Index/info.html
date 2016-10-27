@@ -22,7 +22,6 @@
 
 	<include file="./App/Home/View/Public/foot.html" />
 
-
 	<section class="page">
 
         <include file="./App/Home/View/Public/head.html" />
@@ -40,17 +39,17 @@
 		<form action="{:U('member/ajax_register')}" method="post" id="register">
 			<fieldset>
 
-				<h3 style="font-size:1rem">申请人信息</h3>
+				<h3>申请人信息</h3>
 
 				<div class="row">
-					<label for="">姓　　名</label>
+					<label for="">姓名</label>
 					<div class="form-group">
 						<input type="text" name="name" class="form-control" id="name" placeholder="请输入姓名">
 					</div>
 				</div>
 
 				<div class="row">
-					<label for="">性　　别</label>
+					<label for="">性别</label>
 					<div class="form-group">
 						<label for=""><input type="radio" class="radio" name="sex" value="1" checked>男</label>
 						<label for=""><input type="radio" class="radio" name="sex" value="0">女</label>
@@ -58,7 +57,7 @@
 				</div>
 
 				<div class="row">
-					<label for="">年　　龄</label>
+					<label for="">年龄</label>
 					<div class="form-group">
 						<input type="tel" name="age" id="age" class="form-control"  placeholder="请输入年龄">
 					</div>
@@ -67,7 +66,7 @@
 				<div class="row">
 					<label for="">身份证号</label>
 					<div class="form-group">
-						<input type="text" class="form-control" name="idCard" id="idCard" placeholder="请输入身份证号">
+						<input type="tel" class="form-control" name="idCard" id="idCard" placeholder="请输入身份证号">
 					</div>
 				</div>
 
@@ -79,22 +78,22 @@
 				</div>
 
 				<div class="row">
-					<label for="">微 信 号</label>
+					<label for="">微信号</label>
 					<div class="form-group">
 						<input type="text" class="form-control" name="wxid" id="wxid" placeholder="请输入微信号">
 					</div>
 				</div>
 
 				<div class="row">
-					<label for="">生　　日</label>
+					<label for="">生日</label>
 					<div class="form-group">
-						<input type="date" class="form-control" id="birthday" name="birthday" placeholder="请输入出生日期">
+						<input type="text" class="form-control" id="birthday" name="birthday" placeholder="请输入出生日期">
 					</div>
 				</div>
 
 
 				<div class="row">
-					<label for="">邮　　箱</label>
+					<label for="">邮箱</label>
 					<div class="form-group">
 						<input type="text" class="form-control" name="email" id="email" placeholder="请输入邮箱">
 					</div>
@@ -102,7 +101,7 @@
 
 
 				<div id="address1">
-					<label for="" style="position: absolute; font-size: 0.6rem; width: 5em; line-height: 1.4rem;">住　　址</label>
+					<label for="" style="position: absolute; font-size: 0.6rem; width: 5em; line-height: 1.4rem;">住址</label>
 					<div class="row">
 						<div class="form-group">
 							<select name="d_s" data-province="" class="form-control" id=""></select>
@@ -125,13 +124,13 @@
 				</div>
 
 				<div class="row">
-					<label for="">街　　道</label>
+					<label for="">街道</label>
 					<div class="form-group">
 						<input type="text" class="form-control" name="address" placeholder="请输入街道">
 					</div>
 				</div>
 
-				<h3 style="font-size:1rem">申请人病史</h3>
+				<h3>病史</h3>
 
 
 				<div class="row">
@@ -183,7 +182,7 @@
 				<div class="row">
 					<label for="">个人简历</label>
 					<div class="form-group">
-						<input name="description" class="form-control" type="text" placeholder="如：禁止吸烟喝酒" />
+						<textarea name="description" placeholder="如：禁止吸烟喝酒"></textarea>
 					</div>
 				</div>
 				<div id="address2">
@@ -209,7 +208,7 @@
 					</div>
 				</div>
 
-				<h3 style="font-size:1rem">诊断报告照片上传</h3>
+				<h3>诊断报告</h3>
 				<div class="img-list">
 
 					<ul class="clearfix">
@@ -222,18 +221,18 @@
 				</div>
 
 
-				<h3 style="font-size:1rem">受托人信息</h3>
+				<h3>受托人信息</h3>
 
 				<div class="row">
-					<label for="">受托关系</label>
+					<label for="">与本人关系</label>
 					<div class="form-group">
-						<input type="text" class="form-control" name="relation" id="relation" placeholder="请输入与受托人关系">
+						<input type="text" class="form-control" name="relation" id="relation" placeholder="请输入受托人关系">
 					</div>
 				</div>
 
 
 				<div class="row">
-					<label for="">姓　　名</label>
+					<label for="">姓名</label>
 					<div class="form-group">
 						<input type="text" class="form-control" name="bailor" id="bailor" placeholder="请输入受托人姓名">
 					</div>
@@ -242,21 +241,21 @@
 
 
 				<div class="row">
-					<label for="">电　　话</label>
+					<label for="">电话</label>
 					<div class="form-group">
 						<input type="tel" class="form-control" name="bailor_mobile" id="bailor_mobile" placeholder="请输入受托人电话">
 					</div>
 				</div>
 
 				<div class="row">
-					<label for="">微 信 号</label>
+					<label for="">微信号</label>
 					<div class="form-group">
 						<input type="text" class="form-control" name="s_wxid" id="s_wxid" placeholder="请输入受托人微信号">
 					</div>
 				</div>
 
 				<div class="row">
-					<label for="">邮　　箱</label>
+					<label for="">邮箱</label>
 					<div class="form-group">
 						<input type="text" class="form-control" name="bailor_email" id="bailor_email" placeholder="请输入受托人邮箱">
 					</div>
@@ -266,14 +265,14 @@
 				<div class="row">
 					<label for="">身份证号</label>
 					<div class="form-group">
-						<input type="text" class="form-control" name="bailor_idcard" id="bailor_idcard" placeholder="请输入受托人身份证">
+						<input type="tel" class="form-control" name="bailor_idcard" id="bailor_idcard" placeholder="请输入受托人身份证">
 					</div>
 				</div>
 
 
 				<div id="address2">
 					<div class="row">
-						<label for="">住　　址</label>
+						<label for="">住址</label>
 						<div class="form-group">
 							<select name="s_s" class="form-control" id=""></select>
 						</div>
@@ -294,7 +293,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<label for="">街　　道</label>
+					<label for="">街道</label>
 					<div class="form-group">
 						<input type="text" class="form-control" name="s_address" placeholder="请输入街道">
 					</div>
@@ -352,9 +351,11 @@
 
 		})
 
-		$('.page').on('click','.img-list .glyphicon-remove',function(){
+		$(document).on('click', '.glyphicon-remove',function(){
 			var id = $(this).attr('data-id');
+			var id = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr';
 			var img_str = $('#bl_image').val();
+			var img_str = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr,QLXIQRqC0YuIq3sqwAkqoXHj8Z-s5IIsoz950uZPEK2vVFVx4bmXU0ZO4PwLliTQ';
 			var img_arr = img_str.split(',');
 			for(var v in img_arr){
 				if( img_arr[v] == id ){
@@ -365,7 +366,6 @@
 			$('#bl_image').val(new_img_str);
 			$(this).parent().remove();
 		})
-
 
 	</script>
 	<script>

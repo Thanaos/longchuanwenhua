@@ -44,7 +44,7 @@
 				<ul style="display: block">
                     <volist name="order_list" id="vo">
 					<li>
-						<a href="">
+						<a href="{:U('index/order_detail', array('id'=>$vo['id']))}">
 							<span class="time">{$vo.addtime|date='Y-m-d',###}</span>
 							<strong>{$vo.goods_name}</strong>
 							<small>&gt;</small>
@@ -63,6 +63,7 @@
 	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
 	<script>
 		var swiper = new Swiper('.swiper-container', {
+			autoplay : 3000,    //可选选项，自动滑动
 	        pagination: '.swiper-pagination',
 	        paginationClickable: true
 	        // 启用箭头

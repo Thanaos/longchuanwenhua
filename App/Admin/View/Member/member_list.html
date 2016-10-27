@@ -58,6 +58,28 @@
     <input type="text" name="mobile" id="mobile" class="abc input-default" placeholder="请输入手机号" value="{$where.mobile}">&nbsp;&nbsp;
     身份证：
     <input type="text" name="idCard" id="idCard" class="abc input-default" placeholder="请输入身份证号" value="{$where.idCard}">&nbsp;&nbsp;
+    年龄：
+    <input type="text" name="start_age" id="start_age" class="abc input-default" placeholder="请输入开始年龄" value="{$where.start_age}">&nbsp;&nbsp;
+    <input type="text" name="end_age" id="end_age" class="abc input-default" placeholder="请输入结束年龄" value="{$where.end_age}">&nbsp;&nbsp;
+    患病时长：
+    <select name="illness_time" id="" class="form-control">
+        <option>请选择</option>
+        <option value="1" <if condition="$where.illness_time eq 1">selected</if>>1年</option>
+        <option value="2" <if condition="$where.illness_time eq 2">selected</if>>2年</option>
+        <option value="3" <if condition="$where.illness_time eq 3">selected</if>>3年</option>
+        <option value="4" <if condition="$where.illness_time eq 4">selected</if>>4年</option>
+        <option value="5" <if condition="$where.illness_time eq 5">selected</if>>5年</option>
+        <option value="6" <if condition="$where.illness_time eq 6">selected</if>>5年以上</option>
+    </select>&nbsp;&nbsp;<br />
+    临床诊断：
+    <select name="diagnose" id="diagnose" class="form-control">
+        <option>请选择</option>
+        <volist name="sickid" id="vo">
+            <option value="{$i}" <if condition="$vo['diagnose'] eq $i">selected</if>>{$vo}</option>
+        </volist>
+    </select>
+    长期居住地：
+    <input type="text" name="cq_domicile" id="cq_domicile" class="abc input-default" placeholder="请输入长期居住地" value="{$where.cq_domicile}">&nbsp;&nbsp;
     <button type="submit" class="btn btn-primary">查询</button>
 </form>
 <table class="table table-bordered table-hover definewidth m10">
@@ -75,8 +97,15 @@
             <th>性别</th>
             <th>身份证</th>
             <th>手机</th>
+            <th>患病时长</th>
+            <th>受托人</th>
+            <th>受托人电话</th>
+            <th>与本人关系</th>
             <th>居住地</th>
             <th>注册时间</th>
+            <th>会员级别</th>
+            <th>到期时间</th>
+            <th>余额</th>
             <th>操作</th>
         </tr>
     </empty>
@@ -88,8 +117,15 @@
             <td><if condition="$vo.sex eq 1">男<else />女</if></td>
             <td>{$vo.idcard}</td>
             <td>{$vo.mobile}</td>
+            <td><if condition="$vo.illness_time eq 1">1年<elseif condition="$vo.illness_time eq 2" />2年<elseif condition="$vo.illness_time eq 3" />3年<elseif condition="$vo.illness_time eq 4" />4年<elseif condition="$vo.illness_time eq 5" />5年<elseif condition="$vo.illness_time eq 6" />5年以上</if></td>
+            <td>{$vo.bailor}</td>
+            <td>{$vo.bailor_mobile}</td>
+            <td>{$vo.relation}</td>
             <td>{$vo.domicile}</td>
             <td style="text-align:left">{$vo.createtime|date='Y-m-d H:i:s',###}</td>
+            <td><if condition="$vo.vip_type eq 1">特尊卡会员<elseif condition="$vo.vip_type eq 2" />银卡会员<elseif condition="$vo.vip_type eq 3" />金卡会员<else />普通用户</if></td>
+            <td><if condition="$vo.vip_type gt 0">{$vo.vip_time|date="Y-m-d",###}</if></td>
+            <td>{$vo.money} 元</td>
             <td style="width:120px;">
                 <a href="javascript:;" class="show" data-toggle="modal" data-target="#myModal_{$vo.id}">查询详情</a>
             </td>
@@ -117,7 +153,7 @@
                     <tbody>
                     <tr>
                         <td>临床诊断</td>
-                        <td>{$sickid[$vo['diagnose']]}</td>
+                        <td>{$sickid[$vo['diagnose']-1]}</td>
                     </tr>
                     <tr>
                         <td>患病时长</td>

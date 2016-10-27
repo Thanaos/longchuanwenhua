@@ -62,6 +62,7 @@
 
 	<script>
 		var swiper = new Swiper('.swiper-container', {
+			autoplay : 3000,    //可选选项，自动滑动
 	        pagination: '.swiper-pagination',
 	        paginationClickable: true
 	        // 启用箭头
@@ -81,11 +82,9 @@
 			})
 
 
-            $(document).on('click', '.glyphicon-remove',function(){
+			$('.page').on('click','.img-list .glyphicon-remove',function(){
                 var id = $(this).attr('data-id');
-                var id = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr';
                 var img_str = $('#bl_image').val();
-                var img_str = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr,QLXIQRqC0YuIq3sqwAkqoXHj8Z-s5IIsoz950uZPEK2vVFVx4bmXU0ZO4PwLliTQ';
                 var img_arr = img_str.split(',');
                 for(var v in img_arr){
                     if( img_arr[v] == id ){

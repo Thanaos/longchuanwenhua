@@ -1,0 +1,9 @@
+[ 2016-10-18T15:46:52+08:00 ] ::1 /longhcuanwenhua/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+NOTIC: [8] Undefined index: nickname D:\WWW\longhcuanwenhua\App\Home\Controller\BaseController.class.php 第 18 行.
+

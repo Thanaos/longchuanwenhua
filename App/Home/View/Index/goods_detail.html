@@ -71,11 +71,11 @@
 	    <div class="shop-detail">
 	    	
 	    	<h3>{$goods_data.good_name}</h3>
-            <if condition="($scale_price eq 'yuan') and ($scale_price neq 0)">
+            <if condition="($scale_price eq 'yuan') and ($scale_price elt 0)">
 				<span>价格：￥{$goods_data.good_price}</span>
 			<else />
 				<span class="old-price">原价：￥{$goods_data.good_price}</span>
-				<span class="new-price">现价：￥{$scale_price}</span>
+				<span class="new-price">补贴后价格：￥{$scale_price}</span>
 			</if>
 
 			<hr>
@@ -94,6 +94,7 @@
 	<script src="__ROOT__/Public/Home/js/layer/layer.js"></script>
 	<script>
 		var swiper = new Swiper('.swiper-container', {
+			autoplay : 3000,    //可选选项，自动滑动
 	        pagination: '.swiper-pagination',
 	        paginationClickable: true
 	        // 启用箭头

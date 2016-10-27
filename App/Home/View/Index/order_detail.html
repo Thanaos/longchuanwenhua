@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>特尊医疗</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+	<!-- <meta name="format-detection" content="telephone=no"/> -->
+	<meta name="format-detection" content="email=no"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
+	<link rel="stylesheet" href="__ROOT__/Public/Home/css/style.css">
+	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">
+</head>
+<body>
+	
+	<header>
+		<h1>订单</h1>
+		<a href="" class="glyphicon glyphicon-chevron-left"></a>
+	</header>
+
+	<include file="./App/Home/View/Public/foot.html"/>
+
+	<section class="page">
+
+		<include file="./App/Home/View/Public/head.html" />
+
+	    <!--&lt;!&ndash; userinfo &ndash;&gt;-->
+	    <!--<div class="user-info clearfix">-->
+	    	<!--<div class="photo">-->
+	    		<!--<img src="img/cdl.jpg" alt="">-->
+	    	<!--</div>-->
+	    	<!--<div class="detail">-->
+				<!--<span>账号：530000063851</span>-->
+				<!--<span>金卡会员：2016年9月9日 到期</span>-->
+	    	<!--</div>-->
+	    <!--</div>-->
+
+		<div class="user-type">
+			<span>姓名：{$user_info.name}</span>
+			<span>身份证号：{$user_info.idcard}</span>
+		</div>
+		
+	<!-- order-detail start -->
+
+		<!-- userinfo -->
+	    <div class="user-info clearfix">
+	    	<div class="photo">
+	    		<img src="img/cdl.jpg" alt="">
+	    	</div>
+	    	<div class="detail orders">
+	    		<div class="clearfix">
+	    			<a href="" class="float-right status-green">已完成</a>
+	    			<!-- <a href="" class="float-right status-red">未付款</a> -->
+	    			<!-- <a href="" class="float-right status-blue">已付款</a> -->
+	    			<h4>订单名称</h4>
+	    		</div>
+	    		<small>订单编号：15469876413646</small>
+	    		<small>创建时间：2016年9月13日 01:22:43</small>
+	    		<small>付款时间：2016年9月13日 01:22:53</small>
+	    	</div>
+	    </div>
+
+		<div class="order-detail">
+			
+			<strong>订单简介</strong>
+
+			<article>
+				这个地方是订单简介这个地方是订单简介这个地方是订单简介
+				这个地方是订单简介这个地方是订单简介这个地方是订单简介
+				这个地方是订单简介这个地方是订单简介这个地方是订单简介
+			</article>
+
+			<div class="clearfix">
+				<div class="float-right">
+					<span>价格：￥450</span>
+					<a href="">退款</a>
+				</div>
+			</div>
+
+		</div>
+	
+	<!-- order-detail end -->
+
+	</section>
+	
+	<script src="__ROOT__/Public/Home/js/jquery.min.js"></script>
+	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+	        pagination: '.swiper-pagination',
+	        paginationClickable: true
+	        // 启用箭头
+	        // nextButton: '.swiper-button-next',
+	        // prevButton: '.swiper-button-prev'
+	    });
+
+	</script>	
+
+</body>
+</html>

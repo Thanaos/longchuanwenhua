@@ -15,8 +15,8 @@ class IndexController extends BaseController{
     function getVip(){
         //检查是否可以购买
         $now = time();
-        $a_check = M('check')->where(array('user_id'=>$this->userid, 'checktime'=>array('gt', $now-3600*24*7)))->find();
-        if( empty($a_check) ){
+        $a_check = M('check')->where(array('user_id'=>$this->userid, 'addtime'=>array('gt', $now-3600*24*7) ))->find();
+        if( $a_check['times'] != 3 ){
             redirect(U('index/s_check'));
             exit;
         }
@@ -62,6 +62,13 @@ class IndexController extends BaseController{
         }
         if( !empty($is_read) ){
             //微信签名
+            $data = M('check')->where(array('user_id'=>$this->userid))->find();
+            if( ($data['times'] == -1 || $data['times'] != 3) && !empty($data) ){
+                $this->assign('message', '请情等待审核，不能重复申请！');
+                $this->display('Public:error');
+                exit;
+            }
+            //检查有没有没未审核的
             $wx_config = M('weixin_config')->where('id = 1')->find();
             $jssdk = new \Org\Util\Wxsdk($wx_config['appid'], $wx_config['secret']);
             $signPackage = $jssdk->GetSignPackage();
@@ -134,12 +141,18 @@ class IndexController extends BaseController{
     }
 	
     function subsidies(){
-        //微信签名
-        $wx_config = M('weixin_config')->where('id = 1')->find();
-        $jssdk = new \Org\Util\Wxsdk($wx_config['appid'], $wx_config['secret']);
-        $signPackage = $jssdk->GetSignPackage();
-        $this->assign('signPackage', $signPackage);
-        $this->display();
+        if( $this->user_info['vip'] = 1 && $this->user_info['vip_time'] > time()  ){
+            //微信签名
+            $wx_config = M('weixin_config')->where('id = 1')->find();
+            $jssdk = new \Org\Util\Wxsdk($wx_config['appid'], $wx_config['secret']);
+            $signPackage = $jssdk->GetSignPackage();
+            $this->assign('signPackage', $signPackage);
+            $this->display();
+        }else{
+            $this->assign('message', '抱歉不是会员不能申请补贴！');
+            $this->display('Public:error');
+            exit;
+        }
     }
     
     function save_sub(){
@@ -253,6 +266,10 @@ class IndexController extends BaseController{
         $this->assign('action', 'order');
         $this->assign('status', $status);
         $this->assign('order_list', $order_list);
+        $this->display();
+    }
+    
+    function order_detail(){
         $this->display();
     }
     

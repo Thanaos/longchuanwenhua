@@ -20,6 +20,7 @@
 
 	<section class="page">
 		<include file="./App/Home/View/Public/head.html" />
+
 		<div class="admin-info clearfix">
 			<div class="photo">
 				<img src="{$user_info.headimg}" alt="">
@@ -32,7 +33,7 @@
 			</div>
 			<span>姓名：{$user_info.name}</span>
 			<if condition="$user_info.vip eq 0">
-                <span><a href="{:U('index/getVip')}" style="display: block; color: #ffffff; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; margin: 0 auto; background-color: #31619d; width: 4rem; border-width: 0;">购买会员</a></span>
+                <span><a href="{:U('index/getVip')}" style="display: block; color: #ffffff; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; margin: 0 auto; background-color: #31619d; width: 4rem; border-width: 0;">会员交费</a></span>
 			<else />
 				<if condition="$time gt $user_info['vip_time']">
 					<span><a href="{:U('index/getVip')}" style="display: block; color: #ffffff; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; margin: 0 auto; background-color: #31619d; width: 4rem; border-width: 0;">立即续费</a></span>
@@ -43,15 +44,15 @@
 		</div>
 
 		<div class="admin-box">
-			<div class="admin-title">
+			<!--<div class="admin-title">
 				活动专区
-			</div>
+			</div>-->
 			<div class="admin-nav">
 				<a href="{:U('index/subsidies')}" class="type-1">
 					补贴申请
 					<small>详细说明</small>
 				</a>
-				<a href="{:U('index/getVIp')}" class="type-2">
+				<a href="{:U('index/getVip')}" class="type-2">
 					会员资格
 					<small>会员升级/降级/注销</small>
 				</a>
@@ -59,9 +60,9 @@
 		</div>
 
 		<div class="admin-box">
-			<div class="admin-title">
+			<!--<div class="admin-title">
 				功能专区
-			</div>
+			</div>-->
 			<div class="admin-nav">
 				<a href="" class="type-3">
 					诊疗挂号
@@ -95,6 +96,7 @@
 	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
 	<script>
 		var swiper = new Swiper('.swiper-container', {
+			autoplay : 3000,    //可选选项，自动滑动
 			pagination: '.swiper-pagination',
 			paginationClickable: true
 			// 启用箭头

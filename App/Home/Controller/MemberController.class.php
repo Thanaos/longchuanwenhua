@@ -69,6 +69,19 @@ class MemberController extends Controller{
             $this->error('请填写比填字段！');
         }
         
+        //检测手机和身份证
+        if(M('member')->where(array('mobile'=>$mobile))->find()){
+            $this->error('手机号已存在！');
+            exit;
+        }
+        
+        //检测手机和身份证
+        if(M('member')->where(array('idCard'=>$idCard))->find()){
+            $this->error('身份证已被使用！');
+            exit;
+        }
+        
+        
         //注册用户
         $data = array('openid'=>$this->userinfo['openid'], 'headimg'=>$this->userinfo['headimgurl'], 'name'=>$name, 'birthday'=>$birthday, 'sex'=>$sex, 'idCard'=>$idCard, 'age'=>$age, 'mobile'=>$mobile, 'bailor'=>$bailor, 'bailor_mobile'=>$bailor_mobile, 'diagnose'=>$diagnose, 'domicile'=>$domicile, 'cq_domicile'=>$cq_domicile, 'illness_history'=>$illness_history, 'illness_time'=>$illness_time, 'gm_history'=>$gm_history, 'jz_history'=>$jz_history, 'description'=>$description, 'email'=>$email, 'bailor_idcard'=>$bailor_idcard, 'relation'=>$relation, 'bailor_email'=>$bailor_email, 'bl_img'=>$bl_img, 'wxid'=>$wxid, 'b_domicile'=>$s_domicile, 's_wxid'=>$s_wxid);
         //注册时间

@@ -12,6 +12,7 @@ class AdminController extends Controller{
             $this->redirect('Admin/Users/login');
         }else{
             $user = session('admin');
+            $this->admin = $user;
             $this->assign('admin',$user);
         }
         //后台用户组

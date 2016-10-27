@@ -16,7 +16,7 @@
         <!--<img src="/chinapost/Public/assets/img/top.png">-->
     </div>
 
-    <div class="dl-log">欢迎您，<span class="dl-log-user">{$admin}</span><a href="__APP__/admin/users/logout.html"
+    <div class="dl-log">欢迎您，<span class="dl-log-user">{$admin.name}</span><a href="__APP__/admin/users/logout.html"
                                                                         title="退出系统" class="dl-log-quit">[退出]</a>
     </div>
 </div>
@@ -49,18 +49,19 @@
                 {id:'8',text:'会员种类',href:'__APP__/admin/package/list.html'},
                 {id:'9',text:'诊疗项目',href:'__APP__/admin/goods/list.html'},
                 {id:'11',text:'协议管理',href:'__APP__/admin/agreement/list.html'},
+                {id:'15',text:'材料清单',href:'__APP__/admin/index/clist.html'},
             ]},
             </if>
             {text:'会员管理 ',items:[
             <if condition="($admin_role eq 2) or ($admin_role eq 'all')">
-                {id:'7',text:'购买会员申请',href:'__APP__/admin/subsidies/buy.html'},
+                {id:'12',text:'购买会员申请',href:'__APP__/admin/subsidies/buy.html'},
             </if>
                 {id:'5',text:'会员列表',href:'__APP__/admin/member/list.html'},
             <if condition="($admin_role eq 3) or ($admin_role eq 2) or ($admin_role eq 'all')">
                 {id:'7',text:'补贴申请',href:'__APP__/admin/subsidies/list.html'},
             </if>
             ]},
-            <if condition="($admin_role eq 2) or ($admin_role eq 'all')">
+            <if condition="($admin_role eq 3) or ($admin_role eq 'all')">
             {text:'财务管理 ',items:[
                 {id:'6',text:'年费收入详情',href:'__APP__/admin/income/list.html'},
                 {id:'10',text:'套餐收入详情',href:'__APP__/admin/order/list.html'}

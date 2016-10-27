@@ -98,11 +98,67 @@
         <td colspan="4"><img src="__ROOT__{$vo.path}"></td>
     </tr>
     </volist>
+    <tr>
+        <td colspan="4"><h5>审核记录</h5></td>
+    </tr>
+    <tr>
+        <td>管理员</td>
+        <td>审核状态</td>
+        <td>备注</td>
+        <td>操作时间</td>
+    </tr>
+    <volist name="check_list" id="vo">
+        <tr>
+            <td>{$vo.name}<if condition="$vo.group_id eq 1">(超级管理员)<elseif condition="$vo.group_id eq 2" />(医事审核)<elseif condition="$vo.group_id eq 3" />(财务审核)</if></td>
+            <td><if condition="$vo.status eq 1"><span style="color:red">不通过</span><else /><span style="color:green">通过</span></if></td>
+            <td>{$vo.remark}</td>
+            <td>{$vo.addtime|date='Y-m-d H:i:s',###}</td>
+        </tr>
+    </volist>
+    <tr>
+        <td colspan="4"><h5>审核操作</h5></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <select name="status" id="status">
+                <option value="1">不通过</option>
+                <option value="2">通过</option>
+            </select>
+        </td>
+        <td colspan="2">备注信息：<input type="text" name="remark" value="{$data.remark}"></td>
+    </tr>
+    <tr>
+        <td colspan="4" style="text-align: center">
+            <button type="button" id="submit" class="btn btn-primary">提交</button>
+        </td>
+    </tr>
 </table>
 </body>
 </html>
 <script>
-
+    var index = parent.layer.getFrameIndex(window.name); //获取窗口索引
+    $(function(){
+        $('#submit').click(function(){
+            var id = {$data.sid};
+            var status = $('#status').val();
+            var remark = $('input[name="remark"]').val();
+            if( status == 1 ){
+                if( remark.length < 0 ){
+                    alert('请填写不通过原因！');
+                    return false;
+                }
+            }
+            $.post('{:U("member/check_log")}',{id:id,status:status,remark:remark,type:2},function(data){
+                if( data.status == 'y' ){
+                    alert(data.msg);
+                    parent.document.location.reload();
+//                    parent.layer.close(index);
+                }else{
+                    alert(data.msg);
+                }
+            },'json')
+        })
+    })
 
 </script>
 </table>
