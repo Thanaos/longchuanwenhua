@@ -1,1 +1,1 @@
-1474631074
+{"status":"y","server":{"server_id":"X2oqV26GspdmOMq0BkPHNLEBFPhjipAieNvg_8Pke-J1j5N4WUYhlNfpVm-fADl5","server_img":[{"path":"\/uploads\/BL\/5817fc66e8567.jpg","id":"X2oqV26GspdmOMq0BkPHNLEBFPhjipAieNvg_8Pke-J1j5N4WUYhlNfpVm-fADl5"}]}}

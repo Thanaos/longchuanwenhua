@@ -206,10 +206,10 @@ class Common_util_pub
 		//使用证书：cert 与 key 分别属于两个.pem文件
 		//默认格式为PEM，可以注释
 		curl_setopt($ch,CURLOPT_SSLCERTTYPE,'PEM');
-		curl_setopt($ch,CURLOPT_SSLCERT, WxPayConf_pub::SSLCERT_PATH);
+		curl_setopt($ch,CURLOPT_SSLCERT, dirname(__FILE__) . '/cacert/apiclient_cert.pem');
 		//默认格式为PEM，可以注释
 		curl_setopt($ch,CURLOPT_SSLKEYTYPE,'PEM');
-		curl_setopt($ch,CURLOPT_SSLKEY, WxPayConf_pub::SSLKEY_PATH);
+		curl_setopt($ch,CURLOPT_SSLKEY, dirname(__FILE__) . '/cacert/apiclient_key.pem');
 		//post提交方式
 		curl_setopt($ch,CURLOPT_POST, true);
 		curl_setopt($ch,CURLOPT_POSTFIELDS,$xml);

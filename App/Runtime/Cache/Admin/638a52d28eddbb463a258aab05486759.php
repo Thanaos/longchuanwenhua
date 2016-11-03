@@ -6,13 +6,13 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>后台管理登陆</title>
 		<meta name="weishangbao" content="ASUS" />
-		<link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/common.css">
-        <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/zhucedenglu.css">
-        <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="/Public/Admin/css/common.css">
+        <link rel="stylesheet" type="text/css" href="/Public/Admin/css/zhucedenglu.css">
+        <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
         <script>
             $(function(){
                 $('#verify').click(function(){
-                    $('#img').attr('src','/longhcuanwenhua/index.php?s=/admin/users/verify.html');
+                    $('#img').attr('src','/index.php?s=/admin/users/verify.html');
                 })
                 $('#but').click(function(){
                     var name = $('input[name="name"]').val();
@@ -33,7 +33,7 @@
 				<div class="conter-head clear">
 				</div> 
 				<div class="login-one" style="background-color:rgba(82,81,157,0.8);border:1px solid #8281c7; height:400px;">
-                    <form method="post" action="/longhcuanwenhua/index.php?s=/admin/users/login.html">
+                    <form method="post" action="/index.php?s=/admin/users/login.html">
 					<table>
 						<tr>
 							<td  class="one">登录</td>
@@ -52,7 +52,7 @@
 							<td class="one">验证码</td>
 							<td style="height:30px;line-height:30px;">
 							<input type="text" name="code"  style="width:90px;font-size: 12px;height:30px;">
-							<img src="/longhcuanwenhua/index.php?s=/admin/users/verify.html" id="img" style="width:130px;height:40px;vertical-align: middle"\><span style="font-size: 12px;color:white;margin-left:18px;cursor:pointer" id="verify">换一张</span></td>
+							<img src="/index.php?s=/admin/users/verify.html" id="img" style="width:130px;height:40px;vertical-align: middle"\><span style="font-size: 12px;color:white;margin-left:18px;cursor:pointer" id="verify">换一张</span></td>
 							<td></td>
 						</tr>
 					</table>

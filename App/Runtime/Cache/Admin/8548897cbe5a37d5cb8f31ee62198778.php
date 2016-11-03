@@ -1,21 +1,21 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
-<head>    <link rel="shortcut icon" href="/longhcuanwenhua/favicon.ico" type="image/x-icon" />
+<head>    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <title></title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap-responsive.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/Validform_v5.3.2.css" />
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery-1.7.min.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/ckform.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/common.js"></script>
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/jquery-ui.css" />
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery-ui.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery-ui-slide.min.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery-ui-timepicker-addon.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.form.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/Validform_v5.3.2.css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/jquery-ui.css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jquery-ui-slide.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jquery-ui-timepicker-addon.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jquery.form.js"></script>
 
 
 
@@ -46,25 +46,25 @@
         .delimg{margin-left:20px; color:#090; cursor:pointer}
 
     </style>
-    <link rel="stylesheet" href="/longhcuanwenhua/Public/Admin/kindeditor-4.1.10/themes/default/default.css" />
-    <script charset="utf-8" src="/longhcuanwenhua/Public/Admin/kindeditor-4.1.10/kindeditor-all.js"></script>
-    <script charset="utf-8" src="/longhcuanwenhua/Public/Admin/kindeditor-4.1.10/lang/zh_CN.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/kindeditor-4.1.10/themes/default/default.css" />
+    <script charset="utf-8" src="/Public/Admin/kindeditor-4.1.10/kindeditor-all.js"></script>
+    <script charset="utf-8" src="/Public/Admin/kindeditor-4.1.10/lang/zh_CN.js"></script>
     <script>
         var editor;
         KindEditor.ready(function(K) {
             editor = K.create('textarea[name="content"]', {
                 width:'700px',
                 height:'400px',
-                cssPath : '/longhcuanwenhua/Public/Admin/kindeditor-4.1.10/plugins/code/prettify.css',
-                uploadJson : '/longhcuanwenhua/index.php?s=/admin/index/uploadImg.html',
-                fileManagerJson : '/longhcuanwenhua/index.php?s=/admin/index/uploadManager.html',
+                cssPath : '/Public/Admin/kindeditor-4.1.10/plugins/code/prettify.css',
+                uploadJson : '/index.php?s=/admin/index/uploadImg.html',
+                fileManagerJson : '/index.php?s=/admin/index/uploadManager.html',
                 allowFileManager : true
             });
         });
     </script>
 </head>
 <body>
-<form action="/longhcuanwenhua/index.php?s=/admin/user/save.html" id="registerform">
+<form action="/index.php?s=/admin/user/save.html" id="registerform">
     <input type="hidden" name="id" value="<?php echo ($data["id"]); ?>">
     <table class="table table-bordered table-hover definewidth m30" >
         <tr>
@@ -94,7 +94,7 @@
 </form>
 </body>
 </html>
-<script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
 <script>
     $(function () {
 
@@ -107,7 +107,7 @@
                 if(data.status == 'y'){
                     $.Hidemsg();
                     alert(data.msg);
-                    window.location.href="/longhcuanwenhua/index.php?s=/admin/user/list.html";
+                    window.location.href="/index.php?s=/admin/user/list.html";
                 }else{
                     alert(data.msg);
                 }

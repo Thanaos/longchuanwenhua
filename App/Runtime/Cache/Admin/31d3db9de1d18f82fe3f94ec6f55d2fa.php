@@ -1,20 +1,20 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
-    <link rel="shortcut icon" href="/longhcuanwenhua/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
     <title></title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap-responsive.css"/>
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/style.css"/>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/ckform.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/common.js"></script>
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/jquery-ui.css" />
-    <script src="/longhcuanwenhua/Public/Admin/js/jquery.page.js"></script>
-    <script src="/longhcuanwenhua/Public/Admin/js/layer/layer.js"></script>
-    <script src="/longhcuanwenhua/Public/Admin/js/laydate/laydate.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/style.css"/>
+    <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/jquery-ui.css" />
+    <script src="/Public/Admin/js/jquery.page.js"></script>
+    <script src="/Public/Admin/js/layer/layer.js"></script>
+    <script src="/Public/Admin/js/laydate/laydate.js"></script>
 
 
     <style type="text/css">
@@ -58,6 +58,8 @@
     <input type="text" name="start_time" id="start_time" class="abc input-default" placeholder="请选择时间" value="<?php echo ($where["start"]); ?>" onclick="laydate()">&nbsp;&nbsp;
     结束时间：
     <input type="text" name="end_time" id="end_time" class="abc input-default" placeholder="请选择时间" value="<?php echo ($where["end"]); ?>" onclick="laydate()">&nbsp;&nbsp;
+    医生编号：
+    <input type="text" name="bh" id="bh" class="abc input-default" placeholder="请输入医生编号" value="<?php echo ($where["bh"]); ?>">&nbsp;&nbsp;
     <button type="submit" class="btn btn-primary">查询</button>
 </form>
 <div style="margin-top:10px;margin-left:30px"><span>平台总收益：<?php echo ($count_money); ?> 元&nbsp;&nbsp;年费会员数：<?php echo ($count_member); ?> 人</span></div>
@@ -155,20 +157,20 @@
         pageCount:<?php echo ($show["pageCount"]); ?>,
         current:<?php echo ($show["current"]); ?>,
         backFn: function ( p ){
-            window.location.href = '/longhcuanwenhua/index.php?s=/admin/news/<?php echo ($type); ?>/' + p + '.html';
+            window.location.href = '/index.php?s=/admin/news/<?php echo ($type); ?>/' + p + '.html';
         }
     });
     $(function (){
 
         $('#addnew').click(function (){
-            window.location.href = "/longhcuanwenhua/index.php?s=/admin/user/edit.html";
+            window.location.href = "/index.php?s=/admin/user/edit.html";
         });
 
         $('.del').click(function (){
             var r = confirm("确定要删除该数据？");
             var newsId = $(this).attr("name");
             if ( r == true ){
-                $.post("/longhcuanwenhua/index.php?s=/admin/user/del.html",{id:newsId}, function ( data ){
+                $.post("/index.php?s=/admin/user/del.html",{id:newsId}, function ( data ){
                     if ( data.status == 'y' ){
                         alert(data.msg);
                         document.location.reload();

@@ -4,15 +4,16 @@
             <span class="glyphicon glyphicon-home"></span>
             <small>首页</small>
         </a>
+        <a href="{:U('index/goods')}" <if condition="$action eq 'goods'">class="active"</if>>
+            <span class="glyphicon glyphicon-shopping-cart"></span>
+            <small>购买服务</small>
+        </a>
         <a href="{:U('index/order')}" <if condition="$action eq 'order'">class="active"</if>>
             <span class="glyphicon glyphicon-list"></span>
             <small>订单详情</small>
         </a>
-        <a href="">
-            <span class="glyphicon glyphicon-shopping-cart"></span>
-            <small>缴费结算</small>
-        </a>
-        <a href="">
+
+        <a href="{:U('index/info')}" <if condition="$action eq 'info'">class="active"</if>>
             <span class="glyphicon glyphicon-user"></span>
             <small>会员信息</small>
         </a>

@@ -39,6 +39,7 @@
 	    <!-- form start -->
 		<form action="{:U('member/ajax_register')}" method="post" id="register">
 			<fieldset>
+				<div style="display:block;margin:.5rem"><span style="color:red;font-size: 0.6rem;">提示：请填写真实信息！否则，可能导致入会、诊疗和补贴申请等无法实现。</span></div>
 
 				<h3 style="font-size:1rem">申请人信息</h3>
 
@@ -183,7 +184,7 @@
 				<div class="row">
 					<label for="">个人简历</label>
 					<div class="form-group">
-						<input name="description" class="form-control" type="text" placeholder="如：禁止吸烟喝酒" />
+						<input name="description" class="form-control" type="text" placeholder="请输入个人简历" />
 					</div>
 				</div>
 				<div id="address2">
@@ -209,8 +210,8 @@
 					</div>
 				</div>
 
-				<h3 style="font-size:1rem">诊断报告照片上传</h3>
-				<div class="img-list">
+				<h3 style="font-size:1rem">诊断报告照片上传</h3><span><a href="javascript:void(0);" id="clist" style="color:deepskyblue;margin-left:0.5rem;font-size: 0.6rem">点击查看材料清单</a><span>
+				<div class="img-list" style="margin-top:1rem">
 
 					<ul class="clearfix">
 
@@ -308,9 +309,12 @@
 	    <!-- form end -->
 
 	</section>
+
+
 	
 	<script src="__ROOT__/Public/Home/js/jquery.min.js"></script>
 	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
+	<script src="__ROOT__/Public/Home/js/layer/layer.js"></script>
     <script src="__ROOT__/Public/Home/js/form.js"></script>
     <script src="__ROOT__/Public/Home/js/citys/distpicker.data.js"></script>
     <script src="__ROOT__/Public/Home/js/citys/distpicker.js"></script>
@@ -347,6 +351,16 @@
 				
 				self.addClass('active').siblings('button').removeClass('active');
 				$('.user-item ul').eq(nums).show().siblings('ul').hide();
+			})
+
+			$('#clist').click(function(){
+				layer.open({
+					type: 1,
+					content: '<div style="width:90%;height:80%;margin: 0 auto"><div style="position: absolute; left: 5%; right: 5%; top: 0; bottom: 70px;"><img src="{$clist.path}"  alt=""></div><a href="javascript:;" style=" color: #ffffff; -webkit-border-radius: 4px; border-radius: 4px; position: absolute; bottom: 0; left: 50%; margin: .5rem auto 0 -58px; background-color: #31619d; width: 5rem; height: 1.5rem; border-width: 0; text-align: center; line-height: 1.5rem;" onclick="layer.closeAll();">关闭</a></div>',
+					shadeClose:true,
+					shade:true,
+					style: 'position:fixed; left:0; top:0; width:100%; height:100%; border: none; -webkit-animation-duration: .5s; animation-duration: .5s;',
+				});
 			})
 
 

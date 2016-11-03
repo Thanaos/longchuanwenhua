@@ -1,18 +1,18 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
-    <link rel="shortcut icon" href="/longhcuanwenhua/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
     <title></title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap-responsive.css"/>
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/style.css"/>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/ckform.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/common.js"></script>
-    <script src="/longhcuanwenhua/Public/Admin/js/jquery.page.js"></script>
-    <script src="/longhcuanwenhua/Public/Admin/js/layer/layer.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/style.css"/>
+    <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+    <script src="/Public/Admin/js/jquery.page.js"></script>
+    <script src="/Public/Admin/js/layer/layer.js"></script>
 
 
     <style type="text/css">
@@ -58,6 +58,26 @@
     <input type="text" name="mobile" id="mobile" class="abc input-default" placeholder="请输入手机号" value="<?php echo ($where["mobile"]); ?>">&nbsp;&nbsp;
     身份证：
     <input type="text" name="idCard" id="idCard" class="abc input-default" placeholder="请输入身份证号" value="<?php echo ($where["idCard"]); ?>">&nbsp;&nbsp;
+    年龄：
+    <input type="text" name="start_age" id="start_age" class="abc input-default" placeholder="请输入开始年龄" value="<?php echo ($where["start_age"]); ?>">&nbsp;&nbsp;
+    <input type="text" name="end_age" id="end_age" class="abc input-default" placeholder="请输入结束年龄" value="<?php echo ($where["end_age"]); ?>">&nbsp;&nbsp;
+    患病时长：
+    <select name="illness_time" id="" class="form-control">
+        <option>请选择</option>
+        <option value="1" <?php if($where["illness_time"] == 1): ?>selected<?php endif; ?>>1年</option>
+        <option value="2" <?php if($where["illness_time"] == 2): ?>selected<?php endif; ?>>2年</option>
+        <option value="3" <?php if($where["illness_time"] == 3): ?>selected<?php endif; ?>>3年</option>
+        <option value="4" <?php if($where["illness_time"] == 4): ?>selected<?php endif; ?>>4年</option>
+        <option value="5" <?php if($where["illness_time"] == 5): ?>selected<?php endif; ?>>5年</option>
+        <option value="6" <?php if($where["illness_time"] == 6): ?>selected<?php endif; ?>>5年以上</option>
+    </select>&nbsp;&nbsp;<br />
+    临床诊断：
+    <select name="diagnose" id="diagnose" class="form-control">
+        <option>请选择</option>
+        <?php if(is_array($sickid)): $i = 0; $__LIST__ = $sickid;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($i); ?>" <?php if($vo['diagnose'] == $i): ?>selected<?php endif; ?>><?php echo ($vo); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+    </select>
+    长期居住地：
+    <input type="text" name="cq_domicile" id="cq_domicile" class="abc input-default" placeholder="请输入长期居住地" value="<?php echo ($where["cq_domicile"]); ?>">&nbsp;&nbsp;
     <button type="submit" class="btn btn-primary">查询</button>
 </form>
 <table class="table table-bordered table-hover definewidth m10">
@@ -74,8 +94,15 @@
             <th>性别</th>
             <th>身份证</th>
             <th>手机</th>
+            <th>患病时长</th>
+            <th>受托人</th>
+            <th>受托人电话</th>
+            <th>与本人关系</th>
             <th>居住地</th>
             <th>注册时间</th>
+            <th>会员级别</th>
+            <th>到期时间</th>
+            <th>余额</th>
             <th>操作</th>
         </tr><?php endif; ?>
     </thead>
@@ -85,8 +112,15 @@
             <td><?php if($vo["sex"] == 1): ?>男<?php else: ?>女<?php endif; ?></td>
             <td><?php echo ($vo["idcard"]); ?></td>
             <td><?php echo ($vo["mobile"]); ?></td>
+            <td><?php if($vo["illness_time"] == 1): ?>1年<?php elseif($vo["illness_time"] == 2): ?>2年<?php elseif($vo["illness_time"] == 3): ?>3年<?php elseif($vo["illness_time"] == 4): ?>4年<?php elseif($vo["illness_time"] == 5): ?>5年<?php elseif($vo["illness_time"] == 6): ?>5年以上<?php endif; ?></td>
+            <td><?php echo ($vo["bailor"]); ?></td>
+            <td><?php echo ($vo["bailor_mobile"]); ?></td>
+            <td><?php echo ($vo["relation"]); ?></td>
             <td><?php echo ($vo["domicile"]); ?></td>
             <td style="text-align:left"><?php echo (date('Y-m-d H:i:s',$vo["createtime"])); ?></td>
+            <td><?php if($vo["vip_type"] == 1): ?>特尊卡会员<?php elseif($vo["vip_type"] == 2): ?>银卡会员<?php elseif($vo["vip_type"] == 3): ?>金卡会员<?php else: ?>普通用户<?php endif; ?></td>
+            <td><?php if($vo["vip_type"] > 0): echo (date("Y-m-d",$vo["vip_time"])); endif; ?></td>
+            <td><?php echo ($vo["money"]); ?> 元</td>
             <td style="width:120px;">
                 <a href="javascript:;" class="show" data-toggle="modal" data-target="#myModal_<?php echo ($vo["id"]); ?>">查询详情</a>
             </td>
@@ -112,7 +146,7 @@
                     <tbody>
                     <tr>
                         <td>临床诊断</td>
-                        <td><?php echo ($sickid[$vo['diagnose']]); ?></td>
+                        <td><?php echo ($sickid[$vo['diagnose']-1]); ?></td>
                     </tr>
                     <tr>
                         <td>患病时长</td>
@@ -143,6 +177,12 @@
                         <td>个人简史</td>
                         <td><?php echo ($vo["description"]); ?></td>
                     </tr>
+                    <tr>
+                        <td colspan="2">病史图片</td>
+                    </tr>
+                    <?php if(is_array($vo["bl_img_arr"])): $i = 0; $__LIST__ = $vo["bl_img_arr"];if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$val): $mod = ($i % 2 );++$i;?><tr>
+                            <td colspan="2"><img src="<?php echo ($val["path"]); ?>" /></td>
+                        </tr><?php endforeach; endif; else: echo "" ;endif; ?>
 
                     </tbody>
                 </table>
@@ -158,20 +198,20 @@
         pageCount:<?php echo ($show["pageCount"]); ?>,
         current:<?php echo ($show["current"]); ?>,
         backFn: function ( p ){
-            window.location.href = '/longhcuanwenhua/index.php?s=/admin/news/<?php echo ($type); ?>/' + p + '.html';
+            window.location.href = '/index.php?s=/admin/news/<?php echo ($type); ?>/' + p + '.html';
         }
     });
     $(function (){
 
         $('#addnew').click(function (){
-            window.location.href = "/longhcuanwenhua/index.php?s=/admin/user/edit.html";
+            window.location.href = "/index.php?s=/admin/user/edit.html";
         });
 
         $('.del').click(function (){
             var r = confirm("确定要删除该数据？");
             var newsId = $(this).attr("name");
             if ( r == true ){
-                $.post("/longhcuanwenhua/index.php?s=/admin/user/del.html",{id:newsId}, function ( data ){
+                $.post("/index.php?s=/admin/user/del.html",{id:newsId}, function ( data ){
                     if ( data.status == 'y' ){
                         alert(data.msg);
                         document.location.reload();

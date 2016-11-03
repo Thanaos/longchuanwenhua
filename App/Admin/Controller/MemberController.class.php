@@ -119,7 +119,7 @@ class MemberController extends AdminController{
                     }
                 }';
                 }elseif($status == 2 && $mod_data['times'] != -1){
-                        $check_db->where(array('id'=>$id))->save(array('times'=>$mod_data['times']+1));
+                        $check_db->where(array('id'=>$id))->save(array('times'=>$mod_data['times']+1, 'check_time'=>time()+3600*24));
                 }
                 if( $mod_data['times'] == 2 ){
                     $w_description = '亲爱的'.$user_data['name']."您好！您的会员申请结果：已通过！\r\n".'点击此处继续购买';
@@ -197,8 +197,12 @@ class MemberController extends AdminController{
             $where = array();
             if( IS_POST ){
                 $status = I('post.status') ? I('post.status') : '';
-                if( $status < 4 ){
-                    $where['s.status'] = $status;
+                if( $status == 0 ){
+                    $where = 'times != -1 AND times != 3';
+                }elseif( $status == 1 ){
+                    $where = 'times = -1';
+                }elseif( $status == 2 ){
+                    $where = 'times = 3';
                 }
         
             }

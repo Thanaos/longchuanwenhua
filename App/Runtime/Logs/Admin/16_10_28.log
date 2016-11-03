@@ -1,0 +1,823 @@
+[ 2016-10-28T11:22:10+08:00 ] 158.199.192.250 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-10-28T11:22:10+08:00 ] 158.199.192.250 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-10-28T11:22:24+08:00 ] 158.199.192.250 /index.php?s=/admin/users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/UsersController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tp_user` WHERE `name` = 'admin' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000590s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000638s ]
+
+[ 2016-10-28T11:22:25+08:00 ] 158.199.192.250 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-10-28T11:22:27+08:00 ] 158.199.192.250 /index.php?s=/admin/member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0019s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_member` LIMIT 0,20   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("Z0DrySI4hTobeyV7OYXMgz73XZF6ukbPS-wDcru4hcG4ScucoHBCEXIiyb0YyscT") )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: name /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: mobile /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: idCard /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: start_age /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: end_age /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: illness_time /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: diagnose /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: domicile /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-10-28T11:26:52+08:00 ] 158.199.192.250 /index.php?s=/admin/package/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_package` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_package` LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008570s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2016-10-28T11:26:53+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0083s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/dc5144c693af1ddb0c40469bbb396f89.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-10-28T11:26:59+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_package`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 63 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 67 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 71 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 75 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 79 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 83 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008457s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-10-28T11:29:27+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0009s ]
+SQL: INSERT INTO `tp_goods` (`good_name`,`good_price`,`good_scale1`,`good_scale2`,`good_scale3`,`good_detail`,`addtime`) VALUES ('陈敏华特尊肝病医疗教育奖励基金（10000元）','10000','0','0','0','用于捐赠给陈敏华特尊肝病医疗教育奖励基金，人民币10000元。','1477625367') [ RunTime:0.0004s ]
+
+[ 2016-10-28T11:29:29+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/edit/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `tp_package`  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-10-28T11:29:46+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0010s ]
+SQL: UPDATE `tp_goods` SET `good_name`='陈敏华特尊肝病医疗教育奖励基金（5000元）',`good_price`='5000.00',`good_scale1`='0',`good_scale2`='0',`good_scale3`='0',`good_detail`='用于捐赠给陈敏华特尊肝病医疗教育奖励基金，人民币5000元。',`addtime`='1477625386' WHERE `id` = 5 [ RunTime:0.0005s ]
+
+[ 2016-10-28T11:29:48+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/dc5144c693af1ddb0c40469bbb396f89.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-10-28T11:29:56+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_package`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 63 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 67 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 71 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 75 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 79 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 83 行.
+NOTIC: [8] Undefined variable: data /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/571bfe5d093cdcd85693412d7aaa7a58.php 第 87 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-10-28T11:30:41+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0034s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0007s ]
+SQL: INSERT INTO `tp_goods` (`good_name`,`good_price`,`good_scale1`,`good_scale2`,`good_scale3`,`good_detail`,`addtime`) VALUES ('陈敏华特尊肝病医疗教育奖励基金（10000元）','10000','0','0','0','用于捐赠给陈敏华特尊肝病医疗教育奖励基金，人民币10000元。','1477625441') [ RunTime:0.0005s ]
+
+[ 2016-10-28T11:30:42+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/edit/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_package`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-10-28T11:30:46+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goods` LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/dc5144c693af1ddb0c40469bbb396f89.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-10-28T11:30:50+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/edit/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tp_package` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `tp_package`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goods` WHERE `id` = 5 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-10-28T11:30:54+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goods` LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/dc5144c693af1ddb0c40469bbb396f89.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2016-10-28T11:47:00+08:00 ] 158.199.192.250 /index.php?s=/admin/model/del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant IS_PSOT - assumed 'IS_PSOT' /data/home/hyu2409230001/htdocs/App/Admin/Controller/IndexController.class.php 第 257 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0009s ]
+SQL: DELETE FROM `tp_goods` WHERE `id` = 6 [ RunTime:0.0004s ]
+
+[ 2016-10-28T11:47:02+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_goods` LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/dc5144c693af1ddb0c40469bbb396f89.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2016-10-28T11:47:05+08:00 ] 158.199.192.250 /index.php?s=/admin/model/del.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant IS_PSOT - assumed 'IS_PSOT' /data/home/hyu2409230001/htdocs/App/Admin/Controller/IndexController.class.php 第 257 行.
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0007s ]
+SQL: DELETE FROM `tp_goods` WHERE `id` = 5 [ RunTime:0.0006s ]
+
+[ 2016-10-28T11:47:06+08:00 ] 158.199.192.250 /index.php?s=/admin/goods/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_goods` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_goods` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_goods` LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/dc5144c693af1ddb0c40469bbb396f89.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-10-28T13:21:42+08:00 ] 121.42.0.84 /Admin/Images/LoginImages/logyh.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-10-28T13:21:45+08:00 ] 121.42.0.84 /admin/templates/images/filestate.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+
+[ 2016-10-28T13:21:48+08:00 ] 121.42.0.84 /admin/images/comment_alert.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-10-28T13:21:50+08:00 ] 121.42.0.84 /Admin/Images/RectNoColor.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+
+[ 2016-10-28T13:21:52+08:00 ] 121.42.0.84 /admin/skins/images/ads_set3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+
+[ 2016-10-28T13:21:53+08:00 ] 121.42.0.84 /admin/images/loadingAnimation.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+
+[ 2016-10-28T13:21:59+08:00 ] 121.42.0.84 /Admin/images/install_lines.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+
+[ 2016-10-28T13:22:06+08:00 ] 121.42.0.84 /admin/images/li_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-10-28T13:22:07+08:00 ] 121.42.0.84 /admin/tpl/images/welcome_h1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+
+[ 2016-10-28T13:22:07+08:00 ] 121.42.0.84 /admin/images/bg-pay-return-success.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2016-10-28T13:22:08+08:00 ] 121.42.0.84 /admin/images/login_06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+
+[ 2016-10-28T13:22:08+08:00 ] 121.42.0.84 /admin/view/image/flags/wales.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+
+[ 2016-10-28T13:22:09+08:00 ] 121.42.0.84 /admin/view/image/checkmark.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-10-28T13:22:11+08:00 ] 121.42.0.84 /Admin/Images/bg_admin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-10-28T18:20:12+08:00 ] 112.9.110.138 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-10-28T18:20:12+08:00 ] 112.9.110.138 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-10-28T18:20:12+08:00 ] 112.9.110.138 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2016-10-28T18:20:23+08:00 ] 112.9.110.138 /index.php?s=/admin/users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/UsersController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tp_user` WHERE `name` = 'admin' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2016-10-28T18:20:25+08:00 ] 112.9.110.138 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2016-10-28T18:20:26+08:00 ] 112.9.110.138 /index.php?s=/admin/member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_member` LIMIT 0,20   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("Z0DrySI4hTobeyV7OYXMgz73XZF6ukbPS-wDcru4hcG4ScucoHBCEXIiyb0YyscT") )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: name /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: mobile /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: idCard /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: start_age /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: end_age /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: illness_time /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: diagnose /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: domicile /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-10-28T18:20:34+08:00 ] 112.9.110.138 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 206 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 214 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-10-28T18:20:36+08:00 ] 112.9.110.138 /index.php?s=/Admin/member/buy_detail/id/13.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_check_log` [ RunTime:0.0009s ]
+SQL: SELECT c.*,u.name,u.group_id FROM tp_check_log as c INNER JOIN tp_user as u on u.id=c.admin_id  WHERE c.mod_id = '13' AND c.type = 1 ORDER BY addtime asc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 295 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("yklpqFPIoc50Sx2XLEo0oLqPZble0ej6IhbBCAWJaDxo7i_Ou_INQWeT_6qJJC35","j8gEUStkIt98tfSxWYINbRtgyC26LYQyOkfJ-ZtNITUJbv5mXXi5lG4zJncqDmm-","lJFP0JZcv4BNEJ17bqwkJTffPfv_KD5e7cHUKZGlohvzAfaPNAnwtUqJ02b7Muzg","B8Rj1W847PUSOcWuGXBSGLwvX3Oee-vkMwmSWNfpna5w4PFLw_KhVCxqGznzRkJz","-lo0VUO4ZkiTvq2QUzyNfqCCFKqrRA20dMXp9lRBeatgi5n4QSApFsc4djn6VYGL") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined index: remark /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/135f0c9fd12dffefbbbc16154558e87f.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-10-28T18:20:38+08:00 ] 112.9.110.138 /index.php?s=/admin/member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 48 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_member` LIMIT 0,20   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("Z0DrySI4hTobeyV7OYXMgz73XZF6ukbPS-wDcru4hcG4ScucoHBCEXIiyb0YyscT") )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: name /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: mobile /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: idCard /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: start_age /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: end_age /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: illness_time /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: diagnose /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: domicile /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [2] Illegal string offset 'diagnose' /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 77 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined offset: -1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 149 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 201 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+

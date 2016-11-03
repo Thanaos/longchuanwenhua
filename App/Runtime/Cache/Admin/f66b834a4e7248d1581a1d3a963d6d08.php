@@ -1,17 +1,17 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
-<head>    <link rel="shortcut icon" href="/longhcuanwenhua/favicon.ico" type="image/x-icon" /> 
+<head>    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> 
     <title></title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap-responsive.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/Validform_v5.3.2.css" />
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery-1.7.min.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/ckform.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/common.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.form.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/Validform_v5.3.2.css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jquery.form.js"></script>
  
 
     <style type="text/css">
@@ -43,7 +43,7 @@
     </style>
 </head>
 <body>
-    <form action="/longhcuanwenhua/index.php?s=/admin/package/save.html" id="registerform">
+    <form action="/index.php?s=/admin/package/save.html" id="registerform">
         <input type="hidden" name="id" value="<?php echo ($data["id"]); ?>">
     <table class="table table-bordered table-hover definewidth m10">
         <tr>
@@ -80,13 +80,13 @@
 </form>
 </body>
 </html>
-<script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
 <script type="text/javascript">
 $(function () {
 	$(".delimg").click(function(){
         var pic = $(this).attr("rel");
         alert(pic);
-		$.post("/longhcuanwenhua/index.php?s=/admin/index/uploadFile/act/delimg.html",{imagename:pic},function(msg){
+		$.post("/index.php?s=/admin/index/uploadFile/act/delimg.html",{imagename:pic},function(msg){
 			if(msg==1){
                 alert('删除成功');
 				showimg.empty();
@@ -98,7 +98,7 @@ $(function () {
 		},'json');
 	});
     $('#backid').click(function(){
-        window.location.href="/longhcuanwenhua/index.php?s=/admin/package/list.html";
+        window.location.href="/index.php?s=/admin/package/list.html";
     })
 });
 </script>
@@ -114,9 +114,9 @@ $(function () {
             if(data.status == 'y'){
                 $.Hidemsg();
                 alert(data.msg);
-                    <?php if(!empty($data)): ?>window.location.href="/longhcuanwenhua/index.php?s=/admin/package/list.html";
+                    <?php if(!empty($data)): ?>window.location.href="/index.php?s=/admin/package/list.html";
                     <?php else: ?>
-                        window.location.href="/longhcuanwenhua/index.php?s=/admin/package/edit/"+data.id+".html";<?php endif; ?>
+                        window.location.href="/index.php?s=/admin/package/edit/"+data.id+".html";<?php endif; ?>
             }else{
                 alert(data.msg);
             }

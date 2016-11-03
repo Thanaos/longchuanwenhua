@@ -57,16 +57,32 @@ class IndexController extends AdminController {
     public function clist(){
         $db = M('clist');
         if( $this->act == 'list' ){
-            $data = $db->where(array('id'=>1))->find();
-            $this->assign('data', $data);
+            $p = isset($_GET['id']) ? intval($_GET['id']) : 1;
+            $max = 20;
+            $count = $db->count();
+            $Page = new \Think\Page($count, $max);
+            $list = $db->page($p, $max)->select();
+            $show['pageCount'] = $Page->totalPages ? $Page->totalPages : 1;//总页数
+            $show['current'] = $p;
+            $this->assign('list', $list);
+            $this->assign('show', $show);
+            $this->display('clist_list');
+        }
+        elseif( $this->act == 'edit' ){
+            $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+            if($id){
+                $data = $db->where(array('id'=>$id))->find();
+                $this->assign('data', $data);
+            }
             $this->display('clist_edit');
         }
     
         /*******保存********/
         else if($this->act == 'save'){
+            $id = empty($_POST['id']) ? 0 : intval($_POST['id']);
             $path = isset($_POST['path']) ? $_POST['path'] : exit(json_encode(array('status'=>'n', 'msg'=>'')));
             $data = array('path'=>$path);
-            $insert = $db->where(array('id'=>1))->save($data);
+            $insert = $db->where(array('id'=>$id))->save($data);
             if($insert){
                 exit(json_encode(array('status'=>'y', 'msg'=>'操作成功', 'id'=>$insert)));
             }else{
@@ -156,8 +172,9 @@ class IndexController extends AdminController {
             $good_scale1 = isset($_POST['good_scale1']) ? $_POST['good_scale1'] : exit(json_encode(array('status'=>'n', 'msg'=>'补贴比例必须填写')));
             $good_scale2 = isset($_POST['good_scale2']) ? $_POST['good_scale2'] : exit(json_encode(array('status'=>'n', 'msg'=>'补贴比例必须填写')));
             $good_scale3 = isset($_POST['good_scale3']) ? $_POST['good_scale3'] : exit(json_encode(array('status'=>'n', 'msg'=>'补贴比例必须填写')));
+            $image = $_POST['image'];
             $good_detail = $_POST['content'];
-            $data = array('good_name'=>$good_name, 'good_price'=>$good_price, 'good_scale1'=>$good_scale1, 'good_scale2'=>$good_scale2, 'good_scale3'=>$good_scale3, 'good_detail'=>$good_detail, 'addtime'=>time());
+            $data = array('good_name'=>$good_name, 'good_price'=>$good_price, 'good_scale1'=>$good_scale1, 'good_scale2'=>$good_scale2, 'good_scale3'=>$good_scale3,'image'=>$image, 'good_detail'=>$good_detail, 'addtime'=>time());
             if($id){
                 $insert = $db->where(array('id'=>$id))->save($data);
             }else{

@@ -2054,6 +2054,14 @@ fieldset .row .form-group .form-control {
   padding: 0 0 0 0.25rem;
   border-bottom: 1px solid #c2c2c2;
 }
+.form-control-span {
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-size: 0.6rem;
+  padding: 0.3rem 0 0 0.25rem;
+  border-bottom: 1px solid #c2c2c2;
+}
 fieldset .row .form-group .form-control-error {
   display: block;
   height: 100%;

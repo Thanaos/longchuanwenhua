@@ -14,430 +14,374 @@
 	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">
 </head>
 <body>
-	
-	<header>
-		<h1>申请会员</h1>
-		<a href="" class="glyphicon glyphicon-chevron-left"></a>
-	</header>
 
-	<include file="./App/Home/View/Public/foot.html" />
+<header>
+	<h1>会员信息</h1>
+	<a href="" class="glyphicon glyphicon-chevron-left"></a>
+</header>
 
-	<section class="page">
+<include file="./App/Home/View/Public/foot.html" />
 
-        <include file="./App/Home/View/Public/head.html" />
-	   <!-- <div class="user-info clearfix">
-	    	<div class="photo">
-	    		<img src="__ROOT__/Public/Home/img/cdl.jpg" alt="">
-	    	</div>
-	    	<div class="detail">
-				<span>账号：530000063851</span>
-				<span><a href="" class="block text-right" style="padding-right: 15px">修改密码</a></span>
-	    	</div>
-	    </div>
+
+<section class="page">
+
+	<include file="./App/Home/View/Public/head.html" />
+	<!-- <div class="user-info clearfix">
+         <div class="photo">
+             <img src="__ROOT__/Public/Home/img/cdl.jpg" alt="">
+         </div>
+         <div class="detail">
+             <span>账号：530000063851</span>
+             <span><a href="" class="block text-right" style="padding-right: 15px">修改密码</a></span>
+         </div>
+     </div>
 -->
-	    <!-- form start -->
-		<form action="{:U('member/ajax_register')}" method="post" id="register">
-			<fieldset>
+	<!-- form start -->
+	<form action="{:U('member/ajax_register')}" method="post" id="register">
+		<fieldset>
 
-				<h3>申请人信息</h3>
+			<h3 style="font-size:1rem">申请人信息</h3>
 
+			<div class="row">
+				<label for="">姓　　名</label>
+				<div class="form-group">
+					<!--<input type="text" name="name" class="form-control" id="name" placeholder="请输入姓名">-->
+                    <span class="form-control-span">{$user.name}</span>
+				</div>
+			</div>
+
+			<div class="row">
+				<label for="">性　　别</label>
+				<div class="form-group">
+					<!--<label for=""><input type="radio" class="radio" name="sex" value="1" checked>男</label>-->
+					<!--<label for=""><input type="radio" class="radio" name="sex" value="0">女</label>-->
+                    <span class="form-control-span"><if condition="$user.sex eq 1">男<else />女</if></span>
+				</div>
+			</div>
+
+			<div class="row">
+				<label for="">年　　龄</label>
+				<div class="form-group">
+					<!--<input type="tel" name="age" id="age" class="form-control"  placeholder="请输入年龄">-->
+                    <span class="form-control-span">{$user.age}</span>
+				</div>
+			</div>
+
+			<div class="row">
+				<label for="">身份证号</label>
+				<div class="form-group">
+					<!--<input type="text" class="form-control" name="idCard" id="idCard" placeholder="请输入身份证号">-->
+					<span class="form-control-span">{$user.idcard}</span>
+				</div>
+			</div>
+
+			<div class="row">
+				<label for="">手机号码</label>
+				<div class="form-group">
+					<input type="tel" class="form-control" name="mobile" id="mobile" value="{$user.mobile}" placeholder="请输入电话">
+				</div>
+			</div>
+
+			<div class="row">
+				<label for="">微 信 号</label>
+				<div class="form-group">
+					<input type="text" class="form-control" name="wxid" id="wxid" value="{$user.wxid}" placeholder="请输入微信号">
+				</div>
+			</div>
+
+			<div class="row">
+				<label for="">生　　日</label>
+				<div class="form-group">
+					<!--<input type="text" class="form-control" id="birthday" name="birthday" placeholder="请输入出生日期">-->
+					<span class="form-control-span">{$user.birthday|date='Y-m-d'}</span>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<label for="">邮　　箱</label>
+				<div class="form-group">
+					<input type="text" class="form-control" name="email" id="email" value="{$user.email}" placeholder="请输入邮箱">
+				</div>
+			</div>
+
+
+			<div id="address1">
+				<label for="" style="position: absolute; font-size: 0.6rem; width: 5em; line-height: 1.4rem;">住　　址</label>
 				<div class="row">
-					<label for="">姓名</label>
 					<div class="form-group">
-						<input type="text" name="name" class="form-control" id="name" placeholder="请输入姓名">
+						<!--<select name="d_s" data-province="" class="form-control" id=""></select>-->
+						<span class="form-control-span">{$user.domicile}</span>
 					</div>
 				</div>
 
+			</div>
+
+
+			<h3 style="font-size:1rem">申请人病史</h3>
+
+
+			<div class="row">
+				<label for="">临床诊断</label>
+				<div class="form-group">
+					<select name="diagnose" id="" class="form-control">
+						<option>请选择</option>
+						<volist name="sickid" id="vo">
+							<option value="{$i}" <if condition="$user['diagnose'] eq $i">selected</if>>{$vo}</option>
+						</volist>
+					</select>
+				</div>
+			</div>
+			<div class="row">
+				<label for="">患病时间</label>
+				<div class="form-group">
+					<select name="illness_time" id="" class="form-control">
+						<option>请选择</option>
+						<option value="1" <if condition="$user['illness_time'] eq 1">selected</if>>1年</option>
+						<option value="2" <if condition="$user['illness_time'] eq 2">selected</if>>2年</option>
+						<option value="3" <if condition="$user['illness_time'] eq 3">selected</if>>3年</option>
+						<option value="4" <if condition="$user['illness_time'] eq 4">selected</if>>4年</option>
+						<option value="5" <if condition="$user['illness_time'] eq 5">selected</if>>5年</option>
+						<option value="6" <if condition="$user['illness_time'] eq 6">selected</if>>5年以上</option>
+					</select>
+				</div>
+			</div>
+			<div class="row">
+				<label for="">既往病史</label>
+				<div class="form-group">
+					<input type="text" class="form-control" name="illness_history" value="{$user.illness_history}" placeholder="请输入既往病史">
+				</div>
+			</div>
+
+			<div class="row">
+				<label for="">过敏史</label>
+				<div class="form-group">
+					<input type="text" class="form-control" name="gm_history" value="{$user.gm_history}" placeholder="请输入过敏史">
+				</div>
+			</div>
+
+			<div class="row">
+				<label for="">家族病史</label>
+				<div class="form-group">
+					<input type="text" class="form-control" name="jz_history" value="{$user.jz_history}" placeholder="请输入家族病史">
+				</div>
+			</div>
+
+			<div class="row">
+				<label for="">个人简历</label>
+				<div class="form-group">
+					<input name="description" class="form-control" type="text" value="{$user.description}" placeholder="如：禁止吸烟喝酒" />
+				</div>
+			</div>
+			<div id="address2">
 				<div class="row">
-					<label for="">性别</label>
+					<label for="" style="position: absolute; font-size: 0.6rem; width: 5em; line-height: 1.4rem;">长期居住地</label>
 					<div class="form-group">
-						<label for=""><input type="radio" class="radio" name="sex" value="1" checked>男</label>
-						<label for=""><input type="radio" class="radio" name="sex" value="0">女</label>
+                        <span class="form-control-span">{$user.cq_domicile}</span>
 					</div>
 				</div>
+			</div>
 
+
+			<h3 style="font-size:1rem">受托人信息</h3>
+
+			<div class="row">
+				<label for="">申请人关系</label>
+				<div class="form-group">
+					<input type="text" class="form-control" name="relation" id="relation" value="{$user.relation}" placeholder="请输入受托人关系">
+                    <!--<span class="form-control-span">{$user.relation}</span>-->
+				</div>
+			</div>
+
+
+			<div class="row">
+				<label for="">姓　　名</label>
+				<div class="form-group">
+					<input type="text" class="form-control" name="bailor" id="bailor" value="{$user.bailor}" placeholder="请输入受托人姓名">
+					<!--<span class="form-control-span">{$user.bailor}</span>-->
+				</div>
+			</div>
+
+
+
+			<div class="row">
+				<label for="">电　　话</label>
+				<div class="form-group">
+					<input type="tel" class="form-control" name="bailor_mobile" id="bailor_mobile" value="{$user.bailor_mobile}" placeholder="请输入受托人电话">
+				</div>
+			</div>
+
+			<div class="row">
+				<label for="">微 信 号</label>
+				<div class="form-group">
+					<input type="text" class="form-control" name="s_wxid" id="s_wxid" value="{$user.s_wxid}" placeholder="请输入受托人微信号">
+				</div>
+			</div>
+
+			<div class="row">
+				<label for="">邮　　箱</label>
+				<div class="form-group">
+					<input type="text" class="form-control" name="bailor_email" id="bailor_email" value="{$user.bailor_email}" placeholder="请输入受托人邮箱">
+				</div>
+			</div>
+
+
+			<div class="row">
+				<label for="">身份证号</label>
+				<div class="form-group">
+					<input type="text" class="form-control" name="bailor_idcard" id="bailor_idcard" value="{$user.bailor_idcard}" placeholder="请输入受托人身份证">
+				</div>
+			</div>
+
+
+			<div id="address2">
 				<div class="row">
-					<label for="">年龄</label>
+					<label for="">住　　址</label>
 					<div class="form-group">
-						<input type="tel" name="age" id="age" class="form-control"  placeholder="请输入年龄">
+						<!--<select name="s_s" class="form-control" id=""></select>-->
+						<span class="form-control-span">{$user.s_domicile}</span>
 					</div>
 				</div>
-
-				<div class="row">
-					<label for="">身份证号</label>
-					<div class="form-group">
-						<input type="tel" class="form-control" name="idCard" id="idCard" placeholder="请输入身份证号">
-					</div>
-				</div>
-
-				<div class="row">
-					<label for="">手机号码</label>
-					<div class="form-group">
-						<input type="tel" class="form-control" name="mobile" id="mobile" placeholder="请输入电话">
-					</div>
-				</div>
-
-				<div class="row">
-					<label for="">微信号</label>
-					<div class="form-group">
-						<input type="text" class="form-control" name="wxid" id="wxid" placeholder="请输入微信号">
-					</div>
-				</div>
-
-				<div class="row">
-					<label for="">生日</label>
-					<div class="form-group">
-						<input type="text" class="form-control" id="birthday" name="birthday" placeholder="请输入出生日期">
-					</div>
-				</div>
-
-
-				<div class="row">
-					<label for="">邮箱</label>
-					<div class="form-group">
-						<input type="text" class="form-control" name="email" id="email" placeholder="请输入邮箱">
-					</div>
-				</div>
-
-
-				<div id="address1">
-					<label for="" style="position: absolute; font-size: 0.6rem; width: 5em; line-height: 1.4rem;">住址</label>
-					<div class="row">
-						<div class="form-group">
-							<select name="d_s" data-province="" class="form-control" id=""></select>
-						</div>
-					</div>
-
-					<div class="row">
-						<label for=""></label>
-						<div class="form-group">
-							<select name="d_c" data-city="" class="form-control" id=""></select>
-						</div>
-					</div>
-
-					<div class="row">
-						<label for=""></label>
-						<div class="form-group">
-							<select name="d_d" data-district="" class="form-control" id=""></select>
-						</div>
-					</div>
-				</div>
-
-				<div class="row">
-					<label for="">街道</label>
-					<div class="form-group">
-						<input type="text" class="form-control" name="address" placeholder="请输入街道">
-					</div>
-				</div>
-
-				<h3>病史</h3>
-
-
-				<div class="row">
-					<label for="">临床诊断</label>
-					<div class="form-group">
-						<select name="diagnose" id="" class="form-control">
-							<option>请选择</option>
-							<volist name="sickid" id="vo">
-								<option value="{$i}">{$vo}</option>
-							</volist>
-						</select>
-					</div>
-				</div>
-				<div class="row">
-					<label for="">患病时间</label>
-					<div class="form-group">
-						<select name="illness_time" id="" class="form-control">
-							<option>请选择</option>
-							<option value="1">1年</option>
-							<option value="2">2年</option>
-							<option value="3">3年</option>
-							<option value="4">4年</option>
-							<option value="5">5年</option>
-							<option value="6">5年以上</option>
-						</select>
-					</div>
-				</div>
-				<div class="row">
-					<label for="">既往病史</label>
-					<div class="form-group">
-						<input type="text" class="form-control" name="illness_history" placeholder="请输入既往病史">
-					</div>
-				</div>
-
-				<div class="row">
-					<label for="">过敏史</label>
-					<div class="form-group">
-						<input type="text" class="form-control" name="gm_history" placeholder="请输入过敏史">
-					</div>
-				</div>
-
-				<div class="row">
-					<label for="">家族病史</label>
-					<div class="form-group">
-						<input type="text" class="form-control" name="jz_history" placeholder="请输入家族病史">
-					</div>
-				</div>
-
-				<div class="row">
-					<label for="">个人简历</label>
-					<div class="form-group">
-						<textarea name="description" placeholder="如：禁止吸烟喝酒"></textarea>
-					</div>
-				</div>
-				<div id="address2">
-					<div class="row">
-						<label for="" style="position: absolute; font-size: 0.6rem; width: 5em; line-height: 1.4rem;">长期居住地</label>
-						<div class="form-group">
-							<select name="c_s" class="form-control" id=""></select>
-						</div>
-					</div>
-
-					<div class="row">
-						<label for=""></label>
-						<div class="form-group">
-							<select name="c_c" class="form-control" id=""></select>
-						</div>
-					</div>
-
-					<div class="row">
-						<label for=""></label>
-						<div class="form-group">
-							<select name="c_d" class="form-control" id=""></select>
-						</div>
-					</div>
-				</div>
-
-				<h3>诊断报告</h3>
-				<div class="img-list">
-
-					<ul class="clearfix">
-
-						<li class="img-add" id="bl_btn">
-							<i class="glyphicon glyphicon-plus" id="bl_img"></i>
-						</li>
-					</ul>
-					<input type="hidden" name="bl_img" id="bl_image">
-				</div>
-
-
-				<h3>受托人信息</h3>
-
-				<div class="row">
-					<label for="">与本人关系</label>
-					<div class="form-group">
-						<input type="text" class="form-control" name="relation" id="relation" placeholder="请输入受托人关系">
-					</div>
-				</div>
-
-
-				<div class="row">
-					<label for="">姓名</label>
-					<div class="form-group">
-						<input type="text" class="form-control" name="bailor" id="bailor" placeholder="请输入受托人姓名">
-					</div>
-				</div>
+			</div>
 
 
 
-				<div class="row">
-					<label for="">电话</label>
-					<div class="form-group">
-						<input type="tel" class="form-control" name="bailor_mobile" id="bailor_mobile" placeholder="请输入受托人电话">
-					</div>
-				</div>
+			<!--<input type="submit" id="submit" value="提交">-->
+		</fieldset>
+	</form>
+	<!-- form end -->
 
-				<div class="row">
-					<label for="">微信号</label>
-					<div class="form-group">
-						<input type="text" class="form-control" name="s_wxid" id="s_wxid" placeholder="请输入受托人微信号">
-					</div>
-				</div>
+</section>
 
-				<div class="row">
-					<label for="">邮箱</label>
-					<div class="form-group">
-						<input type="text" class="form-control" name="bailor_email" id="bailor_email" placeholder="请输入受托人邮箱">
-					</div>
-				</div>
+<script src="__ROOT__/Public/Home/js/jquery.min.js"></script>
+<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
+<script src="__ROOT__/Public/Home/js/form.js"></script>
+<script src="__ROOT__/Public/Home/js/citys/distpicker.data.js"></script>
+<script src="__ROOT__/Public/Home/js/citys/distpicker.js"></script>
+<script  src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
+<script type="text/javascript" src="__ROOT__/Public/Home/js/layer/layer.js"></script>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+		autoplay : 3000,    //可选选项，自动滑动
+		pagination: '.swiper-pagination',
+		paginationClickable: true
+		// 启用箭头
+		// nextButton: '.swiper-button-next',
+		// prevButton: '.swiper-button-prev'
+	});
 
-
-				<div class="row">
-					<label for="">身份证号</label>
-					<div class="form-group">
-						<input type="tel" class="form-control" name="bailor_idcard" id="bailor_idcard" placeholder="请输入受托人身份证">
-					</div>
-				</div>
-
-
-				<div id="address2">
-					<div class="row">
-						<label for="">住址</label>
-						<div class="form-group">
-							<select name="s_s" class="form-control" id=""></select>
-						</div>
-					</div>
-
-					<div class="row">
-						<label for=""></label>
-						<div class="form-group">
-							<select name="s_c" class="form-control" id=""></select>
-						</div>
-					</div>
-
-					<div class="row">
-						<label for=""></label>
-						<div class="form-group">
-							<select name="s_d" class="form-control" id=""></select>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<label for="">街道</label>
-					<div class="form-group">
-						<input type="text" class="form-control" name="s_address" placeholder="请输入街道">
-					</div>
-				</div>
-
-
-
-				<input type="submit" id="submit" value="提交">
-			</fieldset>
-		</form>
-	    <!-- form end -->
-
-	</section>
-	
-	<script src="__ROOT__/Public/Home/js/jquery.min.js"></script>
-	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
-    <script src="__ROOT__/Public/Home/js/form.js"></script>
-    <script src="__ROOT__/Public/Home/js/citys/distpicker.data.js"></script>
-    <script src="__ROOT__/Public/Home/js/citys/distpicker.js"></script>
-	<script  src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
-	<script type="text/javascript" src="__ROOT__/Public/Home/js/layer/layer.js"></script>
-	<script>
-		var swiper = new Swiper('.swiper-container', {
-			autoplay : 3000,    //可选选项，自动滑动
-	        pagination: '.swiper-pagination',
-	        paginationClickable: true
-	        // 启用箭头
-	        // nextButton: '.swiper-button-next',
-	        // prevButton: '.swiper-button-prev'
-	    });
-
-		$(function(){
-            $("#address2 , #address1").distpicker({
-                autoSelect: false,
-                province: "请选择省",
-                city: "请选择市",
-                district: "请选择区"
-            });
-			$('#birthday').focus(function(){
-				$(this).attr('type', 'date');
-                $(this).focus();
-			});
-			$('#birthday').blur(function (){
-				$(this).attr('type', 'text');
-			});
-			// user-tab
-			$('.user-tab menu button').on('touchend',function(){
-				var	self =	$(this),
-					nums =  self.index();
-				
-				self.addClass('active').siblings('button').removeClass('active');
-				$('.user-item ul').eq(nums).show().siblings('ul').hide();
-			})
-
-
-		})
-
-		$(document).on('click', '.glyphicon-remove',function(){
-			var id = $(this).attr('data-id');
-			var id = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr';
-			var img_str = $('#bl_image').val();
-			var img_str = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr,QLXIQRqC0YuIq3sqwAkqoXHj8Z-s5IIsoz950uZPEK2vVFVx4bmXU0ZO4PwLliTQ';
-			var img_arr = img_str.split(',');
-			for(var v in img_arr){
-				if( img_arr[v] == id ){
-					img_arr.splice(v,1);
-				}
-			}
-			var new_img_str = img_arr.join(',');
-			$('#bl_image').val(new_img_str);
-			$(this).parent().remove();
-		})
-
-	</script>
-	<script>
-		wx.config({
-				appId: '{$signPackage.appId}', // 必填，公众号的唯一标识
-				timestamp: {$signPackage.timestamp}, // 必填，生成签名的时间戳
-			nonceStr: '{$signPackage.nonceStr}', // 必填，生成签名的随机串
-			signature: '{$signPackage.signature}',// 必填，签名，见附录1
-			jsApiList: ['chooseImage','previewImage','uploadImage'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+	$(function(){
+		$("#address2 , #address1").distpicker({
+			autoSelect: false,
+			province: "请选择省",
+			city: "请选择市",
+			district: "请选择区"
 		});
-		wx.ready(function(){
-			document.querySelector('#bl_img').onclick = function () {
-				var images = {
-					localId: [],
-					serverId: []
-				};
-				function upload(i, length, serverId) {
-					wx.uploadImage({
-						localId: images.localId[i],
-						success: function (res) {
-							i++;
-							serverId.push(res.serverId);
-							if (i < length) {
-								upload(i, length, serverId);
-							}
-							if(i >= length){
-								layer.open({type: 2});
-								$.post("{:U('member/uploadImg')}", {serverIds:'"'+serverId+'"'},function(data){
-									if( data.status == 'y' ){
-										var server_img = data.server.server_img;
-										var server_str = '';
-										$('#bl_image').val(data.server.server_id);
-										for( var i =0;i < server_img.length;i++ ){
-											$('#bl_btn').before('<li> <img src="__ROOT__'+server_img[i]['path']+'" alt=""> <span class="glyphicon glyphicon-remove" data-id="'+server_img[i]['id']+'"></span> </li>');
-											layer.closeAll();
-										}
-									}else{
-										alert(data.msg);
+		$('#birthday').focus(function(){
+			$(this).attr('type', 'date');
+			$(this).focus();
+		});
+		$('#birthday').blur(function (){
+			$(this).attr('type', 'text');
+		});
+		// user-tab
+		$('.user-tab menu button').on('touchend',function(){
+			var	self =	$(this),
+				nums =  self.index();
+
+			self.addClass('active').siblings('button').removeClass('active');
+			$('.user-item ul').eq(nums).show().siblings('ul').hide();
+		})
+
+
+	})
+
+	$('.page').on('click','.img-list .glyphicon-remove',function(){
+		var id = $(this).attr('data-id');
+		var img_str = $('#bl_image').val();
+		var img_arr = img_str.split(',');
+		for(var v in img_arr){
+			if( img_arr[v] == id ){
+				img_arr.splice(v,1);
+			}
+		}
+		var new_img_str = img_arr.join(',');
+		$('#bl_image').val(new_img_str);
+		$(this).parent().remove();
+	})
+
+
+</script>
+<script>
+	wx.config({
+			appId: '{$signPackage.appId}', // 必填，公众号的唯一标识
+			timestamp: {$signPackage.timestamp}, // 必填，生成签名的时间戳
+		nonceStr: '{$signPackage.nonceStr}', // 必填，生成签名的随机串
+		signature: '{$signPackage.signature}',// 必填，签名，见附录1
+		jsApiList: ['chooseImage','previewImage','uploadImage'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+	});
+	wx.ready(function(){
+		document.querySelector('#bl_img').onclick = function () {
+			var images = {
+				localId: [],
+				serverId: []
+			};
+			function upload(i, length, serverId) {
+				wx.uploadImage({
+					localId: images.localId[i],
+					success: function (res) {
+						i++;
+						serverId.push(res.serverId);
+						if (i < length) {
+							upload(i, length, serverId);
+						}
+						if(i >= length){
+							layer.open({type: 2});
+							$.post("{:U('member/uploadImg')}", {serverIds:'"'+serverId+'"'},function(data){
+								if( data.status == 'y' ){
+									var server_img = data.server.server_img;
+									var server_str = '';
+									$('#bl_image').val(data.server.server_id);
+									for( var i =0;i < server_img.length;i++ ){
+										$('#bl_btn').before('<li> <img src="__ROOT__'+server_img[i]['path']+'" alt=""> <span class="glyphicon glyphicon-remove" data-id="'+server_img[i]['id']+'"></span> </li>');
 										layer.closeAll();
 									}
-								},'json')
-							}
-						},
-						fail: function (res) {
-							alert(JSON.stringify(res));
+								}else{
+									alert(data.msg);
+									layer.closeAll();
+								}
+							},'json')
 						}
-					});
-				}
-				wx.chooseImage({
-					count: 9,
-					success: function (res) {
-						images.localId = res.localIds;
-						var i = 0, length = images.localId.length;
-						serverId = [];
-						setTimeout(function(){
-							upload(i, length, serverId)
-						},100)
+					},
+					fail: function (res) {
+						alert(JSON.stringify(res));
 					}
 				});
-			};
-			/*
-			 document.querySelector('.item').onclick = function () {
-			 wx.previewImage({
-			 urls: [
-			 <volist name="photo" id="vo">
-			 'http://'+window.location.host+'{$vo.path}',
-			 </volist>
-			 ]
-			 });
-			 };
-			 */
-		});
-	</script>
+			}
+			wx.chooseImage({
+				count: 9,
+				success: function (res) {
+					images.localId = res.localIds;
+					var i = 0, length = images.localId.length;
+					serverId = [];
+					setTimeout(function(){
+						upload(i, length, serverId)
+					},100)
+				}
+			});
+		};
+		/*
+		 document.querySelector('.item').onclick = function () {
+		 wx.previewImage({
+		 urls: [
+		 <volist name="photo" id="vo">
+		 'http://'+window.location.host+'{$vo.path}',
+		 </volist>
+		 ]
+		 });
+		 };
+		 */
+	});
+</script>
 </body>
 </html>

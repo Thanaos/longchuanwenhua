@@ -32,6 +32,9 @@ class MemberController extends Controller{
         //查询flash
         $flash = M('flash')->select();
         $this->assign('flash', $flash);
+        //查询材料清单
+        $clist = M('clist')->where('id = 1')->find();
+        $this->assign('clist', $clist);
         
         $this->display();
 

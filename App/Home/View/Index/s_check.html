@@ -32,9 +32,14 @@
 	    <!-- form start -->
 		<form action="{:U('index/save_check')}" method="post">
 			<fieldset>
-
-                <h3>请上传体检证明</h3>
-                <div class="img-list">
+				<div class="row">
+					<label for="">初审医生</label>
+					<div class="form-group">
+						<input name="doctor_bh" class="form-control" type="text" placeholder="请输入初审医生"/>
+					</div>
+				</div>
+                <h3>请上传体检证明</h3><span><a href="javascript:void(0);" id="clist" style="color:deepskyblue;margin-left:0.5rem;font-size: 0.6rem">点击查看材料清单</a><span>
+                <div class="img-list" style="margin-top:1rem">
 
                     <ul class="clearfix">
 
@@ -59,7 +64,7 @@
 	<script src="__ROOT__/Public/Home/js/citys/distpicker.data.js"></script>
 	<script src="__ROOT__/Public/Home/js/citys/distpicker.js"></script>
     <script src="__ROOT__/Public/Home/js/sub_form.js"></script>
-
+	<script src="__ROOT__/Public/Home/js/layer/layer.js"></script>
 	<script>
 		var swiper = new Swiper('.swiper-container', {
 			autoplay : 3000,    //可选选项，自动滑动
@@ -95,7 +100,15 @@
                 $('#bl_image').val(new_img_str);
                 $(this).parent().remove();
             })
-
+			$('#clist').click(function(){
+				layer.open({
+					type: 1,
+					content: '<div style="width:90%;height:80%;margin: 0 auto"><img src="{$clist.path}"  alt=""><a href="javascript:;" style="    display: block; color: #ffffff; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; margin: 1rem auto; background-color: #31619d; width: 5rem; height: 1.5rem; border-width: 0;    text-align: center; line-height: 1.5rem;" onclick="layer.closeAll();">关闭</a></div>',
+					shadeClose:true,
+					shade:true,
+					style: 'position:fixed; left:0; top:0; width:100%; height:100%; border: none; -webkit-animation-duration: .5s; animation-duration: .5s;',
+				});
+			})
 		})
 
 	</script>

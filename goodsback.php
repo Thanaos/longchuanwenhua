@@ -24,7 +24,7 @@ define('BIND_CONTROLLER','Pay');
 define('BIND_ACTION','goodsback');
 
 $array_data = json_decode(json_encode(simplexml_load_string($GLOBALS['HTTP_RAW_POST_DATA'], 'SimpleXMLElement', LIBXML_NOCDATA)), true);
-$_GET['out_trade_no'] = $array_data['out_trade_no'];
+$_GET['order_sn'] = $array_data['order_sn'];
 $_GET['total_fee'] = $array_data['total_fee'];
 $_GET['result_code'] = $array_data['result_code'];
 $_GET['return_code'] = $array_data['return_code'];

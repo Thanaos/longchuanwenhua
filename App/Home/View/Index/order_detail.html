@@ -12,6 +12,46 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
 	<link rel="stylesheet" href="__ROOT__/Public/Home/css/style.css">
 	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">
+	<script language="javascript">
+		function jsApiCall(appId,timeStamp,nonceStr,package,signType,paySign)
+		{
+			WeixinJSBridge.invoke(
+				'getBrandWCPayRequest', {
+					"appId" : appId,     //公众号名称，由商户传入
+					"timeStamp": timeStamp,         //时间戳，自1970年以来的秒数
+					"nonceStr" : nonceStr, //随机串
+					"package" : package,
+					"signType" : signType,         //微信签名方式:
+					"paySign" : paySign //微信签名
+				},
+				function(res){
+					WeixinJSBridge.log(res.err_msg);
+					if(res.err_msg == "get_brand_wcpay_request:ok" ) {
+						window.location.href = "http://"+window.location.host;
+					}else if(res.err_msg == "get_brand_wcpay_request:cancel"){
+						layer.open({
+							btn: ['确定'],content:'您取消了支付！',shade:true,shadeClose:false})
+					}else if(res.err_msg == "get_brand_wcpay_request:fail"){
+						layer.open({btn: ['确定'],content:'支付失败',shade:true,shadeClose:false})
+					}
+				}
+			);
+		}
+
+		function callpay(appId,timeStamp,nonceStr,package,signType,paySign)
+		{
+			if (typeof WeixinJSBridge == "undefined"){
+				if( document.addEventListener ){
+					document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+				}else if (document.attachEvent){
+					document.attachEvent('WeixinJSBridgeReady', jsApiCall);
+					document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+				}
+			}else{
+				jsApiCall(appId,timeStamp,nonceStr,package,signType,paySign);
+			}
+		}
+	</script>
 </head>
 <body>
 	
@@ -47,18 +87,27 @@
 		<!-- userinfo -->
 	    <div class="user-info clearfix">
 	    	<div class="photo">
-	    		<img src="img/cdl.jpg" alt="">
+	    		<img src="__ROOT__/{$data.image}" alt="">
 	    	</div>
 	    	<div class="detail orders">
 	    		<div class="clearfix">
-	    			<a href="" class="float-right status-green">已完成</a>
+					<if condition="$data.order_status eq 0">
+	    				<a href="" class="float-right ">未付款</a>
+					<elseif condition="$data.order_status eq 2" />
+						<a href="" class="float-right ">已付款</a>
+					<elseif condition="$data.order_status eq 3" />
+                        <a href="" class="float-right ">退款中</a>
+                    <elseif condition="$data.order_status eq 4" />
+                        <a href="" class="float-right ">已完成</a>
+                    <elseif condition="$data.order_status eq 5" />
+                        <a href="" class="float-right ">已退款</a>
+					</if>
 	    			<!-- <a href="" class="float-right status-red">未付款</a> -->
 	    			<!-- <a href="" class="float-right status-blue">已付款</a> -->
-	    			<h4>订单名称</h4>
+	    			<h4>{$data.goods_name}</h4>
 	    		</div>
-	    		<small>订单编号：15469876413646</small>
-	    		<small>创建时间：2016年9月13日 01:22:43</small>
-	    		<small>付款时间：2016年9月13日 01:22:53</small>
+	    		<small>订单编号：{$data.order_sn}</small>
+	    		<small>创建时间：{$data.addtime|date='Y-m-d H:i:s',###}</small>
 	    	</div>
 	    </div>
 
@@ -67,15 +116,17 @@
 			<strong>订单简介</strong>
 
 			<article>
-				这个地方是订单简介这个地方是订单简介这个地方是订单简介
-				这个地方是订单简介这个地方是订单简介这个地方是订单简介
-				这个地方是订单简介这个地方是订单简介这个地方是订单简介
+				{$data.good_detail}
 			</article>
 
 			<div class="clearfix">
 				<div class="float-right">
-					<span>价格：￥450</span>
-					<a href="">退款</a>
+					<span>价格：￥{$data.money}</span>
+					<if condition="$data.order_status eq 0">
+						<a id="wechar_pay">付款</a>
+                    <elseif condition="$data.order_status eq 2" />
+						<a href="{:U('index/refund', array('id'=>$data['id']))}" class="float-right ">退款</a>
+					</if>
 				</div>
 			</div>
 
@@ -87,16 +138,35 @@
 	
 	<script src="__ROOT__/Public/Home/js/jquery.min.js"></script>
 	<script src="__ROOT__/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
+	<script src="__ROOT__/Public/Home/js/layer/layer.js"></script>
 	<script>
 		var swiper = new Swiper('.swiper-container', {
-	        pagination: '.swiper-pagination',
-	        paginationClickable: true
-	        // 启用箭头
-	        // nextButton: '.swiper-button-next',
-	        // prevButton: '.swiper-button-prev'
-	    });
+			autoplay : 3000,    //可选选项，自动滑动
+			pagination: '.swiper-pagination',
+			paginationClickable: true
+			// 启用箭头
+			// nextButton: '.swiper-button-next',
+			// prevButton: '.swiper-button-prev'
 
-	</script>	
+			//提交订单
+		});
+		$('#wechar_pay').click(function(){
+			layer.open({type: 2});
+			var id = {$data.id};
+			if( id <= 0 ) return false;
+			//获取钱数
+			$.post("{:U('index/submit_order')}", {id:id}, function(data){
+				if(data.status == 'y'){
+					layer.closeAll();
+					callpay(data.appId,data.timeStamp,data.nonceStr,data.package,data.signType,data.paySign);
+				}else{
+					layer.closeAll();
+					alert(data.msg);
+				}
+			},'json');
+		})
+
+	</script>
 
 </body>
 </html>

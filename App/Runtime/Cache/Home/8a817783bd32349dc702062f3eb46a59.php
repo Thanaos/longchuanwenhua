@@ -10,7 +10,7 @@
 	<!-- <meta name="format-detection" content="telephone=no"/> -->
 	<meta name="format-detection" content="email=no"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
-	<link rel="stylesheet" href="/longhcuanwenhua/Public/Home/css/style.css">
+	<link rel="stylesheet" href="/Public/Home/css/style.css?v=20160924">
 </head>
 <body>
 	
@@ -33,7 +33,7 @@
 
 	</section>
 	
-	<script src="/longhcuanwenhua/Public/Home/js/jquery.min.js"></script>
+	<script src="/Public/Home/js/jquery.min.js"></script>
 	<script>
 		$('#btn').click(function (){
 			window.location.href = '<?php echo ($url); ?>';

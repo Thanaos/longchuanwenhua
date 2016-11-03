@@ -83,6 +83,23 @@
             <td><input type="text" value="{$data.good_scale3}" name="good_scale3" class="inputxt" datatype="*" nullmsg="请输入补贴比例！" errormsg="请输入补贴比例！" style="width:500px;" />%</td>
         </tr>
         <tr>
+            <td width="10%" class="tableleft">缩略图</td>
+            <td>
+                <div class="demo">
+                    <div class="image_btn">
+                        <span>添加附件</span>
+                        <input id="fileupload" type="file" name="mypic">
+                        <input  type="hidden" name="image" value="{$data.image}"  id="image">
+                    </div>
+                    <div class="progress" style="display: none;">
+                        <span class="bar" style="width: 100%;"></span><span class="percent">100%</span>
+                    </div>
+                    <div class="files" <empty name="data"> style="display: none;</empty>"><b>{$data.image}</b><span class="delimg" rel="{$data.image}">删除</span></div>
+                <div id="showimg"><notempty name="data"><img src="__ROOT__/{$data.image}"></notempty></div>
+                </div>
+            </td>
+        </tr>
+        <tr>
             <td class="tableleft">详细介绍</td>
             <td><textarea name="content">{$data.good_detail}</textarea></td>
         </tr>
@@ -147,7 +164,6 @@ $(function () {
 	
 	$(".delimg").click(function(){
         var pic = $(this).attr("rel");
-        alert(pic);
 		$.post("__APP__/admin/index/uploadFile/act/delimg.html",{imagename:pic},function(msg){
 			if(msg==1){
                 alert('删除成功');

@@ -16,7 +16,7 @@
 <body>
 	
 	<header>
-		<h1>我的订单</h1>
+		<h1>购买服务</h1>
 		<a href="" class="glyphicon glyphicon-chevron-left"></a>
 	</header>
 
@@ -38,6 +38,7 @@
 				<button <if condition="$status eq 1">class="active"</if>><a href="{:U('index/order', array('status'=>1))}">全部</a></button>
 				<button <if condition="$status eq 2">class="active"</if>><a href="{:U('index/order', array('status'=>2))}">未付款</a></button>
 				<button <if condition="$status eq 3">class="active"</if>><a href="{:U('index/order', array('status'=>3))}">已付款</a></button>
+				<button <if condition="$status eq 4">class="active"</if>><a href="{:U('index/order', array('status'=>4))}">已退款</a></button>
 			</menu>
 
 			<div class="user-item">
@@ -48,7 +49,7 @@
 							<span class="time">{$vo.addtime|date='Y-m-d',###}</span>
 							<strong>{$vo.goods_name}</strong>
 							<small>&gt;</small>
-							<span class="status"><if condition="$vo.order_status eq 0">未付款<elseif condition="$vo.order_status eq 2" />已付款</if></span>
+							<span class="status"><if condition="$vo.order_status eq 0">未付款<elseif condition="$vo.order_status eq 2" />已付款<elseif condition="$vo.order_status eq 3" />退款中<elseif condition="$vo.order_status eq 4" />已完成<elseif condition="$vo.order_status eq 5" />已退款</if></span>
 						</a>
 					</li>
 					</volist>

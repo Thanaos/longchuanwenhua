@@ -1,18 +1,18 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
-    <link rel="shortcut icon" href="/longhcuanwenhua/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
     <title></title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap-responsive.css"/>
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/style.css"/>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/ckform.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/common.js"></script>
-    <script src="/longhcuanwenhua/Public/Admin/js/jquery.page.js"></script>
-    <script src="/longhcuanwenhua/Public/Admin/js/layer/layer.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/style.css"/>
+    <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+    <script src="/Public/Admin/js/jquery.page.js"></script>
+    <script src="/Public/Admin/js/layer/layer.js"></script>
 
 
     <style type="text/css">
@@ -75,9 +75,12 @@
             <th>身份证</th>
             <th>手机</th>
             <th>居住地</th>
+            <th>会员级别</th>
+            <th>到期时间</th>
             <th>诊断</th>
             <th>诊断医生</th>
             <th>申请日期</th>
+            <th>审核状态</th>
             <th>操作</th>
         </tr><?php endif; ?>
     </thead>
@@ -88,9 +91,18 @@
             <td><?php echo ($vo["idcard"]); ?></td>
             <td><?php echo ($vo["mobile"]); ?></td>
             <td><?php echo ($vo["domicile"]); ?></td>
+            <td><?php if($vo["vip_type"] == 1): ?>特尊卡会员<?php elseif($vo["vip_type"] == 2): ?>银卡会员<?php elseif($vo["vip_type"] == 3): ?>金卡会员<?php else: ?>普通用户<?php endif; ?></td>
+            <td><?php if($vo["vip_type"] > 0): echo (date("Y-m-d",$vo["vip_time"])); endif; ?></td>
             <td><?php echo ($vo["bbzd"]); ?></td>
             <td><?php echo ($vo["zd_doctor"]); ?></td>
             <td style="text-align:left"><?php echo (date('Y-m-d H:i:s',$vo["addtime"])); ?></td>
+            <td>
+                <?php if($vo["times"] == -1): ?><span style="color:red">未通过</span>
+                    <?php elseif($vo["times"] >= 3): ?>
+                    <span style="color:green">已通过</span>
+                    <?php else: ?>
+                    未审核<?php endif; ?>
+            </td>
             <td style="width:120px;">
                 <a href="javascript:;" onclick="get_sub_detail('<?php echo ($vo["name"]); ?>的补贴申请', '<?php echo U("member/subsidies_detail", array("id"=>$vo['sid']));?>')" class="show" >查询详情</a>
             </td>
@@ -116,20 +128,20 @@
         pageCount:<?php echo ($show["pageCount"]); ?>,
         current:<?php echo ($show["current"]); ?>,
         backFn: function ( p ){
-            window.location.href = '/longhcuanwenhua/index.php?s=/admin/news/<?php echo ($type); ?>/' + p + '.html';
+            window.location.href = '/index.php?s=/admin/news/<?php echo ($type); ?>/' + p + '.html';
         }
     });
     $(function (){
 
         $('#addnew').click(function (){
-            window.location.href = "/longhcuanwenhua/index.php?s=/admin/user/edit.html";
+            window.location.href = "/index.php?s=/admin/user/edit.html";
         });
 
         $('.del').click(function (){
             var r = confirm("确定要删除该数据？");
             var newsId = $(this).attr("name");
             if ( r == true ){
-                $.post("/longhcuanwenhua/index.php?s=/admin/user/del.html",{id:newsId}, function ( data ){
+                $.post("/index.php?s=/admin/user/del.html",{id:newsId}, function ( data ){
                     if ( data.status == 'y' ){
                         alert(data.msg);
                         document.location.reload();

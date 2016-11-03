@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="__ROOT__/favicon.ico" type="image/x-icon"/>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/Admin/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/Admin/css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" type="text/css" href="__ROOT__/Public/Admin/css/style.css"/>
+    <script type="text/javascript" src="__ROOT__/Public/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="__ROOT__/Public/Admin/js/common.js"></script>
+    <script src="__ROOT__/Public/Admin/js/jquery.page.js"></script>
+    <script src="__ROOT__/Public/Admin/js/layer/layer.js"></script>
+
+
+    <style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+        }
+
+
+    </style>
+    <style>
+        .tcdPageCode{padding: 15px 20px;text-align: left;color: #ccc;text-align:center;} .tcdPageCode a{display: inline-block;color: #428bca;display: inline-block;height: 25px;	line-height: 25px;	padding: 0 10px;border: 1px solid #ddd;	margin: 0 2px;border-radius: 4px;vertical-align: middle;} .tcdPageCode a:hover{text-decoration: none;border: 1px solid #428bca;} .tcdPageCode span.current{display: inline-block;height: 25px;line-height: 25px;padding: 0 10px;margin: 0 2px;color: #fff;background-color: #428bca;	border: 1px solid #428bca;border-radius: 4px;vertical-align: middle;} .tcdPageCode span.disabled {
+            display: inline-block;
+            height: 25px;
+            line-height: 25px;
+            padding: 0 10px;
+            margin: 0 2px;
+            color: #bfbfbf;
+            background: #f2f2f2;
+            border: 1px solid #bfbfbf;
+            border-radius: 4px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<table class="table table-bordered table-hover definewidth m10">
+    <tr>
+        <td colspan="4"><h5>订单详情</h5></td>
+    </tr>
+    <tr>
+        <td>订单编号</td><td>{$data.order_sn}</td>
+        <td>套餐名称</td><td>{$data.goods_name}</td>
+    </tr>
+    <tr>
+        <td>用户名</td><td>{$data.name}</td>
+        <td>手机号</td><td>{$data.mobile}</td>
+    </tr>
+    <tr>
+        <td>应付价格</td><td>{$data.yuan_money}</td>
+        <td>实付价格</td><td>{$data.money}</td>
+    </tr>
+    <tr>
+        <td>退款申请</td>
+        <td colspan="3">{$data.remark}</td>
+    </tr>
+    <tr>
+        <td colspan="4"><h5>审核记录</h5></td>
+    </tr>
+    <tr>
+        <td>管理员</td>
+        <td>审核状态</td>
+        <td>备注</td>
+        <td>操作时间</td>
+    </tr>
+    <volist name="check_list" id="vo">
+        <tr>
+            <td>{$vo.nam+e}<if condition="$vo.group_id eq 1">(超级管理员)<elseif condition="$vo.group_id eq 2" />(医事审核)<elseif condition="$vo.group_id eq 3" />(财务审核)<elseif condition="$vo.group_id eq 5" />(主管审核)</if></td>
+            <td><if condition="$vo.status eq 1"><span style="color:red">不通过</span><else /><span style="color:green">通过</span></if></td>
+            <td>{$vo.remark}</td>
+            <td>{$vo.addtime|date='Y-m-d H:i:s',###}</td>
+        </tr>
+    </volist>
+    <tr>
+        <td colspan="4"><h5>审核操作</h5></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <select name="status" id="status">
+                <option value="1">不通过</option>
+                <option value="2">通过</option>
+            </select>
+        </td>
+        <td colspan="2">审核意见：<input type="text" name="remark" value=""></td>
+    </tr>
+    <tr>
+        <td colspan="4" style="text-align: center">
+            <button type="button" id="submit" class="btn btn-primary">提交</button>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+<script>
+    var index = parent.layer.getFrameIndex(window.name); //获取窗口索引
+    $(function(){
+        $('#submit').click(function(){
+            var id = {$data.rid};
+            var status = $('#status').val();
+            var remark = $('input[name="remark"]').val();
+            if( status == 1 ){
+                if( remark.length < 0 ){
+                    alert('请填写不通过原因！');
+                    return false;
+                }
+            }
+            $.post('{:U("finance/order", array("act"=>"check_log"))}',{id:id,status:status,remark:remark,type:3},function(data){
+                if( data.status == 'y' ){
+                    alert(data.msg);
+                    parent.document.location.reload();
+//                    parent.layer.close(index);
+                }else{
+                    alert(data.msg);
+                }
+            },'json')
+        })
+    })
+
+</script>
+</table>
+</body>
+</html>
+<script>
+
+
+</script>
+

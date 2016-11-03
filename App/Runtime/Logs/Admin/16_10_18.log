@@ -1,0 +1,2950 @@
+[ 2016-10-18T08:57:18+08:00 ] 219.147.31.174 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-10-18T08:57:18+08:00 ] 219.147.31.174 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-10-18T08:57:19+08:00 ] 219.147.31.174 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-10-18T08:57:26+08:00 ] 219.147.31.174 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000150s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-10-18T08:57:31+08:00 ] 219.147.31.174 /index.php?s=/admin/users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/UsersController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+
+[ 2016-10-18T08:57:33+08:00 ] 219.147.31.174 /index.php?s=/admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-10-18T08:57:33+08:00 ] 219.147.31.174 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-10-18T08:57:33+08:00 ] 219.147.31.174 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-10-18T08:57:44+08:00 ] 219.147.31.174 /index.php?s=/admin/users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/UsersController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_user` WHERE `name` = 'admin' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-10-18T08:57:46+08:00 ] 219.147.31.174 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Array to string conversion /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-10-18T08:57:46+08:00 ] 219.147.31.174 /index.php?s=/admin/member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_member` LIMIT 0,20   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG") )  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y") )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y""3koW9UPCd8PB8gvGoFqU-q-CLAB2tkHb-vaD5WnL2hieZjs5iEULApAh6poj5EV7") )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Undefined index: name /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 56 行.
+NOTIC: [8] Undefined index: mobile /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 58 行.
+NOTIC: [8] Undefined index: idCard /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 60 行.
+NOTIC: [8] Undefined offset: 7 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 115 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-10-18T08:57:48+08:00 ] 219.147.31.174 /index.php?s=/admin/agreement/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_agreement` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_agreement` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_agreement` LIMIT 0,20   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/ee278b52f910612c31eced48a35febd5.php 第 43 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2016-10-18T08:57:50+08:00 ] 219.147.31.174 /index.php?s=/admin/agreement/edit/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_agreement` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_agreement` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-10-18T09:00:40+08:00 ] 101.226.66.178 /index.php?s=/admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-10-18T09:00:40+08:00 ] 101.226.66.178 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006383s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-10-18T09:00:52+08:00 ] 180.153.206.23 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-10-18T09:00:52+08:00 ] 180.153.206.23 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006178s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-10-18T09:00:58+08:00 ] 180.153.160.28 /index.php?s=/admin/agreement/edit/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-10-18T09:00:58+08:00 ] 180.153.160.28 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006120s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-10-18T14:27:07+08:00 ] 219.147.31.174 /index.php/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Array to string conversion /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007112s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-10-18T14:27:08+08:00 ] 219.147.31.174 /index.php?s=/admin/member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_member` LIMIT 0,20   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG") )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y") )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y""3koW9UPCd8PB8gvGoFqU-q-CLAB2tkHb-vaD5WnL2hieZjs5iEULApAh6poj5EV7") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: name /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 56 行.
+NOTIC: [8] Undefined index: mobile /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 58 行.
+NOTIC: [8] Undefined index: idCard /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 60 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-10-18T14:27:12+08:00 ] 219.147.31.174 /index.php?s=/admin/power/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/PowerController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp_user.*,tp_user_group.title FROM `tp_user` left JOIN tp_user_group on tp_user_group.id = tp_user.group_id  LIMIT 0,20   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/a2a7a4406b9d8e0ee72cdd04638f3b3b.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-10-18T14:27:19+08:00 ] 219.147.31.174 /index.php?s=/admin/user/edit/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2016-10-18T14:27:26+08:00 ] 219.147.31.174 /index.php?s=/admin/user/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0007s ]
+SQL: UPDATE `tp_user` SET `name`='yisheng',`createtime`='2016-10-18 14:27:26',`group_id`='2',`pwd`='123456' WHERE `id` = 2 [ RunTime:0.0005s ]
+
+[ 2016-10-18T14:27:27+08:00 ] 219.147.31.174 /index.php?s=/admin/user/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/PowerController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tp_user.*,tp_user_group.title FROM `tp_user` left JOIN tp_user_group on tp_user_group.id = tp_user.group_id  LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/a2a7a4406b9d8e0ee72cdd04638f3b3b.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-10-18T14:27:28+08:00 ] 219.147.31.174 /index.php?s=/admin/users/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000640s ]
+
+[ 2016-10-18T14:27:29+08:00 ] 219.147.31.174 /index.php?s=/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-10-18T14:27:29+08:00 ] 219.147.31.174 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-10-18T14:27:30+08:00 ] 219.147.31.174 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-10-18T14:27:39+08:00 ] 219.147.31.174 /index.php?s=/admin/users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/UsersController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `name` = 'yisheng' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+
+[ 2016-10-18T14:27:41+08:00 ] 219.147.31.174 /index.php?s=/admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-10-18T14:27:41+08:00 ] 219.147.31.174 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-10-18T14:27:41+08:00 ] 219.147.31.174 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-10-18T14:27:46+08:00 ] 101.226.89.123 /index.php?s=/admin/users/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2016-10-18T14:27:49+08:00 ] 219.147.31.174 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-10-18T14:27:53+08:00 ] 219.147.31.174 /index.php?s=/admin/users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/UsersController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user` WHERE `name` = 'yisheng' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+
+[ 2016-10-18T14:27:55+08:00 ] 219.147.31.174 /index.php?s=/admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-10-18T14:27:55+08:00 ] 219.147.31.174 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-10-18T14:27:55+08:00 ] 219.147.31.174 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-10-18T14:28:04+08:00 ] 219.147.31.174 /index.php?s=/admin/users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/UsersController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user` WHERE `name` = 'yisheng' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005842s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+
+[ 2016-10-18T14:28:05+08:00 ] 219.147.31.174 /index.php?s=/admin/user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-10-18T14:28:06+08:00 ] 219.147.31.174 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-10-18T14:28:06+08:00 ] 219.147.31.174 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-10-18T14:28:34+08:00 ] 219.147.31.174 /index.php?s=/admin/users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/UsersController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_user` WHERE `name` = 'admin' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-10-18T14:28:36+08:00 ] 219.147.31.174 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Array to string conversion /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-10-18T14:28:36+08:00 ] 219.147.31.174 /index.php?s=/admin/member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_member` LIMIT 0,20   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG") )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y") )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y""3koW9UPCd8PB8gvGoFqU-q-CLAB2tkHb-vaD5WnL2hieZjs5iEULApAh6poj5EV7") )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined index: name /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 56 行.
+NOTIC: [8] Undefined index: mobile /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 58 行.
+NOTIC: [8] Undefined index: idCard /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 60 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-10-18T14:28:40+08:00 ] 219.147.31.174 /index.php?s=/admin/power/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/PowerController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp_user.*,tp_user_group.title FROM `tp_user` left JOIN tp_user_group on tp_user_group.id = tp_user.group_id  LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/a2a7a4406b9d8e0ee72cdd04638f3b3b.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-10-18T14:29:41+08:00 ] 219.147.31.174 /index.php?s=/admin/user/edit/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_user` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-10-18T14:29:43+08:00 ] 219.147.31.174 /index.php?s=/admin/user/save.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0008s ]
+SQL: UPDATE `tp_user` SET `name`='yisheng',`createtime`='2016-10-18 14:29:43',`group_id`='2',`pwd`='e10adc3949ba59abbe56e057f20f883e' WHERE `id` = 2 [ RunTime:0.0007s ]
+
+[ 2016-10-18T14:29:45+08:00 ] 219.147.31.174 /index.php?s=/admin/user/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/PowerController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT tp_user.*,tp_user_group.title FROM `tp_user` left JOIN tp_user_group on tp_user_group.id = tp_user.group_id  LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/a2a7a4406b9d8e0ee72cdd04638f3b3b.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-10-18T14:29:45+08:00 ] 219.147.31.174 /index.php?s=/admin/users/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-10-18T14:29:47+08:00 ] 219.147.31.174 /index.php?s=/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-10-18T14:29:47+08:00 ] 219.147.31.174 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-10-18T14:29:47+08:00 ] 219.147.31.174 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-10-18T14:29:54+08:00 ] 219.147.31.174 /index.php?s=/admin/users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/UsersController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user` WHERE `name` = 'yisheng' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2016-10-18T14:29:55+08:00 ] 219.147.31.174 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Array to string conversion /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-10-18T14:29:56+08:00 ] 219.147.31.174 /index.php?s=/admin/member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_member` LIMIT 0,20   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG") )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y") )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y""3koW9UPCd8PB8gvGoFqU-q-CLAB2tkHb-vaD5WnL2hieZjs5iEULApAh6poj5EV7") )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined index: name /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 56 行.
+NOTIC: [8] Undefined index: mobile /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 58 行.
+NOTIC: [8] Undefined index: idCard /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 60 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-10-18T14:30:18+08:00 ] 101.226.51.226 /index.php?s=/admin/power/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-10-18T14:30:18+08:00 ] 101.226.51.226 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005955s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-10-18T14:30:26+08:00 ] 101.226.33.204 /index.php?s=/admin/user/edit/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-10-18T14:30:26+08:00 ] 101.226.33.204 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000566s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-10-18T14:30:34+08:00 ] 61.151.226.202 /index.php?s=/admin/users/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-10-18T14:30:35+08:00 ] 101.226.89.115 /index.php?s=/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-10-18T14:30:35+08:00 ] 101.226.89.115 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-10-18T14:32:49+08:00 ] 219.147.31.174 /index.php?s=/admin/users/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-10-18T14:32:50+08:00 ] 219.147.31.174 /index.php?s=/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-10-18T14:32:50+08:00 ] 219.147.31.174 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-10-18T14:32:50+08:00 ] 219.147.31.174 /index.php?s=/admin/users/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2016-10-18T14:32:58+08:00 ] 219.147.31.174 /index.php?s=/admin/users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [8] Undefined variable: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/UsersController.class.php 第 18 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user` WHERE `name` = 'admin' AND `pwd` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-10-18T14:32:59+08:00 ] 219.147.31.174 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Array to string conversion /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-10-18T14:33:00+08:00 ] 219.147.31.174 /index.php?s=/admin/member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_member` LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG") )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y") )  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y""3koW9UPCd8PB8gvGoFqU-q-CLAB2tkHb-vaD5WnL2hieZjs5iEULApAh6poj5EV7") )  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined index: name /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 56 行.
+NOTIC: [8] Undefined index: mobile /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 58 行.
+NOTIC: [8] Undefined index: idCard /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 60 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-10-18T14:33:02+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2016-10-18T14:34:15+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_subsidies as s LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s INNER JOIN tp_member as m on m.id = s.userid  LIMIT 0,20   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Undefined index: name /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/198e07703a367a71243bf2b898921dab.php 第 56 行.
+NOTIC: [8] Undefined index: mobile /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/198e07703a367a71243bf2b898921dab.php 第 58 行.
+NOTIC: [8] Undefined index: idCard /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/198e07703a367a71243bf2b898921dab.php 第 60 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/198e07703a367a71243bf2b898921dab.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-10-18T14:34:16+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/subsidies_detail/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0007s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '12' LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `tp_package_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 3  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 196 行.
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 196 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 5 and server_id in ("C4LXkYg7z67Xjh9tMWJColk6XUbcOHrH3o1eoI4gNr2f4RzEwXfuMtcQOUI0iA7a") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/2e8cb05cf47105dbd042417a1a77b371.php 第 78 行.
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/2e8cb05cf47105dbd042417a1a77b371.php 第 78 行.
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/2e8cb05cf47105dbd042417a1a77b371.php 第 78 行.
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/2e8cb05cf47105dbd042417a1a77b371.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-10-18T14:34:22+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-10-18T14:34:23+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 82 行.
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_subsidies as s LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s INNER JOIN tp_member as m on m.id = s.userid  LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: name /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/198e07703a367a71243bf2b898921dab.php 第 56 行.
+NOTIC: [8] Undefined index: mobile /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/198e07703a367a71243bf2b898921dab.php 第 58 行.
+NOTIC: [8] Undefined index: idCard /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/198e07703a367a71243bf2b898921dab.php 第 60 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/198e07703a367a71243bf2b898921dab.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2016-10-18T14:35:56+08:00 ] 101.226.33.216 /index.php?s=/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-10-18T14:35:56+08:00 ] 101.226.33.216 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-10-18T14:37:20+08:00 ] 180.153.201.66 /index.php?s=/admin/subsidies/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-10-18T14:37:20+08:00 ] 180.153.201.66 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2016-10-18T14:37:22+08:00 ] 180.153.214.200 /index.php?s=/Admin/member/subsidies_detail/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-10-18T14:37:22+08:00 ] 180.153.214.200 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2016-10-18T14:45:09+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/subsidies_detail/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_subsidies` [ RunTime:0.0009s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_subsidies as s left JOIN tp_member as m on m.id = s.userid  WHERE s.id = '12' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 190 行.
+SQL: SHOW COLUMNS FROM `tp_package_type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_package_type` WHERE `package_id` = 3  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 196 行.
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 196 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_img` WHERE ( user_id = 5 and server_id in ("C4LXkYg7z67Xjh9tMWJColk6XUbcOHrH3o1eoI4gNr2f4RzEwXfuMtcQOUI0iA7a") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/2e8cb05cf47105dbd042417a1a77b371.php 第 78 行.
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/2e8cb05cf47105dbd042417a1a77b371.php 第 78 行.
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/2e8cb05cf47105dbd042417a1a77b371.php 第 78 行.
+NOTIC: [8] Undefined index: type_scale1 /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/2e8cb05cf47105dbd042417a1a77b371.php 第 78 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2016-10-18T14:46:00+08:00 ] 219.147.31.174 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Array to string conversion /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/9df924d9a2d217daa77a359c5bee0c33.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/hyu2409230001/htdocs/ThinkPHP/Common/functions.php:850) /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/hyu2409230001/htdocs/ThinkPHP/Common/functions.php:850) /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/hyu2409230001/htdocs/ThinkPHP/Common/functions.php:850) /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-10-18T14:46:01+08:00 ] 219.147.31.174 /index.php?s=/admin/member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_member` LIMIT 0,20   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG") )  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y") )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y""3koW9UPCd8PB8gvGoFqU-q-CLAB2tkHb-vaD5WnL2hieZjs5iEULApAh6poj5EV7") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [8] Undefined index: name /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 56 行.
+NOTIC: [8] Undefined index: mobile /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 58 行.
+NOTIC: [8] Undefined index: idCard /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 60 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/hyu2409230001/htdocs/ThinkPHP/Common/functions.php:850) /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/hyu2409230001/htdocs/ThinkPHP/Common/functions.php:850) /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/hyu2409230001/htdocs/ThinkPHP/Common/functions.php:850) /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2016-10-18T14:46:01+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0014s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/hyu2409230001/htdocs/ThinkPHP/Common/functions.php:850) /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/hyu2409230001/htdocs/ThinkPHP/Common/functions.php:850) /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/hyu2409230001/htdocs/ThinkPHP/Common/functions.php:850) /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-10-18T14:46:21+08:00 ] 219.147.31.174 /index.php?s=/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-10-18T14:46:22+08:00 ] 219.147.31.174 /index.php?s=/admin/member/list.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_member` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_member` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_member` LIMIT 0,20   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG") )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y") )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("_ebJqLaFFP8ReB0j_BxxHZ4VoDKB-eLckL7XY8zv35V2goHujWQ6xz7xKN3bfPYF","oBgPidPhEoRRnIdj839YhqA_3cyjFzglyyr6p1C7TJiK-s24k25XC-BamZ6NKMv_","LbUYGqSJTqE9q1Zae1m43Jrc9Lgh6p_XrFMqDGMMg-lDFbv-tRinhwSvR5Rh3K3p","NU5Woiz-EVitANOe0cEDgh6MWXkEPNFp3Au-AVibjHVY7y8eXIVUQ9kuGGTqMI9U","mk91zBho3WCbiFPjWyGnOUS7Yi7AJ8pflRybH7VMa1N28InZMeYJFNpVTFVIrBgG""vI_65IAiuoVd_dMFClfGCYpylDm9LNgRY5-vVElOCzLmtbPXhA74E1HsI4c0814y""3koW9UPCd8PB8gvGoFqU-q-CLAB2tkHb-vaD5WnL2hieZjs5iEULApAh6poj5EV7") )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Undefined index: name /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 56 行.
+NOTIC: [8] Undefined index: mobile /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 58 行.
+NOTIC: [8] Undefined index: idCard /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 60 行.
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/18bc80a3a1335b3d6f94bb81c17b9385.php 第 167 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-10-18T14:46:22+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2016-10-18T14:46:31+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-10-18T14:46:37+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-10-18T14:47:13+08:00 ] 219.147.31.174 /index.php?s=/admin/power/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/PowerController.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT tp_user.*,tp_user_group.title FROM `tp_user` left JOIN tp_user_group on tp_user_group.id = tp_user.group_id  LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/a2a7a4406b9d8e0ee72cdd04638f3b3b.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-10-18T14:47:35+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-10-18T14:47:37+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-10-18T14:47:46+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-10-18T14:48:13+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-10-18T14:48:41+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-10-18T14:52:39+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-10-18T14:55:40+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009693s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-10-18T14:55:42+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 219 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-10-18T14:55:45+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-10-18T14:55:47+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-10-18T14:55:59+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-10-18T14:56:35+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-10-18T14:56:38+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-10-18T14:56:55+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-10-18T14:58:02+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-10-18T14:58:05+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("jaqjyNgwWchUJVh1_AJ9auRrEa0HL1NOGdgv8eQ4r9aLpkByT1fH8L9n3Zu0ijN5","nDsua7iwsn38jvR4-QvQPwABUvA7FXzS-HmDHLFqnEzbUjtXBh64hlDbZC6Dn_GS","oBgPidPhEoRRnIdj839Yhm4DX40YU-T1gRM4E0p9DtlIfdaLYZ167EipIFptKKen") )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-10-18T14:58:09+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-10-18T14:58:30+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-10-18T14:59:42+08:00 ] 101.226.33.204 /index.php?s=/Admin/member/buy_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-10-18T14:59:42+08:00 ] 101.226.33.204 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-10-18T15:00:21+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-10-18T15:00:22+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 113 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-10-18T15:00:24+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 215 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2016-10-18T15:00:27+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-10-18T15:02:45+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-10-18T15:03:10+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2016-10-18T15:03:30+08:00 ] 101.226.125.104 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-10-18T15:03:30+08:00 ] 101.226.125.104 /index.php?s=/Admin/Users/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-10-18T15:04:08+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+
+[ 2016-10-18T15:04:15+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 220 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("jaqjyNgwWchUJVh1_AJ9auRrEa0HL1NOGdgv8eQ4r9aLpkByT1fH8L9n3Zu0ijN5","nDsua7iwsn38jvR4-QvQPwABUvA7FXzS-HmDHLFqnEzbUjtXBh64hlDbZC6Dn_GS","oBgPidPhEoRRnIdj839Yhm4DX40YU-T1gRM4E0p9DtlIfdaLYZ167EipIFptKKen") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-10-18T15:04:17+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+
+[ 2016-10-18T15:04:35+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+
+[ 2016-10-18T15:04:36+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-10-18T15:04:37+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-10-18T15:04:38+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 220 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("jaqjyNgwWchUJVh1_AJ9auRrEa0HL1NOGdgv8eQ4r9aLpkByT1fH8L9n3Zu0ijN5","nDsua7iwsn38jvR4-QvQPwABUvA7FXzS-HmDHLFqnEzbUjtXBh64hlDbZC6Dn_GS","oBgPidPhEoRRnIdj839Yhm4DX40YU-T1gRM4E0p9DtlIfdaLYZ167EipIFptKKen") )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-10-18T15:04:39+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+
+[ 2016-10-18T15:05:22+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 110 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 118 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-10-18T15:05:26+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 220 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("jaqjyNgwWchUJVh1_AJ9auRrEa0HL1NOGdgv8eQ4r9aLpkByT1fH8L9n3Zu0ijN5","nDsua7iwsn38jvR4-QvQPwABUvA7FXzS-HmDHLFqnEzbUjtXBh64hlDbZC6Dn_GS","oBgPidPhEoRRnIdj839Yhm4DX40YU-T1gRM4E0p9DtlIfdaLYZ167EipIFptKKen") )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-10-18T15:05:36+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+
+[ 2016-10-18T15:12:55+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 122 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0015s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 130 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-10-18T15:12:56+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-10-18T15:13:02+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 232 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-10-18T15:13:08+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: htis /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 62 行.
+NOTIC: [8] Trying to get property of non-object /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 62 行.
+
+[ 2016-10-18T15:13:33+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+
+[ 2016-10-18T15:13:47+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/hyu2409230001/htdocs/ThinkPHP/Common/functions.php:850) /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-10-18T15:14:17+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/hyu2409230001/htdocs/ThinkPHP/Common/functions.php:850) /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-10-18T15:14:50+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `tp_check_log` (`admin_id`,`type`,`status`,`remark`,`addtime`) VALUES ('1','1','1','111111111111111111111','1476774890') [ RunTime:0.0005s ]
+
+[ 2016-10-18T15:15:45+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_check_log` [ RunTime:0.0007s ]
+SQL: INSERT INTO `tp_check_log` (`admin_id`,`type`,`status`,`remark`,`addtime`) VALUES ('1','1','1','111111111111111111111','1476774945') [ RunTime:0.0004s ]
+
+[ 2016-10-18T15:15:50+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check_log` [ RunTime:0.0007s ]
+SQL: INSERT INTO `tp_check_log` (`admin_id`,`type`,`status`,`remark`,`addtime`) VALUES ('1','1','1','111111111111111111111','1476774950') [ RunTime:0.0005s ]
+
+[ 2016-10-18T15:19:13+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_check_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_check_log` WHERE `type` = 1 AND `mod_id` = 1 AND `admin_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `tp_check_log` (`admin_id`,`type`,`mod_id`,`status`,`remark`,`addtime`) VALUES ('1','1','1','1','111111111111111111111','1476775153') [ RunTime:0.0004s ]
+
+[ 2016-10-18T15:19:15+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check_log` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_check_log` WHERE `type` = 1 AND `mod_id` = 1 AND `admin_id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-10-18T15:19:17+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/check_log.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check_log` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_check_log` WHERE `type` = 1 AND `mod_id` = 1 AND `admin_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-18T15:27:23+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 134 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009687s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-10-18T15:27:25+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_check_log` [ RunTime:0.0011s ]
+SQL: SELECT c.*,u.name FROM tp_check_log as c INNER JOIN tp_user as u on u.id=c.admin_id  WHERE c.mod_id = '1' AND c.type = 1 ORDER BY addtime asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 239 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-10-18T15:30:13+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 134 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009938s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2016-10-18T15:30:15+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_check_log` [ RunTime:0.0012s ]
+SQL: SELECT c.*,u.name,u.group_id FROM tp_check_log as c INNER JOIN tp_user as u on u.id=c.admin_id  WHERE c.mod_id = '1' AND c.type = 1 ORDER BY addtime asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 239 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-10-18T15:30:37+08:00 ] 219.147.31.174 /index.php?s=/admin/subsidies/buy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: id /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 126 行.
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tp_check as s LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT s.*,m.*,s.id as sid FROM tp_check as s INNER JOIN tp_member as m on m.id = s.user_id  LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: status /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 134 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+NOTIC: [8] Undefined variable: type /data/home/hyu2409230001/htdocs/App/Runtime/Cache/Admin/de3e18c205fc99be25831608bb97ff42.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010388s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-10-18T15:30:39+08:00 ] 219.147.31.174 /index.php?s=/Admin/member/buy_detail/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `tp_user_group` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_user_group`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_check` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_check_log` [ RunTime:0.0007s ]
+SQL: SELECT c.*,u.name,u.group_id FROM tp_check_log as c INNER JOIN tp_user as u on u.id=c.admin_id  WHERE c.mod_id = '1' AND c.type = 1 ORDER BY addtime asc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: img_str /data/home/hyu2409230001/htdocs/App/Admin/Controller/MemberController.class.php 第 239 行.
+SQL: SHOW COLUMNS FROM `tp_img` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_img` WHERE ( server_id in ("V_X2cH12-U-hwCxzqkFzx2RpaEVOy7gkjRZaeNM3HasY_1Rw5BXH0uj_qHs9uCbx") )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009219s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+

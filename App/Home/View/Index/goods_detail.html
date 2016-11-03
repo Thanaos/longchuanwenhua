@@ -71,7 +71,7 @@
 	    <div class="shop-detail">
 	    	
 	    	<h3>{$goods_data.good_name}</h3>
-            <if condition="($scale_price eq 'yuan') and ($scale_price elt 0)">
+            <if condition="$scale_price eq -1">
 				<span>价格：￥{$goods_data.good_price}</span>
 			<else />
 				<span class="old-price">原价：￥{$goods_data.good_price}</span>
@@ -113,8 +113,9 @@
 				    layer.closeAll();
 					if( data.money == 0 ){
 						window.location.href = "{:U('index/order')}";
+					}else{
+						callpay(data.appId,data.timeStamp,data.nonceStr,data.package,data.signType,data.paySign);
 					}
-					callpay(data.appId,data.timeStamp,data.nonceStr,data.package,data.signType,data.paySign);
 				}else{
 					layer.closeAll();
 					alert(data.msg);

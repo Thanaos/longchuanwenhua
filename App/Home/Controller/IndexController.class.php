@@ -12,42 +12,52 @@ class IndexController extends BaseController{
         $this->display();
     }
     
+    function info(){
+        $user = M('member')->where(array('id'=>$this->userid))->find();
+        $this->assign('user', $user);
+        $this->assign('action', 'info');
+        $this->display();
+    }
+    
     function getVip(){
         //检查是否可以购买
         $now = time();
-        $a_check = M('check')->where(array('user_id'=>$this->userid, 'addtime'=>array('gt', $now-3600*24*7) ))->find();
-        if( $a_check['times'] != 3 ){
+        $a_check = M('check')->where(array('user_id'=>$this->userid))->order('id desc')->find();
+        
+        if( $a_check['times'] == 3 && $a_check['check_time'] > time() ){
+            //获取用户年龄
+            $id_card = $this->user_info['idcard'];
+            //大于60岁不允许申请
+            $age = getAgeByID($id_card);
+            if( $age >= 60 && $this->user_info['vip'] != 1 ){
+                $this->assign('message', '60岁以上，不允许申请会员 ！');
+                $this->display('Public:error');
+            }
+            if($age>=20 && $age<30){
+                $key = 'package_price1';
+            }elseif( $age>=30 && $age<40 ){
+                $key = 'package_price2';
+            }elseif( $age>=40 && $age<50 ){
+                $key = 'package_price3';
+            }elseif( $age>=50 && $age<60 ){
+                $key = 'package_price4';
+            }elseif( $age >60 ){
+                $key = 'package_price5';
+            }else{
+                $this->error('身份证错误');
+            }
+//            $user_money = getMoneyByAge();
+            $package = M('package')->select();
+            foreach( $package as $k=>$v ){
+                $type_list = M('package_type')->where(array('package_id'=>$v['id']))->select();
+                $list[$k] = array('id'=>$v['id'], 'package_name'=>$v['package_name'], 'package_price'=>$v[$key], 'type_list'=>$type_list);
+            }
+            $this->assign('package_list', $list);
+//            $this->assign('user_money', $user_money);
+            $this->display();
+        }else{
             redirect(U('index/s_check'));
-            exit;
         }
-        //获取用户年龄
-        $id_card = $this->user_info['idcard'];
-        //大于60岁不允许申请
-        $age = getAgeByID($id_card);
-        if( $age >= 60 && $this->user_info['vip'] != 1 ){
-            $this->assign('message', '60岁以上，不允许申请会员 ！');
-            $this->display('Public:error');
-        }
-        if($age>=20 && $age<30){
-            $key = 'package_price1';
-        }elseif( $age>=30 && $age<40 ){
-            $key = 'package_price2';
-        }elseif( $age>=40 && $age<50 ){
-            $key = 'package_price3';
-        }elseif( $age>=50 && $age<60 ){
-            $key = 'package_price4';
-        }elseif( $age >60 ){
-            $key = 'package_price5';
-        }
-        $user_money = getMoneyByAge();
-        $package = M('package')->select();
-        foreach( $package as $k=>$v ){
-            $type_list = M('package_type')->where(array('package_id'=>$v['id']))->select();
-            $list[$k] = array('id'=>$v['id'], 'package_name'=>$v['package_name'], 'package_price'=>$v[$key], 'type_list'=>$type_list);
-        }
-        $this->assign('package_list', $list);
-        $this->assign('user_money', $user_money);
-        $this->display();
     }
     
     /**
@@ -61,19 +71,28 @@ class IndexController extends BaseController{
             redirect(U('index/index'));
         }
         if( !empty($is_read) ){
-            //微信签名
-            $data = M('check')->where(array('user_id'=>$this->userid))->find();
-            if( ($data['times'] == -1 || $data['times'] != 3) && !empty($data) ){
-                $this->assign('message', '请情等待审核，不能重复申请！');
-                $this->display('Public:error');
-                exit;
-            }
             //检查有没有没未审核的
-            $wx_config = M('weixin_config')->where('id = 1')->find();
-            $jssdk = new \Org\Util\Wxsdk($wx_config['appid'], $wx_config['secret']);
-            $signPackage = $jssdk->GetSignPackage();
-            $this->assign('signPackage', $signPackage);
-            $this->display();
+            $now = time();
+            $data = M('check')->where(array('user_id' => $this->userid))->order('id desc')->find();
+            if( $data['times'] == 3 && $data['check_time'] > time() ){
+                redirect(U('index/getVip'));
+            }else{
+                if( $data['times'] == '1' || $data['times'] == '2' || $data['times'] == '0' ){
+                    $this->assign('message', '请等待审核，不能重复申请！');
+                    $this->display('Public:error');
+                    exit;
+                }
+        
+                //微信签名
+                $wx_config = M('weixin_config')->where('id = 1')->find();
+                $jssdk = new \Org\Util\Wxsdk($wx_config['appid'], $wx_config['secret']);
+                $signPackage = $jssdk->GetSignPackage();
+                $this->assign('signPackage', $signPackage);
+                //查询材料清单
+                $clist = M('clist')->where('id = 3')->find();
+                $this->assign('clist', $clist);
+                $this->display();
+            }
         }else{
             $data = M('agreement')->where('id = 1')->find();
             $this->assign('data', $data);
@@ -84,12 +103,16 @@ class IndexController extends BaseController{
     function save_check(){
         if( IS_POST ){
             $bl_img = I('post.bl_img');
+            $doctor = I('post.docotr_bh');
             if( empty($bl_img) ){
                 $this->assign('message', '必须上传体检图片！');
                 $this->display('Public:error');
                 exit;
             }
-            $data = array('user_id'=>$this->userid, 'bl_img'=>$bl_img, 'addtime'=>time());
+            if( empty($doctor_bh) ){
+                $doctor_bh = 'TZ00001';
+            }
+            $data = array('user_id'=>$this->userid,'doctor_bh'=>$doctor_bh, 'bl_img'=>$bl_img, 'addtime'=>time());
             $insert = M('check')->add($data);
             if( $insert > 0 ){
                 $this->assign('url', 'http://'.$_SERVER['HTTP_HOST'].U('Index/index'));
@@ -109,10 +132,10 @@ class IndexController extends BaseController{
                 return $this->ajaxReturn(array('status' => 'n', 'msg' => '参数不正确！'));
             }
             //是否跟当前的套餐一致
-            if( $type == $this->user_info['vip_time'] ){
-                return $this->ajaxReturn(array('status'=>'n', 'msg'=>'与当前会员类型一致'));
-                
-            }
+//            if( $type == $this->user_info['vip_time'] ){
+//                return $this->ajaxReturn(array('status'=>'n', 'msg'=>'与当前会员类型一致'));
+//
+//            }
             $user_money = getMoneyByAge(getAgeByID($this->user_info['idcard']));
             $money = $user_money[$type];
             //生成订单
@@ -122,8 +145,7 @@ class IndexController extends BaseController{
             Vendor('WxPayPubHelper.WxPayPubHelper');
             $jsApi = new \JsApi_pub();
             $unifiedOrder = new \UnifiedOrder_pub();
-//            $price = floatval($money) * 100;
-            $price = 1;
+            $price = floatval($money) * 100;
             $unifiedOrder->setParameter("openid", $this->user_info['openid']);
             $unifiedOrder->setParameter("body", '购买会员');
             $unifiedOrder->setParameter("out_trade_no", $order_sn);
@@ -147,9 +169,12 @@ class IndexController extends BaseController{
             $jssdk = new \Org\Util\Wxsdk($wx_config['appid'], $wx_config['secret']);
             $signPackage = $jssdk->GetSignPackage();
             $this->assign('signPackage', $signPackage);
+            //查询材料清单
+            $clist = M('clist')->where('id = 3')->find();
+            $this->assign('clist', $clist);
             $this->display();
         }else{
-            $this->assign('message', '抱歉不是会员不能申请补贴！');
+            $this->assign('message', '抱歉,未购买会员卡不能申请一次性补贴!');
             $this->display('Public:error');
             exit;
         }
@@ -183,6 +208,7 @@ class IndexController extends BaseController{
         //查询诊疗项目
         $goods_list = M('goods')->select();
         $this->assign('goods_list', $goods_list);
+        $this->assign('action', 'goods');
         $this->display('goods_list');
     }
     
@@ -199,10 +225,11 @@ class IndexController extends BaseController{
                 $scale_price = $goods_data['good_price'] - ($goods_data['good_price'] * ($goods_data['good_scale3']/100));
             }
         }else{
-            $scale_price = 'yuan';
+            $scale_price = -1;
         }
         $this->assign('scale_price', $scale_price);
         $this->assign('goods_data', $goods_data);
+        $this->assign('action', 'goods');
         $this->display();
     }
     
@@ -236,8 +263,7 @@ class IndexController extends BaseController{
         Vendor('WxPayPubHelperGood.WxPayPubHelper');
         $jsApi = new \JsApi_pub();
         $unifiedOrder = new \UnifiedOrder_pub();
-//            $price = floatval($scale_price) * 100;
-        $price = 1;
+        $price = floatval($scale_price) * 100;
         $unifiedOrder->setParameter("openid", $this->user_info['openid']);
         $unifiedOrder->setParameter("body", '诊疗项目');
         $unifiedOrder->setParameter("out_trade_no", $order_sn);
@@ -261,7 +287,10 @@ class IndexController extends BaseController{
             $where['order_status'] = 0;
         }elseif( $status == 3 ){
             $where['order_status'] = 2;
+        }elseif( $status == 4 ){
+            $where['order_status'] = 5;
         }
+        
         $order_list = M('goods_order')->where($where)->order('id desc')->select();
         $this->assign('action', 'order');
         $this->assign('status', $status);
@@ -270,7 +299,74 @@ class IndexController extends BaseController{
     }
     
     function order_detail(){
+        $id = I('get.id');
+        if( empty($id) ){
+            $this->error('参数不正确！');
+        }
+        $data = M('goods_order as o')->join('tp_goods as g on o.goods_id = g.id', 'left')->where(array('o.id'=>$id))->field('o.*,g.image,g.good_detail')->find();
+        $this->assign('data', $data);
+        $this->assign('action', 'order');
         $this->display();
+    }
+    
+    function submit_order(){
+        $id = I('post.id');
+        $data = M('goods_order')->where(array('id'=>$id))->find();
+        if( empty($data) || empty($data['money']) ){
+            $this->ajaxReturn(array('status'=>'n', 'msg'=>'订单无效, 请重新下单'));
+            
+        }
+        $order_sn = time();
+        Vendor('WxPayPubHelperGood.WxPayPubHelper');
+        $jsApi = new \JsApi_pub();
+        $unifiedOrder = new \UnifiedOrder_pub();
+        $price = floatval($data['money']) * 100;
+        $unifiedOrder->setParameter("openid", $this->user_info['openid']);
+        $unifiedOrder->setParameter("body", '诊疗项目');
+        $unifiedOrder->setParameter("out_trade_no", $order_sn);
+        $unifiedOrder->setParameter("total_fee", $price);
+        $unifiedOrder->setParameter("notify_url", "http://mobile.zrtzbj.com.cn/goodsback.php");
+        $unifiedOrder->setParameter("attach", "order_sn=" . $data['order_sn'] . "&userid=" . $this->userid);
+        $unifiedOrder->setParameter("trade_type", "JSAPI");
+        $prepay_id = $unifiedOrder->getPrepayId();
+        $jsApi->setPrepayId($prepay_id);
+        $jsApiParameters = $jsApi->getParameters1();
+        $jsApiParameters['status'] = 'y';
+        exit(json_encode($jsApiParameters));
+    }
+    
+    function refund(){
+        $id = I('get.id');
+        $data = M('goods_order')->where(array('id'=>$id))->find();
+        if( $id < 0 || empty($data) ){
+            $this->error('参数错误！');
+        }
+        if( IS_POST ){
+            $order_id = I('post.order_id');
+            $remark = I('post.remark');
+            if( $order_id < 0 ){
+                $this->error('参数错误！');
+            }
+            if( empty($remark) ){
+                $this->error('请输入退款原因！');
+            }
+            $insert_data = array('remark'=>$remark, 'order_id'=>$order_id, 'user_id'=>$this->userid, 'addtime'=>time());
+            if(M('refund')->where(array('order_id'=>$order_id))->find()){
+                $this->error('不能重复申请！');
+            }
+            $insert = M('refund')->add($insert_data);
+            if( $insert > 0 ){
+                //修改订单状态
+                M('goods_order')->where(array('id'=>$order_id))->save(array('order_status'=>3));
+                $this->assign('url', 'http://'.$_SERVER['HTTP_HOST'].U('Index/index'));
+                $this->assign('message', '申请成功！');
+                $this->display('Public:success');
+                exit;
+            }
+            
+        }
+        $this->assign('data', $data);
+        $this->display('refund');
     }
     
     public function uploadImg()

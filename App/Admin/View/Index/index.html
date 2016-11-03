@@ -57,9 +57,13 @@
                 {id:'12',text:'购买会员申请',href:'__APP__/admin/subsidies/buy.html'},
             </if>
                 {id:'5',text:'会员列表',href:'__APP__/admin/member/list.html'},
+                {id:'18',text:'订单列表',href:'__APP__/admin/order/m_list.html'},
             <if condition="($admin_role eq 3) or ($admin_role eq 2) or ($admin_role eq 'all')">
                 {id:'7',text:'补贴申请',href:'__APP__/admin/subsidies/list.html'},
             </if>
+            <if condition="($admin_role eq 3) or ($admin_role eq 2) or ($admin_role eq 5) or ($admin_role eq 'all')">
+                {id:'17',text:'退款申请',href:'__APP__/admin/order/refund.html'},
+                </if>
             ]},
             <if condition="($admin_role eq 3) or ($admin_role eq 'all')">
             {text:'财务管理 ',items:[

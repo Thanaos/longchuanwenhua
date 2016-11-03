@@ -1,16 +1,16 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
-<head>    <link rel="shortcut icon" href="/longhcuanwenhua/favicon.ico" type="image/x-icon" /> 
+<head>    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> 
     <title></title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap-responsive.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/style.css" />
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/ckform.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/common.js"></script>
-    <script src="/longhcuanwenhua/Public/Admin/js/jquery.page.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/style.css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+    <script src="/Public/Admin/js/jquery.page.js"></script>
 
  
 
@@ -72,8 +72,8 @@
              <td><?php echo ($vo["package_price4"]); ?></td>
              <td><?php echo ($vo["package_price5"]); ?></td>
              <td style="width:150px;">
-                <a href="/longhcuanwenhua/index.php?s=/admin/package/type/<?php echo ($vo["id"]); ?>.html">管理补贴项目</a>
-                <a href="/longhcuanwenhua/index.php?s=/admin/package/edit/<?php echo ($vo["id"]); ?>.html">编辑</a>
+                <a href="/index.php?s=/admin/package/type/<?php echo ($vo["id"]); ?>.html">管理补贴项目</a>
+                <a href="/index.php?s=/admin/package/edit/<?php echo ($vo["id"]); ?>.html">编辑</a>
                 <!--<a href="javascript:;" class="del" name="<?php echo ($vo["id"]); ?>">删除</a>                -->
              </td>
         </tr><?php endforeach; endif; ?>
@@ -86,12 +86,12 @@
         pageCount:<?php echo ($show["pageCount"]); ?>,
         current:<?php echo ($show["current"]); ?>,
         backFn:function(p){
-            window.location.href='/longhcuanwenhua/index.php?s=/admin/package/list/'+p+'.html';
+            window.location.href='/index.php?s=/admin/package/list/'+p+'.html';
         }
     });
     $(function () {
 		$('#addnew').click(function(){
-            window.location.href="/longhcuanwenhua/index.php?s=/admin/package/edit.html";
+            window.location.href="/index.php?s=/admin/package/edit.html";
 		 });
 
         /*
@@ -100,7 +100,7 @@
                 var newsId = $(this).attr("name");
                 if (r==true)
                 {
-                    $.post("/longhcuanwenhua/index.php?s=/admin/model/del.html",{id:newsId,model:'package'},function(data){
+                    $.post("/index.php?s=/admin/model/del.html",{id:newsId,model:'package'},function(data){
                         if(data.status == 'y'){
                             alert(data.msg);
                             document.location.reload(); 

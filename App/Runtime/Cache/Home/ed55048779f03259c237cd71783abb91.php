@@ -10,34 +10,35 @@
 	<!-- <meta name="format-detection" content="telephone=no"/> -->
 	<meta name="format-detection" content="email=no"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
-	<link rel="stylesheet" href="/longhcuanwenhua/PUblic/Home/css/style.css">
-	<link rel="stylesheet" href="/longhcuanwenhua/PUblic/Home/js/swiper/css/swiper.min.css">
-    <script src="/longhcuanwenhua/Public/Home/js/jquery.min.js?v=20160924"></script>
+	<link rel="stylesheet" href="/Public/Home/css/style.css">
+	<link rel="stylesheet" href="/Public/Home/js/swiper/css/swiper.min.css">
+    <script src="/Public/Home/js/jquery.min.js?v=20160924"></script>
     <script  src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Home/js/layer/layer.js"></script>
+    <script type="text/javascript" src="/Public/Home/js/layer/layer.js"></script>
 </head>
 <body>
 
 	<header>
-		<h1>申请会员</h1>
+		<h1>申请补贴</h1>
 		<a href="" class="glyphicon glyphicon-chevron-left"></a>
 	</header>
 
 	<footer>
     <menu>
-        <a href="" class="active">
+        <a href="<?php echo U('index/index');?>" <?php if(empty($action)): ?>class="active"<?php endif; ?>>
             <span class="glyphicon glyphicon-home"></span>
             <small>首页</small>
         </a>
-        <a href="">
+        <a href="<?php echo U('index/goods');?>">
+            <span class="glyphicon glyphicon-shopping-cart"></span>
+            <small>购买服务</small>
+        </a>
+        <a href="<?php echo U('index/order');?>" <?php if($action == 'order'): ?>class="active"<?php endif; ?>>
             <span class="glyphicon glyphicon-list"></span>
             <small>订单详情</small>
         </a>
-        <a href="">
-            <span class="glyphicon glyphicon-shopping-cart"></span>
-            <small>缴费结算</small>
-        </a>
-        <a href="">
+
+        <a href="<?php echo U('index/info');?>">
             <span class="glyphicon glyphicon-user"></span>
             <small>会员信息</small>
         </a>
@@ -48,7 +49,7 @@
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <?php if(is_array($flash)): $i = 0; $__LIST__ = $flash;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="swiper-slide">
-            <a href="http://<?php echo ($vo["url"]); ?>"><img src="/longhcuanwenhua/<?php echo ($vo["image"]); ?>" alt=""></a>
+           <img src="/<?php echo ($vo["image"]); ?>" alt="">
         </div><?php endforeach; endif; else: echo "" ;endif; ?>
     </div>
     <!-- 启用下标 -->
@@ -69,19 +70,19 @@
 				<h3>诊断信息</h3>
 
 				<div class="row">
-					<label for="">诊断</label>
+					<label for="">诊　　断</label>
 					<div class="form-group">
 						<input type="text" id="zd" name="zd" class="form-control" placeholder="请输入诊断结果">
 					</div>
 				</div>
 
 				<div class="row">
-					<label for="">诊断医师</label>
+					<label for="">诊断医院</label>
 					<div class="form-group">
-						<input type="text" id="zd_doctor" name="zd_doctor" class="form-control" placeholder="请输入诊断医师">
+						<input type="text" id="zd_doctor" name="zd_doctor" class="form-control" placeholder="请输入诊断医院">
 					</div>
 				</div>
-                <h3>病例图片</h3>
+                <h3>诊断证明照片上传</h3><span><a href="javascript:void(0);" id="clist" style="color:deepskyblue;margin-left:0.5rem;font-size: 0.6rem">点击查看材料清单</a><span>
                 <div class="img-list">
 
                     <ul class="clearfix">
@@ -101,14 +102,16 @@
 
 	</section>
 
-	<script src="/longhcuanwenhua/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
+	<script src="/Public/Home/js/swiper/js/swiper.jquery.min.js"></script>
 
-	<script src="/longhcuanwenhua/Public/Home/js/citys/distpicker.data.js"></script>
-	<script src="/longhcuanwenhua/Public/Home/js/citys/distpicker.js"></script>
-    <script src="/longhcuanwenhua/Public/Home/js/sub_form.js"></script>
+	<script src="/Public/Home/js/citys/distpicker.data.js"></script>
+	<script src="/Public/Home/js/citys/distpicker.js"></script>
+    <script src="/Public/Home/js/sub_form.js"></script>
+	<script src="/Public/Home/js/layer/layer.js"></script>
 
 	<script>
 		var swiper = new Swiper('.swiper-container', {
+			autoplay : 3000,    //可选选项，自动滑动
 	        pagination: '.swiper-pagination',
 	        paginationClickable: true
 	        // 启用箭头
@@ -128,11 +131,9 @@
 			})
 
 
-            $(document).on('click', '.glyphicon-remove',function(){
+			$('.page').on('click','.img-list .glyphicon-remove',function(){
                 var id = $(this).attr('data-id');
-                var id = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr';
                 var img_str = $('#bl_image').val();
-                var img_str = '8goWbOLxoP9dpyHFfooVksKVtTocbBOB-M2ji0tA4oTJS5miLkmNz3FmVWnzpHZr,QLXIQRqC0YuIq3sqwAkqoXHj8Z-s5IIsoz950uZPEK2vVFVx4bmXU0ZO4PwLliTQ';
                 var img_arr = img_str.split(',');
                 for(var v in img_arr){
                     if( img_arr[v] == id ){
@@ -143,9 +144,16 @@
                 $('#bl_image').val(new_img_str);
                 $(this).parent().remove();
             })
-            $('#bl_img').click(function(){
-                $('#bl_btn').before('<li> <img src="/longhcuanwenhua/uploads/BL/57e621088e216.jpg" alt=""> <span class="glyphicon glyphicon-remove" data-id="BRQ3Eip6wnpIwyyfgzPwSdKxgA8rSXWhADw82LUkgHLBO9hPy4d"></span> </li>');
-            });
+
+			$('#clist').click(function(){
+				layer.open({
+					type: 1,
+					content: '<div style="width:90%;height:80%;margin: 0 auto"><img src="<?php echo ($clist["path"]); ?>"  alt=""><a href="javascript:;" style="    display: block; color: #ffffff; -webkit-border-radius: 4px; -moz-border-radius: 4px; -o-border-radius: 4px; border-radius: 4px; margin: 1rem auto; background-color: #31619d; width: 5rem; height: 1.5rem; border-width: 0;    text-align: center; line-height: 1.5rem;" onclick="layer.closeAll();">关闭</a></div>',
+					shadeClose:true,
+					shade:true,
+					style: 'position:fixed; left:0; top:0; width:100%; height:100%; border: none; -webkit-animation-duration: .5s; animation-duration: .5s;',
+				});
+			})
 
 		})
 
@@ -182,7 +190,7 @@
                                         var server_str = '';
                                         $('#bl_image').val(data.server.server_id);
                                         for( var i =0;i < server_img.length;i++ ){
-                                           $('#bl_btn').before('<li> <img src="/longhcuanwenhua'+server_img[i]['path']+'" alt=""> <span class="glyphicon glyphicon-remove" data-id="'+server_img[i]['id']+'"></span> </li>');
+                                           $('#bl_btn').before('<li> <img src="'+server_img[i]['path']+'" alt=""> <span class="glyphicon glyphicon-remove" data-id="'+server_img[i]['id']+'"></span> </li>');
                                             layer.closeAll();
                                         }
                                     }else{

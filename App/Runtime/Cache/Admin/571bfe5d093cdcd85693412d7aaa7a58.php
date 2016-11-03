@@ -1,17 +1,17 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
-<head>    <link rel="shortcut icon" href="/longhcuanwenhua/favicon.ico" type="image/x-icon" /> 
+<head>    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> 
     <title></title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap-responsive.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/Validform_v5.3.2.css" />
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery-1.7.min.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/ckform.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/common.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.form.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/Validform_v5.3.2.css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery-1.7.min.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/jquery.form.js"></script>
  
 
     <style type="text/css">
@@ -41,25 +41,25 @@
 .delimg{margin-left:20px; color:#090; cursor:pointer}
 
     </style>
-    <link rel="stylesheet" href="/longhcuanwenhua/Public/Admin/kindeditor-4.1.10/themes/default/default.css" />
-    <script charset="utf-8" src="/longhcuanwenhua/Public/Admin/kindeditor-4.1.10/kindeditor-all.js"></script>
-    <script charset="utf-8" src="/longhcuanwenhua/Public/Admin/kindeditor-4.1.10/lang/zh_CN.js"></script>
+    <link rel="stylesheet" href="/Public/Admin/kindeditor-4.1.10/themes/default/default.css" />
+    <script charset="utf-8" src="/Public/Admin/kindeditor-4.1.10/kindeditor-all.js"></script>
+    <script charset="utf-8" src="/Public/Admin/kindeditor-4.1.10/lang/zh_CN.js"></script>
     <script>
         var editor;
         KindEditor.ready(function(K) {
             editor = K.create('textarea[name="content"]', {
                 width:'700px',
                 height:'400px',
-                cssPath : '/longhcuanwenhua/Public/Admin/kindeditor-4.1.10/plugins/code/prettify.css',
-                uploadJson : '/longhcuanwenhua/index.php?s=/admin/index/uploadImg.html',
-                fileManagerJson : '/longhcuanwenhua/index.php?s=/admin/index/uploadManager.html',
+                cssPath : '/Public/Admin/kindeditor-4.1.10/plugins/code/prettify.css',
+                uploadJson : '/index.php?s=/admin/index/uploadImg.html',
+                fileManagerJson : '/index.php?s=/admin/index/uploadManager.html',
                 allowFileManager : true
             });
         });
     </script>
 </head>
 <body>
-    <form action="/longhcuanwenhua/index.php?s=/admin/goods/save.html" id="registerform">
+    <form action="/index.php?s=/admin/goods/save.html" id="registerform">
         <input type="hidden" name="id" value="<?php echo ($data["id"]); ?>">
     <table class="table table-bordered table-hover definewidth m10">
         <tr>
@@ -83,6 +83,23 @@
             <td><input type="text" value="<?php echo ($data["good_scale3"]); ?>" name="good_scale3" class="inputxt" datatype="*" nullmsg="请输入补贴比例！" errormsg="请输入补贴比例！" style="width:500px;" />%</td>
         </tr>
         <tr>
+            <td width="10%" class="tableleft">缩略图</td>
+            <td>
+                <div class="demo">
+                    <div class="image_btn">
+                        <span>添加附件</span>
+                        <input id="fileupload" type="file" name="mypic">
+                        <input  type="hidden" name="image" value="<?php echo ($data["image"]); ?>"  id="image">
+                    </div>
+                    <div class="progress" style="display: none;">
+                        <span class="bar" style="width: 100%;"></span><span class="percent">100%</span>
+                    </div>
+                    <div class="files" <?php if(empty($data)): ?>style="display: none;<?php endif; ?>"><b><?php echo ($data["image"]); ?></b><span class="delimg" rel="<?php echo ($data["image"]); ?>">删除</span></div>
+                <div id="showimg"><?php if(!empty($data)): ?><img src="/<?php echo ($data["image"]); ?>"><?php endif; ?></div>
+                </div>
+            </td>
+        </tr>
+        <tr>
             <td class="tableleft">详细介绍</td>
             <td><textarea name="content"><?php echo ($data["good_detail"]); ?></textarea></td>
         </tr>
@@ -96,7 +113,7 @@
 </form>
 </body>
 </html>
-<script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
+<script type="text/javascript" src="/Public/Admin/js/Validform_v5.3.2/Validform_v5.3.2_min.js"></script>
 <script type="text/javascript">
 $(function () {
 	var bar = $('.bar');
@@ -105,7 +122,7 @@ $(function () {
 	var progress = $(".progress");
 	var files = $(".files");
 	var btn = $(".btn span");
-	$("#fileupload").wrap("<form id='myupload' action='/longhcuanwenhua/index.php?s=/admin/index/uploadFile.html' method='post' enctype='multipart/form-data'></form>");
+	$("#fileupload").wrap("<form id='myupload' action='/index.php?s=/admin/index/uploadFile.html' method='post' enctype='multipart/form-data'></form>");
     $("#fileupload").change(function(){
 		$("#myupload").ajaxSubmit({
 			dataType:  'json',
@@ -127,7 +144,7 @@ $(function () {
                     files.find('b').html(data.name+"("+data.size+"k)");
                     files.find('span').attr('rel',data.pic);
                     files.show();
-                    var img = "/longhcuanwenhua/"+data.pic;
+                    var img = "/"+data.pic;
                     showimg.html("<img src='"+img+"'>");
                     $("#image").val(data.pic);
                     btn.html("添加附件");
@@ -147,8 +164,7 @@ $(function () {
 	
 	$(".delimg").click(function(){
         var pic = $(this).attr("rel");
-        alert(pic);
-		$.post("/longhcuanwenhua/index.php?s=/admin/index/uploadFile/act/delimg.html",{imagename:pic},function(msg){
+		$.post("/index.php?s=/admin/index/uploadFile/act/delimg.html",{imagename:pic},function(msg){
 			if(msg==1){
                 alert('删除成功');
 				showimg.empty();
@@ -173,9 +189,9 @@ $(function () {
             if(data.status == 'y'){
                 $.Hidemsg();
                 alert(data.msg);
-                    <?php if(!empty($data)): ?>window.location.href="/longhcuanwenhua/index.php?s=/admin/goods/list.html";
+                    <?php if(!empty($data)): ?>window.location.href="/index.php?s=/admin/goods/list.html";
                     <?php else: ?>
-                        window.location.href="/longhcuanwenhua/index.php?s=/admin/goods/edit/"+data.id+".html";<?php endif; ?>
+                        window.location.href="/index.php?s=/admin/goods/edit/"+data.id+".html";<?php endif; ?>
             }else{
                 alert(data.msg);
             }

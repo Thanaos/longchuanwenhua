@@ -12,8 +12,10 @@ class PayController extends Controller{
             if( $data['status'] == 0 ){
                 //查询之前会员的类型
                 $user = M('member')->where(array('id'=>$userid))->find();
-                if( $data['type'] == $user['vip_type'] ){
-                    exit('会员类型一致');
+                if( $data['type'] == $user['vip_type'] ){  //续费
+                    M('vip_order')->where(array('id'=>$data['id']))->save(array('order_status'=>2));
+                    M('member')->where(array('id'=>$userid))->setInc('vip_time', 3600*24*365);
+                    exit('续费成功');
                 }
                 $time = $data['addtime'];
                 if( $user['vip_type'] > 0 ){ //会员升级降级
@@ -37,7 +39,7 @@ class PayController extends Controller{
     
     function goodsback(){
         $userid = $_GET['userid'];
-        $order_sn = $_GET['out_trade_no'];
+        $order_sn = $_GET['order_sn'];
         file_put_contents('1.txt', $order_sn);
         if(intval($_GET['total_fee']) && $_GET['result_code'] == 'SUCCESS' && $_GET['userid']) {
             $data = M('goods_order')->where(array('order_sn'=>$order_sn, 'user_id'=>$userid))->find();

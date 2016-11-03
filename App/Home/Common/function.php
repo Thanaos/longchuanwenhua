@@ -19,10 +19,11 @@ function getAgeByID($id){
 
 //获取会员年费钱数
 function getMoneyByAge($age){
+    $package_list = M('package')->select();
     $arr = array(
-        1=>array('1'=>990, '2'=>1290, '3'=>1590,'4'=>1990, '6'=>2990),
-        2=>array('1'=>990, '2'=>1590, '3'=>2690,'4'=>3900, '6'=>4900),
-        3=>array('1'=>2990, '2'=>3900, '3'=>4900 ,'4'=>5900, '6'=>6900),
+        1=>array('1'=>$package_list[0]['package_price1'], '2'=>$package_list[0]['package_price2'], '3'=>$package_list[0]['package_price3'],'4'=>$package_list[0]['package_price4'], '5'=>$package_list[0]['package_price5']),
+        2=>array('1'=>$package_list[1]['package_price1'], '2'=>$package_list[1]['package_price2'], '3'=>$package_list[1]['package_price3'],'4'=>$package_list[1]['package_price4'], '5'=>$package_list[1]['package_price5']),
+        3=>array('1'=>$package_list[2]['package_price1'], '2'=>$package_list[2]['package_price2'], '3'=>$package_list[2]['package_price3'] ,'4'=>$package_list[2]['package_price3'], '5'=>$package_list[2]['package_price5']),
     );
     
     if($age>=20 && $age<30){
@@ -36,7 +37,6 @@ function getMoneyByAge($age){
     }elseif( $age >60 ){
         $key = 5;
     }else{
-        
     }
     $money[1] = $arr[1][$key];
     $money[2] = $arr[2][$key];

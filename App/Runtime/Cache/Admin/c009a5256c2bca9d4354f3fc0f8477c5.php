@@ -1,16 +1,16 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
-<head>    <link rel="shortcut icon" href="/longhcuanwenhua/favicon.ico" type="image/x-icon" /> 
+<head>    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /> 
     <title></title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/bootstrap-responsive.css" />
-    <link rel="stylesheet" type="text/css" href="/longhcuanwenhua/Public/Admin/css/style.css" />
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/jquery.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/ckform.js"></script>
-    <script type="text/javascript" src="/longhcuanwenhua/Public/Admin/js/common.js"></script>
-    <script src="/longhcuanwenhua/Public/Admin/js/jquery.page.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/bootstrap-responsive.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/style.css" />
+    <script type="text/javascript" src="/Public/Admin/js/jquery.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/ckform.js"></script>
+    <script type="text/javascript" src="/Public/Admin/js/common.js"></script>
+    <script src="/Public/Admin/js/jquery.page.js"></script>
 
  
 
@@ -43,7 +43,7 @@
 </style>
 </head>
 <body>
-<form class="form-inline definewidth m20" action="/longhcuanwenhua/index.php?s=/admin/package/save_type/<?php echo ($id); ?>.html" method="post">
+<form class="form-inline definewidth m20" action="/index.php?s=/admin/package/save_type/<?php echo ($id); ?>.html" method="post">
     补贴项目：
     <input type="text" name="type_name" class="abc input-default" placeholder="请输入补贴项目" value="<?php echo ($where["name"]); ?>">&nbsp;&nbsp;
     项目费用：
@@ -87,7 +87,7 @@
                 var newsId = $(this).attr("name");
                 if (r==true)
                 {
-                    $.post("/longhcuanwenhua/index.php?s=/admin/model/del.html",{id:newsId,model:'package_type'},function(data){
+                    $.post("/index.php?s=/admin/model/del.html",{id:newsId,model:'package_type'},function(data){
                         if(data.status == 'y'){
                             alert(data.msg);
                             document.location.reload(); 

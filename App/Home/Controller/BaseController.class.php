@@ -7,7 +7,7 @@ class BaseController extends Controller{
     {
         parent::__construct();
         //检测是否是注册用
-//       session('userid', 13);
+//        session('userid', null);
 //        session('auth_userinfo');
 //        exit;
         $this->userid = session('userid');
