@@ -6,6 +6,7 @@ class BaseController extends Controller{
     public function __construct()
     {
         parent::__construct();
+//        session(null);
         //检测是否是注册用
 //        session('userid', null);
 //        session('auth_userinfo');

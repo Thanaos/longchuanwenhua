@@ -67,6 +67,7 @@ class IndexController extends BaseController{
             
         $is_read = I('post.yes');
         $no_read = I('post.no');
+            
         if( !empty($no_read) ){
             redirect(U('index/index'));
         }

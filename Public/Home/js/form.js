@@ -40,7 +40,7 @@ $(function(){
         $('form :input').trigger('blur');
         var _numError = $('.form-control-error').length;
         if(_numError){
-            alert('请修改错误信息！');
+            alert('请正确填写红线标注内容！');
             return false;
         }
      });
