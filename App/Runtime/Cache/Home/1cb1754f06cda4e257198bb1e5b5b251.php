@@ -29,7 +29,7 @@
             <span class="glyphicon glyphicon-home"></span>
             <small>首页</small>
         </a>
-        <a href="<?php echo U('index/goods');?>">
+        <a href="<?php echo U('index/goods');?>" <?php if($action == 'info'): ?>class="goods"<?php endif; ?>>
             <span class="glyphicon glyphicon-shopping-cart"></span>
             <small>购买服务</small>
         </a>
@@ -38,7 +38,7 @@
             <small>订单详情</small>
         </a>
 
-        <a href="<?php echo U('index/info');?>">
+        <a href="<?php echo U('index/info');?>" <?php if($action == 'info'): ?>class="active"<?php endif; ?>>
             <span class="glyphicon glyphicon-user"></span>
             <small>会员信息</small>
         </a>

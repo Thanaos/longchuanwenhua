@@ -16,7 +16,7 @@
 <body>
 	
 	<header>
-		<h1>我的订单</h1>
+		<h1>购买服务</h1>
 		<a href="" class="glyphicon glyphicon-chevron-left"></a>
 	</header>
 
@@ -27,7 +27,7 @@
             <span class="glyphicon glyphicon-home"></span>
             <small>首页</small>
         </a>
-        <a href="<?php echo U('index/goods');?>">
+        <a href="<?php echo U('index/goods');?>" <?php if($action == 'goods'): ?>class="active"<?php endif; ?>>
             <span class="glyphicon glyphicon-shopping-cart"></span>
             <small>购买服务</small>
         </a>
@@ -36,7 +36,7 @@
             <small>订单详情</small>
         </a>
 
-        <a href="<?php echo U('index/info');?>">
+        <a href="<?php echo U('index/info');?>" <?php if($action == 'info'): ?>class="active"<?php endif; ?>>
             <span class="glyphicon glyphicon-user"></span>
             <small>会员信息</small>
         </a>
@@ -72,6 +72,7 @@
 				<button <?php if($status == 1): ?>class="active"<?php endif; ?>><a href="<?php echo U('index/order', array('status'=>1));?>">全部</a></button>
 				<button <?php if($status == 2): ?>class="active"<?php endif; ?>><a href="<?php echo U('index/order', array('status'=>2));?>">未付款</a></button>
 				<button <?php if($status == 3): ?>class="active"<?php endif; ?>><a href="<?php echo U('index/order', array('status'=>3));?>">已付款</a></button>
+				<button <?php if($status == 4): ?>class="active"<?php endif; ?>><a href="<?php echo U('index/order', array('status'=>4));?>">已退款</a></button>
 			</menu>
 
 			<div class="user-item">

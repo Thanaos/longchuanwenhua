@@ -75,7 +75,6 @@
     <input type="text" name="end_time" id="end_time" class="abc input-default" placeholder="请选择时间" value="<?php echo ($where["end"]); ?>" onclick="laydate()">&nbsp;&nbsp;
     <button type="submit" class="btn btn-primary">查询</button>
 </form>
-<div style="margin-top:10px;margin-left:30px"><span>平台总收益：<?php echo ($count_money); ?> 元</div>
 <table class="table table-bordered table-hover definewidth m10">
     <thead>
     <?php if(empty($list)): ?><tr>
@@ -113,7 +112,7 @@
                     退款中
                     <?php elseif($vo["order_status"] == 4): ?>
                     已完成
-                    <if condition="$vo.order_status eq 5" />
+                    <?php elseif($vo["order_status"] == 5): ?>
                     已退款<?php endif; ?>
             </td>
             <td style="text-align:left"><?php echo (date('Y-m-d H:i:s',$vo["addtime"])); ?></td>

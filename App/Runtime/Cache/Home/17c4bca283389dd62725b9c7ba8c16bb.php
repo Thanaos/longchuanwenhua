@@ -26,7 +26,7 @@
             <span class="glyphicon glyphicon-home"></span>
             <small>首页</small>
         </a>
-        <a href="<?php echo U('index/goods');?>" <?php if($action == 'info'): ?>class="goods"<?php endif; ?>>
+        <a href="<?php echo U('index/goods');?>" <?php if($action == 'goods'): ?>class="active"<?php endif; ?>>
             <span class="glyphicon glyphicon-shopping-cart"></span>
             <small>购买服务</small>
         </a>

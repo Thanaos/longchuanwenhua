@@ -1,0 +1,20 @@
+[ 2016-11-28T07:05:51+08:00 ] 42.156.251.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Undefined index: nickname /data/home/hyu2409230001/htdocs/App/Home/Controller/BaseController.class.php 第 19 行.
+
+[ 2016-11-28T18:43:35+08:00 ] 121.42.0.82 /extensions/kindeditor/themes/default/default.png)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+ERR: 无法加载控制器:Kindeditor
+

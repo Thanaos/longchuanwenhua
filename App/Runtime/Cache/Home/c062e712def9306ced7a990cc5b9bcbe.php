@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>admin - system</title>
+	<title>特尊医疗</title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<meta name="apple-mobile-web-app-capable" content="yes"/>

@@ -1,0 +1,38 @@
+[ 2016-11-25T08:56:18+08:00 ] 220.181.108.83 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+NOTIC: [8] Undefined index: nickname /data/home/hyu2409230001/htdocs/App/Home/Controller/BaseController.class.php 第 19 行.
+
+[ 2016-11-25T09:41:55+08:00 ] 101.226.125.115 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+NOTIC: [8] Undefined index: nickname /data/home/hyu2409230001/htdocs/App/Home/Controller/BaseController.class.php 第 19 行.
+
+[ 2016-11-25T12:48:21+08:00 ] 121.42.0.37 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] Undefined index: nickname /data/home/hyu2409230001/htdocs/App/Home/Controller/BaseController.class.php 第 19 行.
+
+[ 2016-11-25T12:49:08+08:00 ] 121.42.0.37 /extensions/kindeditor/themes/default/default.png)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/Dispatcher.class.php 第 127 行.
+NOTIC: [2] preg_replace(): Compilation failed: unmatched parentheses at offset 5 /data/home/hyu2409230001/htdocs/ThinkPHP/Library/Think/Route.class.php 第 20 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+ERR: 无法加载控制器:Kindeditor
+

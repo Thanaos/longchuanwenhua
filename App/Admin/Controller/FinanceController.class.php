@@ -263,7 +263,24 @@ class FinanceController extends AdminController {
         }
     }
     
-    
+    function doctor_list(){
+        if( $this->act == 'list' ){            //查询会员列表
+            if( IS_POST ){
+                $start = strtotime(I('start_time'));
+                $end = strtotime(I('end_time'));
+            }
+            $p = intval($_GET['id']) ? intval($_GET['id']) : 1;
+            $max = 20;
+            if( $start > 0 && $end > 0 ){
+                $where['o.addtime'] = array('between', array($start, $end));
+            }
+            $service = M('check');
+            $list = $service->where($where)->group('doctor_bh')->order('count desc')->field('*, count(doctor_bh) as count')->select();
+            $this->assign('where', array('start'=>I('start_time'), 'end'=>I('end_time')));
+            $this->assign('list', $list);
+            $this->display('doctor_list');
+        }
+    }
     
     public function new_access_token()
     {

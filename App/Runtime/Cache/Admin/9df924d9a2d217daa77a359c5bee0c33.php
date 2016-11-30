@@ -59,7 +59,8 @@
             ]},
             <?php if(($admin_role == 3) or ($admin_role == 'all')): ?>{text:'财务管理 ',items:[
                 {id:'6',text:'年费收入详情',href:'/index.php?s=/admin/income/list.html'},
-                {id:'10',text:'套餐收入详情',href:'/index.php?s=/admin/order/list.html'}
+                {id:'10',text:'套餐收入详情',href:'/index.php?s=/admin/order/list.html'},
+                {id:'16',text:'推荐医生管理',href:'/index.php?s=/admin/doctor_list/list.html'},
             ]},<?php endif; ?>
             <?php if($admin_role == 'all'): ?>{text:'权限管理',items:[
                 {id:'2',text:'用户管理',href:'/index.php?s=/admin/power/user.html'}

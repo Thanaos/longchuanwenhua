@@ -1,0 +1,18 @@
+[ 2016-11-13T06:53:58+08:00 ] 42.156.251.185 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8] Undefined index: nickname /data/home/hyu2409230001/htdocs/App/Home/Controller/BaseController.class.php 第 19 行.
+
+[ 2016-11-13T23:36:42+08:00 ] 123.125.71.16 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+NOTIC: [8] Undefined index: nickname /data/home/hyu2409230001/htdocs/App/Home/Controller/BaseController.class.php 第 19 行.
+

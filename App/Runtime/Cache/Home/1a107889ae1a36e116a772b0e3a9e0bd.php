@@ -66,7 +66,7 @@
             <span class="glyphicon glyphicon-home"></span>
             <small>首页</small>
         </a>
-        <a href="<?php echo U('index/goods');?>">
+        <a href="<?php echo U('index/goods');?>" <?php if($action == 'goods'): ?>class="active"<?php endif; ?>>
             <span class="glyphicon glyphicon-shopping-cart"></span>
             <small>购买服务</small>
         </a>
@@ -75,7 +75,7 @@
             <small>订单详情</small>
         </a>
 
-        <a href="<?php echo U('index/info');?>">
+        <a href="<?php echo U('index/info');?>" <?php if($action == 'info'): ?>class="active"<?php endif; ?>>
             <span class="glyphicon glyphicon-user"></span>
             <small>会员信息</small>
         </a>
@@ -105,7 +105,7 @@
 	    <div class="shop-detail">
 	    	
 	    	<h3><?php echo ($goods_data["good_name"]); ?></h3>
-            <?php if(($scale_price == 'yuan') and ($scale_price <= 0)): ?><span>价格：￥<?php echo ($goods_data["good_price"]); ?></span>
+            <?php if($scale_price == -1): ?><span>价格：￥<?php echo ($goods_data["good_price"]); ?></span>
 			<?php else: ?>
 				<span class="old-price">原价：￥<?php echo ($goods_data["good_price"]); ?></span>
 				<span class="new-price">补贴后价格：￥<?php echo ($scale_price); ?></span><?php endif; ?>
@@ -145,8 +145,9 @@
 				    layer.closeAll();
 					if( data.money == 0 ){
 						window.location.href = "<?php echo U('index/order');?>";
+					}else{
+						callpay(data.appId,data.timeStamp,data.nonceStr,data.package,data.signType,data.paySign);
 					}
-					callpay(data.appId,data.timeStamp,data.nonceStr,data.package,data.signType,data.paySign);
 				}else{
 					layer.closeAll();
 					alert(data.msg);

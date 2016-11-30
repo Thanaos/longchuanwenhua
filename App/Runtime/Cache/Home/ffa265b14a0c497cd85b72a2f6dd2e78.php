@@ -12,6 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
 	<link rel="stylesheet" href="/Public/Home/css/style.css">
 	<link rel="stylesheet" href="/Public/Home/js/swiper/css/swiper.min.css">
+	<link rel="stylesheet" href="/Public/Home/css/LCalendar.css">
 </head>
 <body>
 	
@@ -26,7 +27,7 @@
             <span class="glyphicon glyphicon-home"></span>
             <small>首页</small>
         </a>
-        <a href="<?php echo U('index/goods');?>" <?php if($action == 'info'): ?>class="goods"<?php endif; ?>>
+        <a href="<?php echo U('index/goods');?>" <?php if($action == 'goods'): ?>class="active"<?php endif; ?>>
             <span class="glyphicon glyphicon-shopping-cart"></span>
             <small>购买服务</small>
         </a>
@@ -73,7 +74,7 @@
 	    <!-- form start -->
 		<form action="<?php echo U('member/ajax_register');?>" method="post" id="register">
 			<fieldset>
-				<div style="display:block;margin:.5rem"><span style="color:red;font-size: 0.6rem;">提示：请填写真实信息！否则，可能导致入会、诊疗和补贴申请等无法实现</span></div>
+				<div style="display:block;margin:.5rem"><span style="color:red;font-size: 0.6rem;">提示：请填写真实信息！否则，可能导致入会、诊疗和补贴申请等无法实现。</span></div>
 
 				<h3 style="font-size:1rem">申请人信息</h3>
 
@@ -123,7 +124,7 @@
 				<div class="row">
 					<label for="">生　　日</label>
 					<div class="form-group">
-						<input type="date" class="form-control" id="birthday" name="birthday" placeholder="请输入出生日期">
+						<input type="text" class="form-control" id="birthday" name="birthday" placeholder="请输入出生日期">
 					</div>
 				</div>
 
@@ -243,7 +244,7 @@
 				</div>
 
 				<h3 style="font-size:1rem">诊断报告照片上传</h3><span><a href="javascript:void(0);" id="clist" style="color:deepskyblue;margin-left:0.5rem;font-size: 0.6rem">点击查看材料清单</a><span>
-				<div class="img-list">
+				<div class="img-list" style="margin-top:1rem">
 
 					<ul class="clearfix">
 
@@ -350,6 +351,7 @@
     <script src="/Public/Home/js/form.js"></script>
     <script src="/Public/Home/js/citys/distpicker.data.js"></script>
     <script src="/Public/Home/js/citys/distpicker.js"></script>
+    <script src="/Public/Home/js/LCalendar.js"></script>
 	<script  src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
 	<script type="text/javascript" src="/Public/Home/js/layer/layer.js"></script>
 	<script>
@@ -369,13 +371,20 @@
                 city: "请选择市",
                 district: "请选择区"
             });
-			$('#birthday').focus(function(){
-				$(this).attr('type', 'date');
-                $(this).focus();
-			});
-			$('#birthday').blur(function (){
-				$(this).attr('type', 'text');
-			});
+			// $('#birthday').focus(function(){
+			// 	$(this).attr('type', 'date');
+   //              $(this).focus();
+			// });
+			// $('#birthday').blur(function (){
+			// 	$(this).attr('type', 'text');
+			// });
+			var calendar = new LCalendar();
+		    calendar.init({
+		        'trigger': '#birthday', //标签id
+		        'type': 'date', //date 调出日期选择 datetime 调出日期时间选择 time 调出时间选择 ym 调出年月选择,
+		        'minDate': '1900-1-1', //最小日期
+		        'maxDate': new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate() //最大日期
+		    });
 			// user-tab
 			$('.user-tab menu button').on('touchend',function(){
 				var	self =	$(this),

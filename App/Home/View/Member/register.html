@@ -12,6 +12,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
 	<link rel="stylesheet" href="__ROOT__/Public/Home/css/style.css">
 	<link rel="stylesheet" href="__ROOT__/Public/Home/js/swiper/css/swiper.min.css">
+	<link rel="stylesheet" href="__ROOT__/Public/Home/css/LCalendar.css">
 </head>
 <body>
 	
@@ -89,7 +90,7 @@
 				<div class="row">
 					<label for="">生　　日</label>
 					<div class="form-group">
-						<input type="date" class="form-control" id="birthday" name="birthday" placeholder="请输入出生日期">
+						<input type="text" class="form-control" id="birthday" name="birthday" placeholder="请输入出生日期">
 					</div>
 				</div>
 
@@ -318,6 +319,7 @@
     <script src="__ROOT__/Public/Home/js/form.js"></script>
     <script src="__ROOT__/Public/Home/js/citys/distpicker.data.js"></script>
     <script src="__ROOT__/Public/Home/js/citys/distpicker.js"></script>
+    <script src="__ROOT__/Public/Home/js/LCalendar.js"></script>
 	<script  src="http://res.wx.qq.com/open/js/jweixin-1.1.0.js"></script>
 	<script type="text/javascript" src="__ROOT__/Public/Home/js/layer/layer.js"></script>
 	<script>
@@ -337,13 +339,20 @@
                 city: "请选择市",
                 district: "请选择区"
             });
-			$('#birthday').focus(function(){
-				$(this).attr('type', 'date');
-                $(this).focus();
-			});
-			$('#birthday').blur(function (){
-				$(this).attr('type', 'text');
-			});
+			// $('#birthday').focus(function(){
+			// 	$(this).attr('type', 'date');
+   //              $(this).focus();
+			// });
+			// $('#birthday').blur(function (){
+			// 	$(this).attr('type', 'text');
+			// });
+			var calendar = new LCalendar();
+		    calendar.init({
+		        'trigger': '#birthday', //标签id
+		        'type': 'date', //date 调出日期选择 datetime 调出日期时间选择 time 调出时间选择 ym 调出年月选择,
+		        'minDate': '1900-1-1', //最小日期
+		        'maxDate': new Date().getFullYear() + '-' + (new Date().getMonth() + 1) + '-' + new Date().getDate() //最大日期
+		    });
 			// user-tab
 			$('.user-tab menu button').on('touchend',function(){
 				var	self =	$(this),

@@ -29,7 +29,7 @@
             <span class="glyphicon glyphicon-home"></span>
             <small>首页</small>
         </a>
-        <a href="<?php echo U('index/goods');?>" <?php if($action == 'info'): ?>class="goods"<?php endif; ?>>
+        <a href="<?php echo U('index/goods');?>" <?php if($action == 'goods'): ?>class="active"<?php endif; ?>>
             <span class="glyphicon glyphicon-shopping-cart"></span>
             <small>购买服务</small>
         </a>
@@ -73,7 +73,7 @@
 					</div>
 				</div>
                 <h3>请上传体检证明</h3><span><a href="javascript:void(0);" id="clist" style="color:deepskyblue;margin-left:0.5rem;font-size: 0.6rem">点击查看材料清单</a><span>
-                <div class="img-list">
+                <div class="img-list" style="margin-top:1rem">
 
                     <ul class="clearfix">
 

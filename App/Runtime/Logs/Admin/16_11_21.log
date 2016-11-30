@@ -1,0 +1,70 @@
+[ 2016-11-21T13:18:20+08:00 ] 121.42.0.84 /admin/images/menu-current-arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+
+[ 2016-11-21T13:18:21+08:00 ] 121.42.0.84 /admin/image/menu_h4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-11-21T13:18:27+08:00 ] 121.42.0.84 /Admin/Images/GoogleSiteMaplogo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-11-21T13:18:27+08:00 ] 121.42.0.84 /admin/images/admintitlebg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+
+[ 2016-11-21T13:18:28+08:00 ] 121.42.0.84 /Admin/Images/icon_lpdhjl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+
+[ 2016-11-21T13:18:30+08:00 ] 121.42.0.84 /Admin/Images/Icon-Nav-Close-over.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+
+[ 2016-11-21T13:18:31+08:00 ] 121.42.0.84 /admin/images/abg2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-11-21T13:19:35+08:00 ] 121.42.0.84 /admin/skins/images/ads_set3.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+
+[ 2016-11-21T13:19:45+08:00 ] 121.42.0.84 /admin/images/arrow_right_8x8.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2016-11-21T13:19:46+08:00 ] 121.42.0.84 /Admin/images/install_lines.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-11-21T13:20:08+08:00 ] 121.42.0.84 /admin/tpl/images/welcome_h1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-11-21T13:20:08+08:00 ] 121.42.0.84 /admin/images/bg-pay-return-success.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2016-11-21T13:20:11+08:00 ] 121.42.0.84 /admin/images/login_06.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-11-21T13:20:21+08:00 ] 121.42.0.84 /Admin/Images/bg_admin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+

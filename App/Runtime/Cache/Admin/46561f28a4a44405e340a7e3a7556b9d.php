@@ -81,7 +81,7 @@
         <td>操作时间</td>
     </tr>
     <?php if(is_array($check_list)): $i = 0; $__LIST__ = $check_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-            <td><?php echo ($vo["nam+e"]); if($vo["group_id"] == 1): ?>(超级管理员)<?php elseif($vo["group_id"] == 2): ?>(医事审核)<?php elseif($vo["group_id"] == 3): ?>(财务审核)<?php endif; ?></td>
+            <td><?php echo ($vo["nam+e"]); if($vo["group_id"] == 1): ?>(超级管理员)<?php elseif($vo["group_id"] == 2): ?>(医事审核)<?php elseif($vo["group_id"] == 3): ?>(财务审核)<?php elseif($vo["group_id"] == 5): ?>(主管审核)<?php endif; ?></td>
             <td><?php if($vo["status"] == 1): ?><span style="color:red">不通过</span><?php else: ?><span style="color:green">通过</span><?php endif; ?></td>
             <td><?php echo ($vo["remark"]); ?></td>
             <td><?php echo (date('Y-m-d H:i:s',$vo["addtime"])); ?></td>

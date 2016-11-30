@@ -81,6 +81,7 @@
             <th>套餐名称</th>
             <th>应付金额</th>
             <th>实付金额</th>
+            <th>申请时间</th>
             <th>退款状态</th>
             <th>退款备注</th>
             <th>操作</th>
@@ -94,6 +95,7 @@
             <td><?php echo ($vo["goods_name"]); ?></td>
             <td><?php echo ($vo["yuan_money"]); ?> 元</td>
             <td><?php echo ($vo["money"]); ?> 元</td>
+            <td><?php echo (date("Y-m-d H:i:s",$vo["t_addtime"])); ?> 元</td>
             <td>
                 <?php if(($vo["times"] == 0) or ($vo["times"] == 1) or ($vo["times"] == 2)): ?>未审核
                     <?php elseif($vo["times"] == 3): ?>

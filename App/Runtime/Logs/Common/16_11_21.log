@@ -1,0 +1,678 @@
+[ 2016-11-21T13:17:58+08:00 ] 123.125.71.55 /uploads/2016-10-17/5804dcf2a73ee.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Uploads
+
+[ 2016-11-21T13:17:58+08:00 ] 123.125.71.79 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Robots
+
+[ 2016-11-21T13:18:20+08:00 ] 121.42.0.84 /install/images/default/top1_r.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Install
+
+[ 2016-11-21T13:18:20+08:00 ] 121.42.0.84 /images/default/hd_a1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:18:21+08:00 ] 121.42.0.84 /upload/200812/20081230023106860.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:Upload
+
+[ 2016-11-21T13:18:21+08:00 ] 121.42.0.84 /Images/Mlogin/Bitmap02.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:18:21+08:00 ] 121.42.0.84 /images/list_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:18:22+08:00 ] 121.42.0.84 /theme/theme/default/images/bg_bnt_user_base_over.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Theme
+
+[ 2016-11-21T13:18:22+08:00 ] 121.42.0.84 /lib/images/vtip_arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+ERR: 无法加载模块:Lib
+
+[ 2016-11-21T13:18:22+08:00 ] 121.42.0.84 /dede/img/button_bg1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:Dede
+
+[ 2016-11-21T13:18:23+08:00 ] 121.42.0.84 /plus/img/topsearch_submit.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:Plus
+
+[ 2016-11-21T13:18:23+08:00 ] 121.42.0.84 /include/dialog/img/sp_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+ERR: 无法加载模块:Include
+
+[ 2016-11-21T13:18:23+08:00 ] 121.42.0.84 /images/topbanner_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:18:23+08:00 ] 121.42.0.84 /system/images/lnk/system.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+ERR: 无法加载模块:System
+
+[ 2016-11-21T13:18:24+08:00 ] 121.42.0.84 /images/confirm_close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:18:24+08:00 ] 121.42.0.84 /user/images/must.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:User
+
+[ 2016-11-21T13:18:24+08:00 ] 121.42.0.84 /template/images/li1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Template
+
+[ 2016-11-21T13:18:25+08:00 ] 121.42.0.84 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T13:18:25+08:00 ] 121.42.0.84 /images/page_code.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:18:25+08:00 ] 121.42.0.84 /editors/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Editors
+
+[ 2016-11-21T13:18:25+08:00 ] 121.42.0.84 /images/samples/4_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:18:26+08:00 ] 121.42.0.84 /includes/templates/classic/images/stars_5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载模块:Includes
+
+[ 2016-11-21T13:18:26+08:00 ] 121.42.0.84 /includes/templates/template_default/images/always-free-shipping.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Includes
+
+[ 2016-11-21T13:18:26+08:00 ] 121.42.0.84 /includes/templates/template_default/buttons/english/button_tell_a_friend.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:Includes
+
+[ 2016-11-21T13:18:27+08:00 ] 121.42.0.84 /images/zttit02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:18:27+08:00 ] 121.42.0.84 /template/user/images/manage_r2_c18.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Template
+
+[ 2016-11-21T13:18:28+08:00 ] 121.42.0.84 /images/gengtie.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:18:28+08:00 ] 121.42.0.84 /core/themes/stable/images/core/menu-collapsed-rtl.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+ERR: 无法加载模块:Core
+
+[ 2016-11-21T13:18:28+08:00 ] 121.42.0.84 /misc/menu-expanded.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Misc
+
+[ 2016-11-21T13:18:29+08:00 ] 121.42.0.84 /store/Images/hdfk.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: 无法加载模块:Store
+
+[ 2016-11-21T13:18:29+08:00 ] 121.42.0.84 /skins/doccms_model_1/images/bg_contact_a.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+ERR: 无法加载模块:Skins
+
+[ 2016-11-21T13:18:29+08:00 ] 121.42.0.84 /admini/images/s_managehtml/icon_refresh.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:Admini
+
+[ 2016-11-21T13:18:30+08:00 ] 121.42.0.84 /images/menu_righttop.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:18:30+08:00 ] 121.42.0.84 /app/resource/images/coupon-hd-bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:App
+
+[ 2016-11-21T13:18:30+08:00 ] 121.42.0.84 /web/resource/images/bg_repno.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Web
+
+[ 2016-11-21T13:18:31+08:00 ] 121.42.0.84 /resource/image/bg_repno.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Resource
+
+[ 2016-11-21T13:18:31+08:00 ] 121.42.0.84 /face/5.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载模块:Face
+
+[ 2016-11-21T13:18:32+08:00 ] 121.42.0.84 /xin/btn_regis.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:Xin
+
+[ 2016-11-21T13:18:32+08:00 ] 121.42.0.84 /global/banklist_hnapay.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Global
+
+[ 2016-11-21T13:18:32+08:00 ] 121.42.0.84 /Public/lottery/roulette/images/b0-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:Public
+
+[ 2016-11-21T13:18:32+08:00 ] 121.42.0.84 /m/_/images/fileicon/jpg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+ERR: 无法加载模块:M
+
+[ 2016-11-21T13:18:41+08:00 ] 121.42.0.84 /data/system/kaixin001.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载模块:Data
+
+[ 2016-11-21T13:18:48+08:00 ] 121.42.0.84 /i5808/images/menu_reduce.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 无法加载模块:I5808
+
+[ 2016-11-21T13:18:49+08:00 ] 121.42.0.84 /skins/images/ico_catalogue.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Skins
+
+[ 2016-11-21T13:18:49+08:00 ] 121.42.0.84 /images/logout1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:18:54+08:00 ] 121.42.0.84 /images/rank/soso.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:19:18+08:00 ] 121.42.0.84 /static/images/buttons_40.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:Static
+
+[ 2016-11-21T13:19:18+08:00 ] 121.42.0.84 /include/image/dui_r.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+ERR: 无法加载模块:Include
+
+[ 2016-11-21T13:19:19+08:00 ] 121.42.0.84 /template/default/index/images/anvico.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Template
+
+[ 2016-11-21T13:19:19+08:00 ] 121.42.0.84 /skin/default/image/add_job.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:Skin
+
+[ 2016-11-21T13:19:32+08:00 ] 121.42.0.84 /base/admin/images/linksup.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:Base
+
+[ 2016-11-21T13:19:32+08:00 ] 121.42.0.84 /base/templates/images/2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+ERR: 无法加载模块:Base
+
+[ 2016-11-21T13:19:34+08:00 ] 121.42.0.84 /zb_users/avatar/0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:Zb_users
+
+[ 2016-11-21T13:19:35+08:00 ] 121.42.0.84 /images/forum_readme.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:19:35+08:00 ] 121.42.0.84 /img/images/commentLoad.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+ERR: 无法加载模块:Img
+
+[ 2016-11-21T13:19:35+08:00 ] 121.42.0.84 /install/images/bg-cmstop.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+ERR: 无法加载模块:Install
+
+[ 2016-11-21T13:19:36+08:00 ] 121.42.0.84 /app/Tpl/fanwe/images/icon_arrowdouble.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载模块:App
+
+[ 2016-11-21T13:19:38+08:00 ] 121.42.0.84 /images/modmenu_li_hover_bg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:19:39+08:00 ] 121.42.0.84 /administrator/templates/system/images/calendar.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Administrator
+
+[ 2016-11-21T13:19:39+08:00 ] 121.42.0.84 /images/banners/shop-ad-books.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:19:39+08:00 ] 121.42.0.84 /Images/Sort_Folder_Close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:19:42+08:00 ] 121.42.0.84 /e/install/images/bg_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:E
+
+[ 2016-11-21T13:19:42+08:00 ] 121.42.0.84 /images/public/hr_tijiao.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:19:42+08:00 ] 121.42.0.84 /template/skin6/cn/images/ico_zlxz.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Template
+
+[ 2016-11-21T13:19:45+08:00 ] 121.42.0.84 /install/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Install
+
+[ 2016-11-21T13:19:45+08:00 ] 121.42.0.84 /static/common/topic-min-img.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:Static
+
+[ 2016-11-21T13:19:45+08:00 ] 121.42.0.84 /image/admin/add.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Image
+
+[ 2016-11-21T13:19:46+08:00 ] 121.42.0.84 /image/cflag/ad.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:Image
+
+[ 2016-11-21T13:19:46+08:00 ] 121.42.0.84 /Utility/pics/status-green.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+ERR: 无法加载模块:Utility
+
+[ 2016-11-21T13:19:47+08:00 ] 121.42.0.84 /images/i_3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:19:53+08:00 ] 121.42.0.84 /static/ayacms.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+ERR: 无法加载模块:Static
+
+[ 2016-11-21T13:19:54+08:00 ] 121.42.0.84 /media/xmlconnect/system/ok.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:Media
+
+[ 2016-11-21T13:19:54+08:00 ] 121.42.0.84 /LICENSE.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:LICENSE
+
+[ 2016-11-21T13:19:54+08:00 ] 121.42.0.84 /skin/frontend/base/default/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+ERR: 无法加载模块:Skin
+
+[ 2016-11-21T13:19:55+08:00 ] 121.42.0.84 /images/qq/qqkf2/Kf_bg03_03.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:19:55+08:00 ] 121.42.0.84 /js/close.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+ERR: 无法加载模块:Js
+
+[ 2016-11-21T13:19:55+08:00 ] 121.42.0.84 /bbs/css/images/add_category_hover.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:Bbs
+
+[ 2016-11-21T13:19:58+08:00 ] 121.42.0.84 /views/admin/images/arrowhead-y.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+ERR: 无法加载模块:Views
+
+[ 2016-11-21T13:19:58+08:00 ] 121.42.0.84 /style/default/hdwiki.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载模块:Style
+
+[ 2016-11-21T13:19:59+08:00 ] 121.42.0.84 /style/default/fujian_top_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载模块:Style
+
+[ 2016-11-21T13:19:59+08:00 ] 121.42.0.84 /style/default/index_login_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:Style
+
+[ 2016-11-21T13:19:59+08:00 ] 121.42.0.84 /style/default/style/bg_title.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Style
+
+[ 2016-11-21T13:19:59+08:00 ] 121.42.0.84 /style/default/login_bg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:Style
+
+[ 2016-11-21T13:20:00+08:00 ] 121.42.0.84 /CN/nite/images/title.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+ERR: 无法加载模块:CN
+
+[ 2016-11-21T13:20:02+08:00 ] 121.42.0.84 /App_Themes/AdminDefaultTheme/DateTheme/bgteuw.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+ERR: 无法加载模块:App_Themes
+
+[ 2016-11-21T13:20:03+08:00 ] 121.42.0.84 /Images/Microblog/dialog_rt.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:20:05+08:00 ] 121.42.0.84 /images/default/listico.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:20:08+08:00 ] 121.42.0.84 /template/default/images/ad_scroll_forward.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+ERR: 无法加载模块:Template
+
+[ 2016-11-21T13:20:11+08:00 ] 121.42.0.84 /extmail/default/images/lastpg.d.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Extmail
+
+[ 2016-11-21T13:20:20+08:00 ] 121.42.0.84 /images/admin/logo.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:20:20+08:00 ] 121.42.0.84 /images/admin/sprites.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:20:20+08:00 ] 121.42.0.84 /ACT_inc/ItemBg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:ACT_inc
+
+[ 2016-11-21T13:20:21+08:00 ] 121.42.0.84 /ACT_inc/share/minusbottom.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+ERR: 无法加载模块:ACT_inc
+
+[ 2016-11-21T13:20:21+08:00 ] 121.42.0.84 /images/act_1.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T13:20:22+08:00 ] 121.42.0.84 /images/reg.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载模块:Images
+
+[ 2016-11-21T14:11:22+08:00 ] 117.136.77.80 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T14:12:02+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T14:12:02+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:14:28+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:14:28+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:14:34+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:14:34+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:15:11+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:15:12+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:16:57+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:16:57+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:17:22+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:17:22+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:18:14+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:18:14+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:23:21+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:23:21+08:00 ] 112.224.67.175 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-11-21T15:23:34+08:00 ] 123.234.28.66 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Favicon
+

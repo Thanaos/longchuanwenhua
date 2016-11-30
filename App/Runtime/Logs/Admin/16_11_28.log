@@ -1,0 +1,55 @@
+[ 2016-11-28T18:41:50+08:00 ] 121.42.0.82 /admin/images/menu-current-arrow.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-11-28T18:41:52+08:00 ] 121.42.0.82 /admin/image/menu_h4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+
+[ 2016-11-28T18:42:32+08:00 ] 121.42.0.82 /admin/templates/met/images/logosmall.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-11-28T18:42:34+08:00 ] 121.42.0.82 /admin/images/icon_view.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+
+[ 2016-11-28T18:42:36+08:00 ] 121.42.0.82 /admin/images/login/index_hz02.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+
+[ 2016-11-28T18:42:46+08:00 ] 121.42.0.82 /admin/templates/images/filestate.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-11-28T18:42:52+08:00 ] 121.42.0.82 /admin/images/comment_alert.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2016-11-28T18:43:21+08:00 ] 121.42.0.82 /admin/images/arrow_right_8x8.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-11-28T18:43:25+08:00 ] 121.42.0.82 /Admin/images/install_lines.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-11-28T18:43:39+08:00 ] 121.42.0.82 /admin/images/li_4.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+
+[ 2016-11-28T18:44:01+08:00 ] 121.42.0.82 /Admin/Images/bg_admin.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+
